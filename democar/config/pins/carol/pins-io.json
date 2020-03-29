@@ -6,49 +6,17 @@
       {
         "name": "inputs",
         "pins": [
-          {"name": "gazerbeam", "addr": 39, "interrupt": 1},
-          {"name": "dip_switch_3", "addr": 34, "pull-up": 1},
-          {"name": "dip_switch_4", "addr": 35},
-          {"name": "touch_sensor", "addr": 36, "touch": 1}
+          {"name": "gazerbeam", "addr": 39, "interrupt": 1}
         ]
       },
       {
         "name": "outputs",
         "pins": [
-          {"name": "led_builtin", "addr": 33},
-          {"name": "A", "addr": 32, "group" : "segment7"},
-          {"name": "B", "addr": 32, "group" : "segment7"},
-          {"name": "C", "addr": 32, "group" : "segment7"},
-          {"name": "D", "addr": 32, "group" : "segment7"},
-          {"name": "E", "addr": 32, "group" : "segment7"},
-          {"name": "F", "addr": 32, "group" : "segment7"},
-          {"name": "G", "addr": 32, "group" : "segment7"},
-          {"name": "H", "addr": 32, "group" : "segment7"}
-        ]
-      },
-      {
-        "name": "analog_inputs",
-        "pins": [
-          {"name": "potentiometer", "addr": 26, "speed": 3, "max": 4095}
-        ]
-      },
-      {
-        "name": "pwm",
-        "pins": [
-          {"name": "servo", "bank": 0, "addr": 22, "frequency": 50, "resolution": 12, "init": 2048, "max": 4095},
-          {"name": "dimmer_led", "bank": 1, "addr": 27, "frequency": 5000, "resolution": 12, "init": 0, "max": 4095}
-        ]
-      },
-      {
-        "name": "spi",
-        "pins": [
-          {"name": "tft_spi", "addr": 0, "miso": 19, "mosi": 23, "sclk": 18, "dc": 2}
-        ]
-      },
-      {
-        "name": "uart",
-        "pins": [
-          {"name": "uart2", "addr": 2, "rx": 16, "tx": 17, "speed": 96}
+          {"name": "led_builtin", "addr": 2},
+          {"name": "RIGHT", "addr": 32},
+          {"name": "LEFT", "addr": 33},
+          {"name": "FORWARD", "addr": 25},
+          {"name": "BACKWARD", "addr": 26}
         ]
       },
       {

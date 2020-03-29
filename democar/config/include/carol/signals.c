@@ -3,28 +3,28 @@ const struct democar_t democar =
 {
   {
     {"exp", &ioboard_exp, 14, DEMOCAR_EXP_MBLK_SZ, (iocSignal*)&democar.exp.dip_switch_3},
-    {40, 1, OS_BOOLEAN|IOC_PIN_PTR, &ioboard_exp, &pins.inputs.dip_switch_3}, /* dip_switch_3 */
-    {41, 1, OS_BOOLEAN|IOC_PIN_PTR, &ioboard_exp, &pins.inputs.dip_switch_4}, /* dip_switch_4 */
-    {42, 1, OS_BOOLEAN|IOC_PIN_PTR, &ioboard_exp, &pins.inputs.touch_sensor}, /* touch_sensor */
+    {40, 1, OS_BOOLEAN, &ioboard_exp, OS_NULL}, /* dip_switch_3 */
+    {41, 1, OS_BOOLEAN, &ioboard_exp, OS_NULL}, /* dip_switch_4 */
+    {42, 1, OS_BOOLEAN, &ioboard_exp, OS_NULL}, /* touch_sensor */
     {43, 1, OS_USHORT|IOC_PIN_PTR, &ioboard_exp, &pins.inputs.gazerbeam}, /* gazerbeam */
     {0, 5, OS_FLOAT, &ioboard_exp, OS_NULL}, /* testfloat */
     {21, 10, OS_STR, &ioboard_exp, OS_NULL}, /* teststr */
-    {32, 1, OS_BOOLEAN|IOC_PIN_PTR, &ioboard_exp, &pins.outputs.A}, /* A */
-    {33, 1, OS_BOOLEAN|IOC_PIN_PTR, &ioboard_exp, &pins.outputs.B}, /* B */
-    {34, 1, OS_BOOLEAN|IOC_PIN_PTR, &ioboard_exp, &pins.outputs.C}, /* C */
-    {35, 1, OS_BOOLEAN|IOC_PIN_PTR, &ioboard_exp, &pins.outputs.D}, /* D */
-    {36, 1, OS_BOOLEAN|IOC_PIN_PTR, &ioboard_exp, &pins.outputs.E}, /* E */
-    {37, 1, OS_BOOLEAN|IOC_PIN_PTR, &ioboard_exp, &pins.outputs.F}, /* F */
-    {38, 1, OS_BOOLEAN|IOC_PIN_PTR, &ioboard_exp, &pins.outputs.G}, /* G */
-    {39, 1, OS_BOOLEAN|IOC_PIN_PTR, &ioboard_exp, &pins.outputs.H} /* H */
+    {32, 1, OS_BOOLEAN, &ioboard_exp, OS_NULL}, /* A */
+    {33, 1, OS_BOOLEAN, &ioboard_exp, OS_NULL}, /* B */
+    {34, 1, OS_BOOLEAN, &ioboard_exp, OS_NULL}, /* C */
+    {35, 1, OS_BOOLEAN, &ioboard_exp, OS_NULL}, /* D */
+    {36, 1, OS_BOOLEAN, &ioboard_exp, OS_NULL}, /* E */
+    {37, 1, OS_BOOLEAN, &ioboard_exp, OS_NULL}, /* F */
+    {38, 1, OS_BOOLEAN, &ioboard_exp, OS_NULL}, /* G */
+    {39, 1, OS_BOOLEAN, &ioboard_exp, OS_NULL} /* H */
   },
 
   {
     {"imp", &ioboard_imp, 5, DEMOCAR_IMP_MBLK_SZ, (iocSignal*)&democar.imp.strtodevice},
     {0, 16, OS_STR, &ioboard_imp, OS_NULL}, /* strtodevice */
     {17, 8, OS_BOOLEAN, &ioboard_imp, OS_NULL}, /* seven_segment */
-    {19, 1, OS_USHORT|IOC_PIN_PTR, &ioboard_imp, &pins.pwm.servo}, /* servo */
-    {22, 1, OS_USHORT|IOC_PIN_PTR, &ioboard_imp, &pins.pwm.dimmer_led}, /* dimmer_led */
+    {19, 1, OS_USHORT, &ioboard_imp, OS_NULL}, /* servo */
+    {22, 1, OS_USHORT, &ioboard_imp, OS_NULL}, /* dimmer_led */
     {25, 1, OS_BOOLEAN, &ioboard_imp, OS_NULL} /* led_builtin_x */
   },
 

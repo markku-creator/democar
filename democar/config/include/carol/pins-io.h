@@ -8,9 +8,6 @@ typedef struct
   {
     PinGroupHdr hdr;
     Pin gazerbeam;
-    Pin dip_switch_3;
-    Pin dip_switch_4;
-    Pin touch_sensor;
   }
   inputs;
 
@@ -18,45 +15,12 @@ typedef struct
   {
     PinGroupHdr hdr;
     Pin led_builtin;
-    Pin A;
-    Pin B;
-    Pin C;
-    Pin D;
-    Pin E;
-    Pin F;
-    Pin G;
-    Pin H;
+    Pin RIGHT;
+    Pin LEFT;
+    Pin FORWARD;
+    Pin BACKWARD;
   }
   outputs;
-
-  struct
-  {
-    PinGroupHdr hdr;
-    Pin potentiometer;
-  }
-  analog_inputs;
-
-  struct
-  {
-    PinGroupHdr hdr;
-    Pin servo;
-    Pin dimmer_led;
-  }
-  pwm;
-
-  struct
-  {
-    PinGroupHdr hdr;
-    Pin tft_spi;
-  }
-  spi;
-
-  struct
-  {
-    PinGroupHdr hdr;
-    Pin uart2;
-  }
-  uart;
 }
 pins_t;
 
@@ -66,28 +30,12 @@ extern const IoPinsHdr pins_hdr;
 /* Global DEMOCAR IO configuration structure */
 extern const pins_t pins;
 
-/* Application's pin groups (linked list heads) */
-extern const Pin *pins_segment7_group;
-
 /* Name defines for pins and application pin groups (use ifdef to check if HW has pin) */
 #define PINS_INPUTS_GAZERBEAM "gazerbeam"
-#define PINS_INPUTS_DIP_SWITCH_3 "dip_switch_3"
-#define PINS_INPUTS_DIP_SWITCH_4 "dip_switch_4"
-#define PINS_INPUTS_TOUCH_SENSOR "touch_sensor"
 #define PINS_OUTPUTS_LED_BUILTIN "led_builtin"
-#define PINS_OUTPUTS_A "A"
-#define PINS_SEGMENT7_GROUP "segment7"
-#define PINS_OUTPUTS_B "B"
-#define PINS_OUTPUTS_C "C"
-#define PINS_OUTPUTS_D "D"
-#define PINS_OUTPUTS_E "E"
-#define PINS_OUTPUTS_F "F"
-#define PINS_OUTPUTS_G "G"
-#define PINS_OUTPUTS_H "H"
-#define PINS_ANALOG_INPUTS_POTENTIOMETER "potentiometer"
-#define PINS_PWM_SERVO "servo"
-#define PINS_PWM_DIMMER_LED "dimmer_led"
-#define PINS_SPI_TFT_SPI "tft_spi"
-#define PINS_UART_UART2 "uart2"
+#define PINS_OUTPUTS_RIGHT "RIGHT"
+#define PINS_OUTPUTS_LEFT "LEFT"
+#define PINS_OUTPUTS_FORWARD "FORWARD"
+#define PINS_OUTPUTS_BACKWARD "BACKWARD"
 
 OSAL_C_HEADER_ENDS
