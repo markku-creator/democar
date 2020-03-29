@@ -97,6 +97,7 @@ static iocStreamerParams ioc_ctrl_stream_params = IOBOARD_DEFAULT_CTRL_STREAM(de
 
 static iocControlStreamState ioc_ctrl_state;
 
+static os_timer mytimer;
 
 /**
 ****************************************************************************************************
@@ -235,11 +236,13 @@ osalStatus osal_main(
         MORSE_HANDLE_NET_STATE_NOTIFICATIONS);
 #endif
 
+    mytimer = 0;
+    os_get_timer(&send_timer);
+
     /* When emulating micro-controller on PC, run loop. Just save context pointer on
        real micro-controller.
      */
     osal_simulated_loop(OS_NULL);
-    os_get_timer(&send_timer);
 
     return OSAL_SUCCESS;
 }
@@ -265,13 +268,9 @@ osalStatus osal_loop(
     os_timer ti;
     osalStatus s;
 
-    static os_timer sti;
-    static os_float f[5] = {1, 2, 3, 4, 5};
-    static os_int i = 0;
-    static os_char *test_str;
+    static os_boolean test_toggle;
 
     os_get_timer(&ti);
-
 
     /* Run light house.
      */
@@ -307,36 +306,18 @@ osalStatus osal_loop(
      */
     pins_read_all(&pins_hdr, PINS_DEFAULT);
 
-    /* Run the IO device functionality.
-     */
-    os_boolean command;
-    static os_boolean prev_command = -1;
-
-    if (i++ == 0) os_get_timer(&ti);
-
-    if (os_timer_hit(&sti, &ti, 10))
-    if (os_has_elapsed(&sti, 1))
-    {
-        os_get_timer(&sti);
-
-        f[2] = i++;
-        ioc_sets_array(&democar.exp.testfloat, f, 5);
-    }
-
-    command = ioc_gets0_int(&democar.imp.led_builtin_x);
-    if (command != prev_command)
-    {
-        f[0] = f[0] + 1.0F;
-        test_str = (int)f[0] % 2 ? "dance" : "gabriel";
-        ioc_sets_str(&democar.exp.teststr, test_str);
-        prev_command = command;
+    if (os_has_elapsed_since(&mytimer, &ti, 1000)) {
+        pin_set(&pins.outputs.LEFT,test_toggle);
+        pin_set(&pins.outputs.RIGHT,test_toggle);
+        pin_set(&pins.outputs.FORWARD,test_toggle);
+        pin_set(&pins.outputs.BACKWARD,test_toggle);
+        mytimer = ti;
+        test_toggle = !test_toggle;
     }
 
     /* The call is here for testing only, take away.
      */
     s = io_device_console(&ioboard_communication);
-
-// osal_debug_error_int("HERE P ", pin_get(&pins.analog_inputs.potentiometer));
 
     /* Send changed data synchronously from outgoing memory blocks every 50 ms. If we need
        very low latency IO in local network we can have interval like 1 ms, or just call send

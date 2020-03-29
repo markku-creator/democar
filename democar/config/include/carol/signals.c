@@ -2,30 +2,16 @@
 const struct democar_t democar = 
 {
   {
-    {"exp", &ioboard_exp, 14, DEMOCAR_EXP_MBLK_SZ, (iocSignal*)&democar.exp.dip_switch_3},
-    {40, 1, OS_BOOLEAN, &ioboard_exp, OS_NULL}, /* dip_switch_3 */
-    {41, 1, OS_BOOLEAN, &ioboard_exp, OS_NULL}, /* dip_switch_4 */
-    {42, 1, OS_BOOLEAN, &ioboard_exp, OS_NULL}, /* touch_sensor */
-    {43, 1, OS_USHORT|IOC_PIN_PTR, &ioboard_exp, &pins.inputs.gazerbeam}, /* gazerbeam */
-    {0, 5, OS_FLOAT, &ioboard_exp, OS_NULL}, /* testfloat */
-    {21, 10, OS_STR, &ioboard_exp, OS_NULL}, /* teststr */
-    {32, 1, OS_BOOLEAN, &ioboard_exp, OS_NULL}, /* A */
-    {33, 1, OS_BOOLEAN, &ioboard_exp, OS_NULL}, /* B */
-    {34, 1, OS_BOOLEAN, &ioboard_exp, OS_NULL}, /* C */
-    {35, 1, OS_BOOLEAN, &ioboard_exp, OS_NULL}, /* D */
-    {36, 1, OS_BOOLEAN, &ioboard_exp, OS_NULL}, /* E */
-    {37, 1, OS_BOOLEAN, &ioboard_exp, OS_NULL}, /* F */
-    {38, 1, OS_BOOLEAN, &ioboard_exp, OS_NULL}, /* G */
-    {39, 1, OS_BOOLEAN, &ioboard_exp, OS_NULL} /* H */
+    {"exp", &ioboard_exp, 1, DEMOCAR_EXP_MBLK_SZ, (iocSignal*)&democar.exp.testfloat},
+    {0, 5, OS_FLOAT, &ioboard_exp, OS_NULL} /* testfloat */
   },
 
   {
-    {"imp", &ioboard_imp, 5, DEMOCAR_IMP_MBLK_SZ, (iocSignal*)&democar.imp.strtodevice},
-    {0, 16, OS_STR, &ioboard_imp, OS_NULL}, /* strtodevice */
-    {17, 8, OS_BOOLEAN, &ioboard_imp, OS_NULL}, /* seven_segment */
-    {19, 1, OS_USHORT, &ioboard_imp, OS_NULL}, /* servo */
-    {22, 1, OS_USHORT, &ioboard_imp, OS_NULL}, /* dimmer_led */
-    {25, 1, OS_BOOLEAN, &ioboard_imp, OS_NULL} /* led_builtin_x */
+    {"imp", &ioboard_imp, 4, DEMOCAR_IMP_MBLK_SZ, (iocSignal*)&democar.imp.LEFT},
+    {0, 1, OS_BOOLEAN|IOC_PIN_PTR, &ioboard_imp, &pins.outputs.LEFT}, /* LEFT */
+    {1, 1, OS_BOOLEAN|IOC_PIN_PTR, &ioboard_imp, &pins.outputs.RIGHT}, /* RIGHT */
+    {2, 1, OS_BOOLEAN|IOC_PIN_PTR, &ioboard_imp, &pins.outputs.FORWARD}, /* FORWARD */
+    {3, 1, OS_BOOLEAN|IOC_PIN_PTR, &ioboard_imp, &pins.outputs.BACKWARD} /* BACKWARD */
   },
 
   {

@@ -16,15 +16,15 @@ static os_short pins_outputs_BACKWARD_prm[]= {PIN_RV, PIN_RV};
 const pins_t pins =
 {
   {{1, &pins.inputs.gazerbeam}, /* inputs */
-    {PIN_INPUT, 0, 39, pins_inputs_gazerbeam_prm, sizeof(pins_inputs_gazerbeam_prm)/sizeof(os_short), OS_NULL, &democar.exp.gazerbeam PINS_INTCONF_PTR(pin_gazerbeam_intconf)} /* gazerbeam */
+    {PIN_INPUT, 0, 39, pins_inputs_gazerbeam_prm, sizeof(pins_inputs_gazerbeam_prm)/sizeof(os_short), OS_NULL, OS_NULL PINS_INTCONF_PTR(pin_gazerbeam_intconf)} /* gazerbeam */
   },
 
   {{5, &pins.outputs.led_builtin}, /* outputs */
     {PIN_OUTPUT, 0, 2, pins_outputs_led_builtin_prm, sizeof(pins_outputs_led_builtin_prm)/sizeof(os_short), OS_NULL, OS_NULL PINS_INTCONF_NULL}, /* led_builtin */
-    {PIN_OUTPUT, 0, 32, pins_outputs_RIGHT_prm, sizeof(pins_outputs_RIGHT_prm)/sizeof(os_short), OS_NULL, OS_NULL PINS_INTCONF_NULL}, /* RIGHT */
-    {PIN_OUTPUT, 0, 33, pins_outputs_LEFT_prm, sizeof(pins_outputs_LEFT_prm)/sizeof(os_short), OS_NULL, OS_NULL PINS_INTCONF_NULL}, /* LEFT */
-    {PIN_OUTPUT, 0, 25, pins_outputs_FORWARD_prm, sizeof(pins_outputs_FORWARD_prm)/sizeof(os_short), OS_NULL, OS_NULL PINS_INTCONF_NULL}, /* FORWARD */
-    {PIN_OUTPUT, 0, 26, pins_outputs_BACKWARD_prm, sizeof(pins_outputs_BACKWARD_prm)/sizeof(os_short), OS_NULL, OS_NULL PINS_INTCONF_NULL} /* BACKWARD */
+    {PIN_OUTPUT, 0, 32, pins_outputs_RIGHT_prm, sizeof(pins_outputs_RIGHT_prm)/sizeof(os_short), OS_NULL, &democar.imp.RIGHT PINS_INTCONF_NULL}, /* RIGHT */
+    {PIN_OUTPUT, 0, 33, pins_outputs_LEFT_prm, sizeof(pins_outputs_LEFT_prm)/sizeof(os_short), OS_NULL, &democar.imp.LEFT PINS_INTCONF_NULL}, /* LEFT */
+    {PIN_OUTPUT, 0, 25, pins_outputs_FORWARD_prm, sizeof(pins_outputs_FORWARD_prm)/sizeof(os_short), OS_NULL, &democar.imp.FORWARD PINS_INTCONF_NULL}, /* FORWARD */
+    {PIN_OUTPUT, 0, 26, pins_outputs_BACKWARD_prm, sizeof(pins_outputs_BACKWARD_prm)/sizeof(os_short), OS_NULL, &democar.imp.BACKWARD PINS_INTCONF_NULL} /* BACKWARD */
   },
 };
 
