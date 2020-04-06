@@ -9,7 +9,10 @@
       {
         "name": "device state",
         "signals": [
-          {"name": "testfloat", "addr": 0, "type": "float", "array": 5}
+          {"name": "LEFT", "type": "boolean"},
+          {"name": "RIGHT", "type": "boolean"},
+          {"name": "FORWARD", "type": "boolean"},
+          {"name": "BACKWARD", "type": "boolean"}
         ]
       }
     ]
@@ -21,12 +24,12 @@
     "flags": "down",
     "groups": [
       {
-        "name": "outputs",
+        "name": "controls",
         "signals": [
-          {"name": "LEFT", "type": "boolean"},
-          {"name": "RIGHT", "type": "boolean"},
-          {"name": "FORWARD", "type": "boolean"},
-          {"name": "BACKWARD", "type": "boolean"}
+          {"name": "LeftTurn", "type": "boolean"},
+          {"name": "RightTurn", "type": "boolean"},
+          {"name": "StraightForward", "type": "boolean"},
+          {"name": "ForwardBackward", "type": "boolean"}
         ]
       }
     ]

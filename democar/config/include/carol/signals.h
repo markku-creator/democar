@@ -6,17 +6,20 @@ typedef struct democar_t
   struct 
   {
     iocMblkSignalHdr hdr;
-    iocSignal testfloat;
+    iocSignal LEFT;
+    iocSignal RIGHT;
+    iocSignal FORWARD;
+    iocSignal BACKWARD;
   }
   exp;
 
   struct 
   {
     iocMblkSignalHdr hdr;
-    iocSignal LEFT;
-    iocSignal RIGHT;
-    iocSignal FORWARD;
-    iocSignal BACKWARD;
+    iocSignal LeftTurn;
+    iocSignal RightTurn;
+    iocSignal StraightForward;
+    iocSignal ForwardBackward;
   }
   imp;
 
@@ -54,7 +57,6 @@ democar_t;
 extern const democar_t democar;
 extern const iocDeviceHdr democar_hdr;
 
-#define DEMOCAR_EXP_TESTFLOAT_ARRAY_SZ 5
 #define DEMOCAR_CONF_EXP_FRD_BUF_ARRAY_SZ 257
 #define DEMOCAR_CONF_IMP_TOD_BUF_ARRAY_SZ 257
 

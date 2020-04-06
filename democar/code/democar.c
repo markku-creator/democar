@@ -268,7 +268,7 @@ osalStatus osal_loop(
     os_timer ti;
     osalStatus s;
 
-    static os_boolean test_toggle;
+   /* static os_boolean test_toggle; */
 
     os_get_timer(&ti);
 
@@ -306,13 +306,67 @@ osalStatus osal_loop(
      */
     pins_read_all(&pins_hdr, PINS_DEFAULT);
 
-    if (os_has_elapsed_since(&mytimer, &ti, 1000)) {
+ /*   if (os_has_elapsed_since(&mytimer, &ti, 1000)) {
         pin_set(&pins.outputs.LEFT,test_toggle);
         pin_set(&pins.outputs.RIGHT,test_toggle);
         pin_set(&pins.outputs.FORWARD,test_toggle);
         pin_set(&pins.outputs.BACKWARD,test_toggle);
         mytimer = ti;
         test_toggle = !test_toggle;
+    } */
+
+    int LeftTurn = ioc_gets0_int(&democar.imp.LeftTurn);
+    int RightTurn = ioc_gets0_int(&democar.imp.RightTurn);
+    int StraightForward = ioc_gets0_int(&democar.imp.StraightForward);
+    int ForwardBackward = ioc_gets0_int(&democar.imp.ForwardBackward);
+
+    if (StraightForward && ForwardBackward && !LeftTurn && !RightTurn) {
+        pin_set(&pins.outputs.LEFT,0);
+        pin_set(&pins.outputs.RIGHT,0);
+        pin_set(&pins.outputs.FORWARD,1);
+        pin_set(&pins.outputs.BACKWARD,0);
+    }
+
+    if (StraightForward && !ForwardBackward && !LeftTurn && !RightTurn) {
+        pin_set(&pins.outputs.LEFT,0);
+        pin_set(&pins.outputs.RIGHT,0);
+        pin_set(&pins.outputs.FORWARD,0);
+        pin_set(&pins.outputs.BACKWARD,1);
+    }
+
+    if (LeftTurn && ForwardBackward && !StraightForward && !RightTurn) {
+        pin_set(&pins.outputs.LEFT,1);
+        pin_set(&pins.outputs.RIGHT,0);
+        pin_set(&pins.outputs.FORWARD,1);
+        pin_set(&pins.outputs.BACKWARD,0);
+    }
+
+    if (LeftTurn && !ForwardBackward && !StraightForward && !RightTurn) {
+        pin_set(&pins.outputs.LEFT,1);
+        pin_set(&pins.outputs.RIGHT,0);
+        pin_set(&pins.outputs.FORWARD,0);
+        pin_set(&pins.outputs.BACKWARD,1);
+    }
+
+    if (RightTurn && ForwardBackward && !StraightForward && !LeftTurn) {
+        pin_set(&pins.outputs.RIGHT,1);
+        pin_set(&pins.outputs.LEFT,0);
+        pin_set(&pins.outputs.FORWARD,1);
+        pin_set(&pins.outputs.BACKWARD,0);
+    }
+
+    if (RightTurn && !ForwardBackward && !StraightForward && !LeftTurn) {
+        pin_set(&pins.outputs.RIGHT,1);
+        pin_set(&pins.outputs.LEFT,0);
+        pin_set(&pins.outputs.FORWARD,0);
+        pin_set(&pins.outputs.BACKWARD,1);
+    }
+
+    if (!RightTurn && !StraightForward && !LeftTurn) {
+        pin_set(&pins.outputs.LEFT,0);
+        pin_set(&pins.outputs.RIGHT,0);
+        pin_set(&pins.outputs.FORWARD,0);
+        pin_set(&pins.outputs.BACKWARD,0);
     }
 
     /* The call is here for testing only, take away.

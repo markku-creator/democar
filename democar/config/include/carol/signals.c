@@ -2,16 +2,19 @@
 const struct democar_t democar = 
 {
   {
-    {"exp", &ioboard_exp, 1, DEMOCAR_EXP_MBLK_SZ, (iocSignal*)&democar.exp.testfloat},
-    {0, 5, OS_FLOAT, &ioboard_exp, OS_NULL} /* testfloat */
+    {"exp", &ioboard_exp, 4, DEMOCAR_EXP_MBLK_SZ, (iocSignal*)&democar.exp.LEFT},
+    {0, 1, OS_BOOLEAN|IOC_PIN_PTR, &ioboard_exp, &pins.outputs.LEFT}, /* LEFT */
+    {1, 1, OS_BOOLEAN|IOC_PIN_PTR, &ioboard_exp, &pins.outputs.RIGHT}, /* RIGHT */
+    {2, 1, OS_BOOLEAN|IOC_PIN_PTR, &ioboard_exp, &pins.outputs.FORWARD}, /* FORWARD */
+    {3, 1, OS_BOOLEAN|IOC_PIN_PTR, &ioboard_exp, &pins.outputs.BACKWARD} /* BACKWARD */
   },
 
   {
-    {"imp", &ioboard_imp, 4, DEMOCAR_IMP_MBLK_SZ, (iocSignal*)&democar.imp.LEFT},
-    {0, 1, OS_BOOLEAN|IOC_PIN_PTR, &ioboard_imp, &pins.outputs.LEFT}, /* LEFT */
-    {1, 1, OS_BOOLEAN|IOC_PIN_PTR, &ioboard_imp, &pins.outputs.RIGHT}, /* RIGHT */
-    {2, 1, OS_BOOLEAN|IOC_PIN_PTR, &ioboard_imp, &pins.outputs.FORWARD}, /* FORWARD */
-    {3, 1, OS_BOOLEAN|IOC_PIN_PTR, &ioboard_imp, &pins.outputs.BACKWARD} /* BACKWARD */
+    {"imp", &ioboard_imp, 4, DEMOCAR_IMP_MBLK_SZ, (iocSignal*)&democar.imp.LeftTurn},
+    {0, 1, OS_BOOLEAN, &ioboard_imp, OS_NULL}, /* LeftTurn */
+    {1, 1, OS_BOOLEAN, &ioboard_imp, OS_NULL}, /* RightTurn */
+    {2, 1, OS_BOOLEAN, &ioboard_imp, OS_NULL}, /* StraightForward */
+    {3, 1, OS_BOOLEAN, &ioboard_imp, OS_NULL} /* ForwardBackward */
   },
 
   {
