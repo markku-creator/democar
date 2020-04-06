@@ -12,21 +12,21 @@
 
 		"nic": [{
 			"dhcp": 1,
-			"ip": "192.168.1.217",
+			"ip": "0.0.0.0",
 			"subnet": "255.255.255.0",
-			"gateway": "192.168.1.254",
+			"gateway": "0.0.0.0",
 			"dns": "8.8.4.4",
 			"dns2": "8.8.8.8",
 			"mac": "36:12:64:A4:B4:C4"
 		}],
 
 		"wifi": [{
-				"network": "bean24",
-				"password": "talvi333"
+				"network": "insertvalue",
+				"password": "insertvalue"
 			},
 			{
-				"network": "julian",
-				"password": "talvi333"
+				"network": "insertvalue",
+				"password": "insertvalue"
 			}
 		]
 	}

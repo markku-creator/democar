@@ -2,9 +2,9 @@
 
   @file    democar.c
   @brief   Democar IO board example featuring  IoT device.
-  @author  Pekka Lehtikoski
+  @author  Pekka Lehtikoski, Markku Nissinen
   @version 1.0
-  @date    8.3.2020
+  @date    6.4.2020
 
   IOBOARD_CTRL_CON define selects how this IO device connects to control computer. One of
   IOBOARD_CTRL_CONNECT_SOCKET, IOBOARD_CTRL_CONNECT_TLS or IOBOARD_CTRL_CONNECT_SERIAL.
