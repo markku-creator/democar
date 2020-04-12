@@ -16,6 +16,7 @@
   IOBOARD_MAX_CONNECTIONS sets maximum number of connections. IO board needs one connection.
 
   Notes:
+
   - ON MULTITHREADING ENVIRONMENT WITH SELECTS LOOP THREAD CAN WAIT FOR TIMEOUT OR EVENT
 
   Copyright 2020 Pekka Lehtikoski. This file is part of the iocom project and shall only be used,
@@ -113,6 +114,7 @@ osalStatus osal_main(
     os_int argc,
     os_char *argv[])
 {
+
 #if IOBOARD_CTRL_CON & IOBOARD_CTRL_IS_TLS
     osalSecurityConfig *security;
 #endif
@@ -153,12 +155,16 @@ osalStatus osal_main(
      */
     nics = ioc_get_nics(&ioapp_device_conf);
     wifis = ioc_get_wifis(&ioapp_device_conf);
+
 #if IOBOARD_CTRL_CON & IOBOARD_CTRL_IS_TLS
+
     security = ioc_get_security_conf(&ioapp_device_conf);
     osal_tls_initialize(nics->nic, nics->n_nics, wifis->wifi, wifis->n_wifi, security);
+
 #else
     osal_socket_initialize(nics->nic, nics->n_nics, wifis->wifi, wifis->n_wifi);
 #endif
+
     osal_serial_initialize();
 
     /* Get stream interface by IOBOARD_CTRL_CON define.

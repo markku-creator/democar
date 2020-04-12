@@ -54,5 +54,6 @@ Makefile
 *.make
 *.cmake
 CMakeFiles
+CMakeLists.txt.user
 *-Debug
 *-Release

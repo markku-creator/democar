@@ -19,6 +19,8 @@ void setup()
      */
     Serial.begin(115200);
     while (!Serial) {}
+
+    sleep(5);
     Serial.println("Democar IO board starting...");
   
    /* Initialize the eosal library.
