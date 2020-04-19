@@ -24,7 +24,7 @@
 #include "network-defaults.h"
 
 
-void ioboard_communication_callback(
+void ioboard_root_callback(
     struct iocHandle *mblk,
     os_int start_addr,
     os_int end_addr,

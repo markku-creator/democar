@@ -204,7 +204,7 @@ osalStatus osal_main(
 
     /* Set callback to detect received data and connection status changes.
      */
-    ioc_add_callback(&ioboard_imp, ioboard_communication_callback, OS_NULL);
+    ioc_add_callback(&ioboard_imp, ioboard_root_callback, OS_NULL);
 
     /* Connect PINS library to IOCOM library
      */
@@ -236,7 +236,7 @@ osalStatus osal_main(
     /* Setup to blink LED bat boot errors, etc. Handle network state notifications.
      */
 #if PINS_DISPLAY
-    initialize_display(&pins_display, &ioboard_communication, OS_NULL);
+    initialize_display(&pins_display, &ioboard_root, OS_NULL);
 #else
     initialize_morse_code(&morse, &pins.outputs.led_builtin,
         MORSE_HANDLE_NET_STATE_NOTIFICATIONS);
@@ -299,10 +299,10 @@ osalStatus osal_loop(
 #endif
 
     /* Keep the communication alive. If data is received from communication, the
-       ioboard_communication_callback() will be called. Move data data synchronously
+       ioboard_root_callback() will be called. Move data data synchronously
        to incomong memory block.
      */
-    ioc_run(&ioboard_communication);
+    ioc_run(&ioboard_root);
     ioc_receive(&ioboard_imp);
     ioc_receive(&ioboard_conf_imp);
     ioc_run_control_stream(&ioc_ctrl_state, &ioc_ctrl_stream_params);
@@ -377,7 +377,7 @@ osalStatus osal_loop(
 
     /* The call is here for testing only, take away.
      */
-    s = io_device_console(&ioboard_communication);
+    s = io_device_console(&ioboard_root);
 
     /* Send changed data synchronously from outgoing memory blocks every 50 ms. If we need
        very low latency IO in local network we can have interval like 1 ms, or just call send
@@ -395,7 +395,7 @@ osalStatus osal_loop(
     {
         ioc_send(&ioboard_exp);
         ioc_send(&ioboard_conf_exp);
-        ioc_run(&ioboard_communication);
+        ioc_run(&ioboard_root);
     }
 
     return s;
@@ -446,7 +446,7 @@ void osal_main_cleanup(
 
   @brief Callback function when data has been received from communication.
 
-  The ioboard_communication_callback function reacts to data from communication. Here we treat
+  The ioboard_root_callback function reacts to data from communication. Here we treat
   memory block as set of communication signals, and mostly just forward these to IO.
 
   @param   handle Memory block handle.
@@ -459,7 +459,7 @@ void osal_main_cleanup(
 
 ****************************************************************************************************
 */
-void ioboard_communication_callback(
+void ioboard_root_callback(
     struct iocHandle *handle,
     os_int start_addr,
     os_int end_addr,
