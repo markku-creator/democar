@@ -14,13 +14,7 @@
 /* The setup routine runs once when you press reset.
  */
 void setup() 
-{
-    /* Set up serial port for trace output.
-     */
-    Serial.begin(115200);
-    while (!Serial) {}
-    Serial.println("Democar IO board starting...");
-  
+{  
    /* Initialize the eosal library.
     */
     osal_initialize(OSAL_INIT_DEFAULT);

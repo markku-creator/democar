@@ -59,6 +59,9 @@ static GazerbeamReceiver gazerbeam;
 static LighthouseClient lighthouse;
 #endif
 
+/* IO console state (for development/testing)
+ */
+IO_DEVICE_CONSOLE(ioconsole);
 
 /* IO device configuration.
  */
@@ -136,6 +139,10 @@ osalStatus osal_main(
     os_memclear(&persistentprm, sizeof(persistentprm));
     persistentprm.device_name = IOBOARD_DEVICE_NAME;
     os_persistent_initialze(&persistentprm);
+
+    /* If we are using devicedir for development testing, initialize.
+     */
+    io_initialize_device_console(&ioconsole, &ioboard_root);
 
     /* Setup IO pins.
      */
@@ -375,9 +382,9 @@ osalStatus osal_loop(
         pin_set(&pins.outputs.BACKWARD,0);
     }
 
-    /* The call is here for testing only, take away.
+    /* The call is here for development/testing.
      */
-    s = io_device_console(&ioboard_root);
+    s = io_run_device_console(&ioconsole);
 
     /* Send changed data synchronously from outgoing memory blocks every 50 ms. If we need
        very low latency IO in local network we can have interval like 1 ms, or just call send
