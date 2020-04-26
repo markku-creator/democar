@@ -1,6 +1,6 @@
 {
 "network" : {
-	"device_nr": "auto",
+	"device_nr": "*",
 	"network_name": "*",
 	"connect": [
 		{
@@ -22,12 +22,12 @@
 	],
 	"wifi": [
 		{
-			"network": "insertvalue",
-			"password": "insertvalue"
+			"network": "*",
+			"password": "*"
 		},
 		{
-			"network": "insertvalue",
-			"password": "insertvalue"
+			"network": "*",
+			"password": "*"
 		}
 	]
 }

@@ -1,0 +1,907 @@
+[
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include -I../config/include/carol -I/coderoot/iocom -I/coderoot/iocom/extensions/nodeconf -I/coderoot/iocom/extensions/lighthouse -I/coderoot/iocom/extensions/selectwifi -I/coderoot/iocom/extensions/gazerbeam -I/coderoot/pins -I/coderoot/iocom/extensions/devicedir   -Wall -fPIC -g   -o CMakeFiles/democard.dir/code/config.c.o   -c /coderoot/democar/democar/code/config.c",
+  "file": "/coderoot/democar/democar/code/config.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include -I../config/include/carol -I/coderoot/iocom -I/coderoot/iocom/extensions/nodeconf -I/coderoot/iocom/extensions/lighthouse -I/coderoot/iocom/extensions/selectwifi -I/coderoot/iocom/extensions/gazerbeam -I/coderoot/pins -I/coderoot/iocom/extensions/devicedir   -Wall -fPIC -g   -o CMakeFiles/democard.dir/code/democar.c.o   -c /coderoot/democar/democar/code/democar.c",
+  "file": "/coderoot/democar/democar/code/democar.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include   -Wall -fPIC -g   -o eosal/CMakeFiles/eosald.dir/code/debugcode/common/osal_debug.c.o   -c /coderoot/eosal/code/debugcode/common/osal_debug.c",
+  "file": "/coderoot/eosal/code/debugcode/common/osal_debug.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include   -Wall -fPIC -g   -o eosal/CMakeFiles/eosald.dir/code/defs/common/osal_global.c.o   -c /coderoot/eosal/code/defs/common/osal_global.c",
+  "file": "/coderoot/eosal/code/defs/common/osal_global.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include   -Wall -fPIC -g   -o eosal/CMakeFiles/eosald.dir/code/error/common/osal_error.c.o   -c /coderoot/eosal/code/error/common/osal_error.c",
+  "file": "/coderoot/eosal/code/error/common/osal_error.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include   -Wall -fPIC -g   -o eosal/CMakeFiles/eosald.dir/code/initialize/common/osal_initialize.c.o   -c /coderoot/eosal/code/initialize/common/osal_initialize.c",
+  "file": "/coderoot/eosal/code/initialize/common/osal_initialize.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include   -Wall -fPIC -g   -o eosal/CMakeFiles/eosald.dir/code/int64/common/osal_int64.c.o   -c /coderoot/eosal/code/int64/common/osal_int64.c",
+  "file": "/coderoot/eosal/code/int64/common/osal_int64.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include   -Wall -fPIC -g   -o eosal/CMakeFiles/eosald.dir/code/memory/common/osal_memclear.c.o   -c /coderoot/eosal/code/memory/common/osal_memclear.c",
+  "file": "/coderoot/eosal/code/memory/common/osal_memclear.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include   -Wall -fPIC -g   -o eosal/CMakeFiles/eosald.dir/code/memory/common/osal_memcmp.c.o   -c /coderoot/eosal/code/memory/common/osal_memcmp.c",
+  "file": "/coderoot/eosal/code/memory/common/osal_memcmp.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include   -Wall -fPIC -g   -o eosal/CMakeFiles/eosald.dir/code/memory/common/osal_memcpy.c.o   -c /coderoot/eosal/code/memory/common/osal_memcpy.c",
+  "file": "/coderoot/eosal/code/memory/common/osal_memcpy.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include   -Wall -fPIC -g   -o eosal/CMakeFiles/eosald.dir/code/memory/common/osal_memmove.c.o   -c /coderoot/eosal/code/memory/common/osal_memmove.c",
+  "file": "/coderoot/eosal/code/memory/common/osal_memmove.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include   -Wall -fPIC -g   -o eosal/CMakeFiles/eosald.dir/code/memory/common/osal_memory.c.o   -c /coderoot/eosal/code/memory/common/osal_memory.c",
+  "file": "/coderoot/eosal/code/memory/common/osal_memory.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include   -Wall -fPIC -g   -o eosal/CMakeFiles/eosald.dir/code/mutex/common/osal_interrupt_list.c.o   -c /coderoot/eosal/code/mutex/common/osal_interrupt_list.c",
+  "file": "/coderoot/eosal/code/mutex/common/osal_interrupt_list.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include   -Wall -fPIC -g   -o eosal/CMakeFiles/eosald.dir/code/resmon/common/osal_resource_monitor.c.o   -c /coderoot/eosal/code/resmon/common/osal_resource_monitor.c",
+  "file": "/coderoot/eosal/code/resmon/common/osal_resource_monitor.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include   -Wall -fPIC -g   -o eosal/CMakeFiles/eosald.dir/code/string/common/osal_int_to_str.c.o   -c /coderoot/eosal/code/string/common/osal_int_to_str.c",
+  "file": "/coderoot/eosal/code/string/common/osal_int_to_str.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include   -Wall -fPIC -g   -o eosal/CMakeFiles/eosald.dir/code/string/common/osal_strchr.c.o   -c /coderoot/eosal/code/string/common/osal_strchr.c",
+  "file": "/coderoot/eosal/code/string/common/osal_strchr.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include   -Wall -fPIC -g   -o eosal/CMakeFiles/eosald.dir/code/string/common/osal_strcmp.c.o   -c /coderoot/eosal/code/string/common/osal_strcmp.c",
+  "file": "/coderoot/eosal/code/string/common/osal_strcmp.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include   -Wall -fPIC -g   -o eosal/CMakeFiles/eosald.dir/code/string/common/osal_strechr.c.o   -c /coderoot/eosal/code/string/common/osal_strechr.c",
+  "file": "/coderoot/eosal/code/string/common/osal_strechr.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include   -Wall -fPIC -g   -o eosal/CMakeFiles/eosald.dir/code/string/common/osal_strlen.c.o   -c /coderoot/eosal/code/string/common/osal_strlen.c",
+  "file": "/coderoot/eosal/code/string/common/osal_strlen.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include   -Wall -fPIC -g   -o eosal/CMakeFiles/eosald.dir/code/string/common/osal_strncat.c.o   -c /coderoot/eosal/code/string/common/osal_strncat.c",
+  "file": "/coderoot/eosal/code/string/common/osal_strncat.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include   -Wall -fPIC -g   -o eosal/CMakeFiles/eosald.dir/code/string/common/osal_strncpy.c.o   -c /coderoot/eosal/code/string/common/osal_strncpy.c",
+  "file": "/coderoot/eosal/code/string/common/osal_strncpy.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include   -Wall -fPIC -g   -o eosal/CMakeFiles/eosald.dir/code/string/common/osal_strnicmp.c.o   -c /coderoot/eosal/code/string/common/osal_strnicmp.c",
+  "file": "/coderoot/eosal/code/string/common/osal_strnicmp.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include   -Wall -fPIC -g   -o eosal/CMakeFiles/eosald.dir/code/string/common/osal_strstr.c.o   -c /coderoot/eosal/code/string/common/osal_strstr.c",
+  "file": "/coderoot/eosal/code/string/common/osal_strstr.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include   -Wall -fPIC -g   -o eosal/CMakeFiles/eosald.dir/code/utf16/common/osal_char_utf16_to_utf32.c.o   -c /coderoot/eosal/code/utf16/common/osal_char_utf16_to_utf32.c",
+  "file": "/coderoot/eosal/code/utf16/common/osal_char_utf16_to_utf32.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include   -Wall -fPIC -g   -o eosal/CMakeFiles/eosald.dir/code/utf16/common/osal_char_utf32_to_utf16.c.o   -c /coderoot/eosal/code/utf16/common/osal_char_utf32_to_utf16.c",
+  "file": "/coderoot/eosal/code/utf16/common/osal_char_utf32_to_utf16.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include   -Wall -fPIC -g   -o eosal/CMakeFiles/eosald.dir/code/utf16/common/osal_str_utf16_to_utf8.c.o   -c /coderoot/eosal/code/utf16/common/osal_str_utf16_to_utf8.c",
+  "file": "/coderoot/eosal/code/utf16/common/osal_str_utf16_to_utf8.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include   -Wall -fPIC -g   -o eosal/CMakeFiles/eosald.dir/code/utf16/common/osal_str_utf16_to_utf8_malloc.c.o   -c /coderoot/eosal/code/utf16/common/osal_str_utf16_to_utf8_malloc.c",
+  "file": "/coderoot/eosal/code/utf16/common/osal_str_utf16_to_utf8_malloc.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include   -Wall -fPIC -g   -o eosal/CMakeFiles/eosald.dir/code/utf16/common/osal_str_utf8_to_utf16.c.o   -c /coderoot/eosal/code/utf16/common/osal_str_utf8_to_utf16.c",
+  "file": "/coderoot/eosal/code/utf16/common/osal_str_utf8_to_utf16.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include   -Wall -fPIC -g   -o eosal/CMakeFiles/eosald.dir/code/utf16/common/osal_str_utf8_to_utf16_malloc.c.o   -c /coderoot/eosal/code/utf16/common/osal_str_utf8_to_utf16_malloc.c",
+  "file": "/coderoot/eosal/code/utf16/common/osal_str_utf8_to_utf16_malloc.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include   -Wall -fPIC -g   -o eosal/CMakeFiles/eosald.dir/code/utf32/common/osal_char_utf32_to_utf8.c.o   -c /coderoot/eosal/code/utf32/common/osal_char_utf32_to_utf8.c",
+  "file": "/coderoot/eosal/code/utf32/common/osal_char_utf32_to_utf8.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include   -Wall -fPIC -g   -o eosal/CMakeFiles/eosald.dir/code/utf32/common/osal_char_utf8_to_utf32.c.o   -c /coderoot/eosal/code/utf32/common/osal_char_utf8_to_utf32.c",
+  "file": "/coderoot/eosal/code/utf32/common/osal_char_utf8_to_utf32.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include   -Wall -fPIC -g   -o eosal/CMakeFiles/eosald.dir/code/console/linux/osal_sysconsole.c.o   -c /coderoot/eosal/code/console/linux/osal_sysconsole.c",
+  "file": "/coderoot/eosal/code/console/linux/osal_sysconsole.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include   -Wall -fPIC -g   -o eosal/CMakeFiles/eosald.dir/code/event/linux/osal_event.c.o   -c /coderoot/eosal/code/event/linux/osal_event.c",
+  "file": "/coderoot/eosal/code/event/linux/osal_event.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include   -Wall -fPIC -g   -o eosal/CMakeFiles/eosald.dir/code/initialize/linux/osal_os_initialize.c.o   -c /coderoot/eosal/code/initialize/linux/osal_os_initialize.c",
+  "file": "/coderoot/eosal/code/initialize/linux/osal_os_initialize.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include   -Wall -fPIC -g   -o eosal/CMakeFiles/eosald.dir/code/memory/linux/osal_sysmem.c.o   -c /coderoot/eosal/code/memory/linux/osal_sysmem.c",
+  "file": "/coderoot/eosal/code/memory/linux/osal_sysmem.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include   -Wall -fPIC -g   -o eosal/CMakeFiles/eosald.dir/code/mutex/linux/osal_mutex.c.o   -c /coderoot/eosal/code/mutex/linux/osal_mutex.c",
+  "file": "/coderoot/eosal/code/mutex/linux/osal_mutex.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include   -Wall -fPIC -g   -o eosal/CMakeFiles/eosald.dir/code/thread/linux/osal_thread.c.o   -c /coderoot/eosal/code/thread/linux/osal_thread.c",
+  "file": "/coderoot/eosal/code/thread/linux/osal_thread.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include   -Wall -fPIC -g   -o eosal/CMakeFiles/eosald.dir/code/thread/linux/osal_thread_priority.c.o   -c /coderoot/eosal/code/thread/linux/osal_thread_priority.c",
+  "file": "/coderoot/eosal/code/thread/linux/osal_thread_priority.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include   -Wall -fPIC -g   -o eosal/CMakeFiles/eosald.dir/code/timer/linux/osal_timer.c.o   -c /coderoot/eosal/code/timer/linux/osal_timer.c",
+  "file": "/coderoot/eosal/code/timer/linux/osal_timer.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include   -Wall -fPIC -g   -o eosal/CMakeFiles/eosald.dir/extensions/checksum/common/osal_checksum.c.o   -c /coderoot/eosal/extensions/checksum/common/osal_checksum.c",
+  "file": "/coderoot/eosal/extensions/checksum/common/osal_checksum.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include   -Wall -fPIC -g   -o eosal/CMakeFiles/eosald.dir/extensions/filesys/common/osal_fileutil.c.o   -c /coderoot/eosal/extensions/filesys/common/osal_fileutil.c",
+  "file": "/coderoot/eosal/extensions/filesys/common/osal_fileutil.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include   -Wall -fPIC -g   -o eosal/CMakeFiles/eosald.dir/extensions/int64x/common/osal_int64_divide.c.o   -c /coderoot/eosal/extensions/int64x/common/osal_int64_divide.c",
+  "file": "/coderoot/eosal/extensions/int64x/common/osal_int64_divide.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include   -Wall -fPIC -g   -o eosal/CMakeFiles/eosald.dir/extensions/int64x/common/osal_int64_double.c.o   -c /coderoot/eosal/extensions/int64x/common/osal_int64_double.c",
+  "file": "/coderoot/eosal/extensions/int64x/common/osal_int64_double.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include   -Wall -fPIC -g   -o eosal/CMakeFiles/eosald.dir/extensions/int64x/common/osal_int64_multiply.c.o   -c /coderoot/eosal/extensions/int64x/common/osal_int64_multiply.c",
+  "file": "/coderoot/eosal/extensions/int64x/common/osal_int64_multiply.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include   -Wall -fPIC -g   -o eosal/CMakeFiles/eosald.dir/extensions/main/common/osal_simloop.c.o   -c /coderoot/eosal/extensions/main/common/osal_simloop.c",
+  "file": "/coderoot/eosal/extensions/main/common/osal_simloop.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include   -Wall -fPIC -g   -o eosal/CMakeFiles/eosald.dir/extensions/net/common/osal_lwip_bsd_dns.c.o   -c /coderoot/eosal/extensions/net/common/osal_lwip_bsd_dns.c",
+  "file": "/coderoot/eosal/extensions/net/common/osal_lwip_bsd_dns.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include   -Wall -fPIC -g   -o eosal/CMakeFiles/eosald.dir/extensions/net/common/osal_net_state.c.o   -c /coderoot/eosal/extensions/net/common/osal_net_state.c",
+  "file": "/coderoot/eosal/extensions/net/common/osal_net_state.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include   -Wall -fPIC -g   -o eosal/CMakeFiles/eosald.dir/extensions/persistent/common/osal_load_persistent.c.o   -c /coderoot/eosal/extensions/persistent/common/osal_load_persistent.c",
+  "file": "/coderoot/eosal/extensions/persistent/common/osal_load_persistent.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include   -Wall -fPIC -g   -o eosal/CMakeFiles/eosald.dir/extensions/persistent/common/osal_save_persistent.c.o   -c /coderoot/eosal/extensions/persistent/common/osal_save_persistent.c",
+  "file": "/coderoot/eosal/extensions/persistent/common/osal_save_persistent.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include   -Wall -fPIC -g   -o eosal/CMakeFiles/eosald.dir/extensions/rand/common/osal_rand.c.o   -c /coderoot/eosal/extensions/rand/common/osal_rand.c",
+  "file": "/coderoot/eosal/extensions/rand/common/osal_rand.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include   -Wall -fPIC -g   -o eosal/CMakeFiles/eosald.dir/extensions/secret/common/osal_secret.c.o   -c /coderoot/eosal/extensions/secret/common/osal_secret.c",
+  "file": "/coderoot/eosal/extensions/secret/common/osal_secret.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include   -Wall -fPIC -g   -o eosal/CMakeFiles/eosald.dir/extensions/serialize/common/osal_compress_json.c.o   -c /coderoot/eosal/extensions/serialize/common/osal_compress_json.c",
+  "file": "/coderoot/eosal/extensions/serialize/common/osal_compress_json.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include   -Wall -fPIC -g   -o eosal/CMakeFiles/eosald.dir/extensions/serialize/common/osal_intser.c.o   -c /coderoot/eosal/extensions/serialize/common/osal_intser.c",
+  "file": "/coderoot/eosal/extensions/serialize/common/osal_intser.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include   -Wall -fPIC -g   -o eosal/CMakeFiles/eosald.dir/extensions/serialize/common/osal_json_indexer.c.o   -c /coderoot/eosal/extensions/serialize/common/osal_json_indexer.c",
+  "file": "/coderoot/eosal/extensions/serialize/common/osal_json_indexer.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include   -Wall -fPIC -g   -o eosal/CMakeFiles/eosald.dir/extensions/serialize/common/osal_json_shared.c.o   -c /coderoot/eosal/extensions/serialize/common/osal_json_shared.c",
+  "file": "/coderoot/eosal/extensions/serialize/common/osal_json_shared.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include   -Wall -fPIC -g   -o eosal/CMakeFiles/eosald.dir/extensions/serialize/common/osal_uncompress_json.c.o   -c /coderoot/eosal/extensions/serialize/common/osal_uncompress_json.c",
+  "file": "/coderoot/eosal/extensions/serialize/common/osal_uncompress_json.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include   -Wall -fPIC -g   -o eosal/CMakeFiles/eosald.dir/extensions/socket/common/osal_socket_util.c.o   -c /coderoot/eosal/extensions/socket/common/osal_socket_util.c",
+  "file": "/coderoot/eosal/extensions/socket/common/osal_socket_util.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include   -Wall -fPIC -g   -o eosal/CMakeFiles/eosald.dir/extensions/stream/common/osal_stream.c.o   -c /coderoot/eosal/extensions/stream/common/osal_stream.c",
+  "file": "/coderoot/eosal/extensions/stream/common/osal_stream.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include   -Wall -fPIC -g   -o eosal/CMakeFiles/eosald.dir/extensions/stream/common/osal_stream_buffer.c.o   -c /coderoot/eosal/extensions/stream/common/osal_stream_buffer.c",
+  "file": "/coderoot/eosal/extensions/stream/common/osal_stream_buffer.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include   -Wall -fPIC -g   -o eosal/CMakeFiles/eosald.dir/extensions/stream/common/osal_stream_defaults.c.o   -c /coderoot/eosal/extensions/stream/common/osal_stream_defaults.c",
+  "file": "/coderoot/eosal/extensions/stream/common/osal_stream_defaults.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include   -Wall -fPIC -g   -o eosal/CMakeFiles/eosald.dir/extensions/stream/common/osal_stream_supplement.c.o   -c /coderoot/eosal/extensions/stream/common/osal_stream_supplement.c",
+  "file": "/coderoot/eosal/extensions/stream/common/osal_stream_supplement.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include   -Wall -fPIC -g   -o eosal/CMakeFiles/eosald.dir/extensions/stringx/common/osal_hex_str_to_int.c.o   -c /coderoot/eosal/extensions/stringx/common/osal_hex_str_to_int.c",
+  "file": "/coderoot/eosal/extensions/stringx/common/osal_hex_str_to_int.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include   -Wall -fPIC -g   -o eosal/CMakeFiles/eosald.dir/extensions/stringx/common/osal_ip_from_str.c.o   -c /coderoot/eosal/extensions/stringx/common/osal_ip_from_str.c",
+  "file": "/coderoot/eosal/extensions/stringx/common/osal_ip_from_str.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include   -Wall -fPIC -g   -o eosal/CMakeFiles/eosald.dir/extensions/stringx/common/osal_ip_to_str.c.o   -c /coderoot/eosal/extensions/stringx/common/osal_ip_to_str.c",
+  "file": "/coderoot/eosal/extensions/stringx/common/osal_ip_to_str.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include   -Wall -fPIC -g   -o eosal/CMakeFiles/eosald.dir/extensions/stringx/common/osal_mac_from_str.c.o   -c /coderoot/eosal/extensions/stringx/common/osal_mac_from_str.c",
+  "file": "/coderoot/eosal/extensions/stringx/common/osal_mac_from_str.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include   -Wall -fPIC -g   -o eosal/CMakeFiles/eosald.dir/extensions/stringx/common/osal_pattern_match.c.o   -c /coderoot/eosal/extensions/stringx/common/osal_pattern_match.c",
+  "file": "/coderoot/eosal/extensions/stringx/common/osal_pattern_match.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include   -Wall -fPIC -g   -o eosal/CMakeFiles/eosald.dir/extensions/stringx/common/osal_str_get_item_int.c.o   -c /coderoot/eosal/extensions/stringx/common/osal_str_get_item_int.c",
+  "file": "/coderoot/eosal/extensions/stringx/common/osal_str_get_item_int.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include   -Wall -fPIC -g   -o eosal/CMakeFiles/eosald.dir/extensions/stringx/common/osal_str_get_item_value.c.o   -c /coderoot/eosal/extensions/stringx/common/osal_str_get_item_value.c",
+  "file": "/coderoot/eosal/extensions/stringx/common/osal_str_get_item_value.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include   -Wall -fPIC -g   -o eosal/CMakeFiles/eosald.dir/extensions/stringx/common/osal_str_get_next.c.o   -c /coderoot/eosal/extensions/stringx/common/osal_str_get_next.c",
+  "file": "/coderoot/eosal/extensions/stringx/common/osal_str_get_next.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include   -Wall -fPIC -g   -o eosal/CMakeFiles/eosald.dir/extensions/stringx/common/osal_str_to_bin.c.o   -c /coderoot/eosal/extensions/stringx/common/osal_str_to_bin.c",
+  "file": "/coderoot/eosal/extensions/stringx/common/osal_str_to_bin.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include   -Wall -fPIC -g   -o eosal/CMakeFiles/eosald.dir/extensions/stringx/common/osal_str_to_int.c.o   -c /coderoot/eosal/extensions/stringx/common/osal_str_to_int.c",
+  "file": "/coderoot/eosal/extensions/stringx/common/osal_str_to_int.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include   -Wall -fPIC -g   -o eosal/CMakeFiles/eosald.dir/extensions/stringx/common/osal_strcnv_float_to_str.c.o   -c /coderoot/eosal/extensions/stringx/common/osal_strcnv_float_to_str.c",
+  "file": "/coderoot/eosal/extensions/stringx/common/osal_strcnv_float_to_str.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include   -Wall -fPIC -g   -o eosal/CMakeFiles/eosald.dir/extensions/stringx/common/osal_strcnv_int64_to_str.c.o   -c /coderoot/eosal/extensions/stringx/common/osal_strcnv_int64_to_str.c",
+  "file": "/coderoot/eosal/extensions/stringx/common/osal_strcnv_int64_to_str.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include   -Wall -fPIC -g   -o eosal/CMakeFiles/eosald.dir/extensions/stringx/common/osal_strcnv_str_to_float.c.o   -c /coderoot/eosal/extensions/stringx/common/osal_strcnv_str_to_float.c",
+  "file": "/coderoot/eosal/extensions/stringx/common/osal_strcnv_str_to_float.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include   -Wall -fPIC -g   -o eosal/CMakeFiles/eosald.dir/extensions/stringx/common/osal_strcnv_str_to_int64.c.o   -c /coderoot/eosal/extensions/stringx/common/osal_strcnv_str_to_int64.c",
+  "file": "/coderoot/eosal/extensions/stringx/common/osal_strcnv_str_to_int64.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include   -Wall -fPIC -g   -o eosal/CMakeFiles/eosald.dir/extensions/typeid/common/osal_typeid.c.o   -c /coderoot/eosal/extensions/typeid/common/osal_typeid.c",
+  "file": "/coderoot/eosal/extensions/typeid/common/osal_typeid.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include   -Wall -fPIC -g   -o eosal/CMakeFiles/eosald.dir/extensions/filesys/linux/osal_dir.c.o   -c /coderoot/eosal/extensions/filesys/linux/osal_dir.c",
+  "file": "/coderoot/eosal/extensions/filesys/linux/osal_dir.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include   -Wall -fPIC -g   -o eosal/CMakeFiles/eosald.dir/extensions/filesys/linux/osal_file.c.o   -c /coderoot/eosal/extensions/filesys/linux/osal_file.c",
+  "file": "/coderoot/eosal/extensions/filesys/linux/osal_file.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include   -Wall -fPIC -g   -o eosal/CMakeFiles/eosald.dir/extensions/filesys/linux/osal_filectrl.c.o   -c /coderoot/eosal/extensions/filesys/linux/osal_filectrl.c",
+  "file": "/coderoot/eosal/extensions/filesys/linux/osal_filectrl.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include   -Wall -fPIC -g   -o eosal/CMakeFiles/eosald.dir/extensions/filesys/linux/osal_filestat.c.o   -c /coderoot/eosal/extensions/filesys/linux/osal_filestat.c",
+  "file": "/coderoot/eosal/extensions/filesys/linux/osal_filestat.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include   -Wall -fPIC -g   -o eosal/CMakeFiles/eosald.dir/extensions/main/linux/osal_main.c.o   -c /coderoot/eosal/extensions/main/linux/osal_main.c",
+  "file": "/coderoot/eosal/extensions/main/linux/osal_main.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include   -Wall -fPIC -g   -o eosal/CMakeFiles/eosald.dir/extensions/net/linux/osal_dns.c.o   -c /coderoot/eosal/extensions/net/linux/osal_dns.c",
+  "file": "/coderoot/eosal/extensions/net/linux/osal_dns.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include   -Wall -fPIC -g   -o eosal/CMakeFiles/eosald.dir/extensions/net/linux/osal_linux_ethernet_init.c.o   -c /coderoot/eosal/extensions/net/linux/osal_linux_ethernet_init.c",
+  "file": "/coderoot/eosal/extensions/net/linux/osal_linux_ethernet_init.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include   -Wall -fPIC -g   -o eosal/CMakeFiles/eosald.dir/extensions/persistent/linux/osal_select_persistent.c.o   -c /coderoot/eosal/extensions/persistent/linux/osal_select_persistent.c",
+  "file": "/coderoot/eosal/extensions/persistent/linux/osal_select_persistent.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include   -Wall -fPIC -g   -o eosal/CMakeFiles/eosald.dir/extensions/rand/linux/osal_rand_linux.c.o   -c /coderoot/eosal/extensions/rand/linux/osal_rand_linux.c",
+  "file": "/coderoot/eosal/extensions/rand/linux/osal_rand_linux.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include   -Wall -fPIC -g   -o eosal/CMakeFiles/eosald.dir/extensions/serial/linux/osal_serial.c.o   -c /coderoot/eosal/extensions/serial/linux/osal_serial.c",
+  "file": "/coderoot/eosal/extensions/serial/linux/osal_serial.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include   -Wall -fPIC -g   -o eosal/CMakeFiles/eosald.dir/extensions/serialize/linux/osal_float.c.o   -c /coderoot/eosal/extensions/serialize/linux/osal_float.c",
+  "file": "/coderoot/eosal/extensions/serialize/linux/osal_float.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include   -Wall -fPIC -g   -o eosal/CMakeFiles/eosald.dir/extensions/socket/linux/osal_socket.c.o   -c /coderoot/eosal/extensions/socket/linux/osal_socket.c",
+  "file": "/coderoot/eosal/extensions/socket/linux/osal_socket.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include   -Wall -fPIC -g   -o eosal/CMakeFiles/eosald.dir/extensions/time/linux/osal_time.c.o   -c /coderoot/eosal/extensions/time/linux/osal_time.c",
+  "file": "/coderoot/eosal/extensions/time/linux/osal_time.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include   -Wall -fPIC -g   -o eosal/CMakeFiles/eosald.dir/extensions/tls/mbedtls/osal_crypto_hash.c.o   -c /coderoot/eosal/extensions/tls/mbedtls/osal_crypto_hash.c",
+  "file": "/coderoot/eosal/extensions/tls/mbedtls/osal_crypto_hash.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include   -Wall -fPIC -g   -o eosal/CMakeFiles/eosald.dir/extensions/tls/mbedtls/osal_mbedtls.c.o   -c /coderoot/eosal/extensions/tls/mbedtls/osal_mbedtls.c",
+  "file": "/coderoot/eosal/extensions/tls/mbedtls/osal_mbedtls.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include -I/coderoot/iocom   -Wall -fPIC -g   -o iocom/CMakeFiles/iocomd.dir/code/ioc_authentication.c.o   -c /coderoot/iocom/code/ioc_authentication.c",
+  "file": "/coderoot/iocom/code/ioc_authentication.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include -I/coderoot/iocom   -Wall -fPIC -g   -o iocom/CMakeFiles/iocomd.dir/code/ioc_brick.c.o   -c /coderoot/iocom/code/ioc_brick.c",
+  "file": "/coderoot/iocom/code/ioc_brick.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include -I/coderoot/iocom   -Wall -fPIC -g   -o iocom/CMakeFiles/iocomd.dir/code/ioc_compress.c.o   -c /coderoot/iocom/code/ioc_compress.c",
+  "file": "/coderoot/iocom/code/ioc_compress.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include -I/coderoot/iocom   -Wall -fPIC -g   -o iocom/CMakeFiles/iocomd.dir/code/ioc_connection.c.o   -c /coderoot/iocom/code/ioc_connection.c",
+  "file": "/coderoot/iocom/code/ioc_connection.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include -I/coderoot/iocom   -Wall -fPIC -g   -o iocom/CMakeFiles/iocomd.dir/code/ioc_connection_receive.c.o   -c /coderoot/iocom/code/ioc_connection_receive.c",
+  "file": "/coderoot/iocom/code/ioc_connection_receive.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include -I/coderoot/iocom   -Wall -fPIC -g   -o iocom/CMakeFiles/iocomd.dir/code/ioc_connection_send.c.o   -c /coderoot/iocom/code/ioc_connection_send.c",
+  "file": "/coderoot/iocom/code/ioc_connection_send.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include -I/coderoot/iocom   -Wall -fPIC -g   -o iocom/CMakeFiles/iocomd.dir/code/ioc_end_point.c.o   -c /coderoot/iocom/code/ioc_end_point.c",
+  "file": "/coderoot/iocom/code/ioc_end_point.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include -I/coderoot/iocom   -Wall -fPIC -g   -o iocom/CMakeFiles/iocomd.dir/code/ioc_establish_serial_connection.c.o   -c /coderoot/iocom/code/ioc_establish_serial_connection.c",
+  "file": "/coderoot/iocom/code/ioc_establish_serial_connection.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include -I/coderoot/iocom   -Wall -fPIC -g   -o iocom/CMakeFiles/iocomd.dir/code/ioc_handle.c.o   -c /coderoot/iocom/code/ioc_handle.c",
+  "file": "/coderoot/iocom/code/ioc_handle.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include -I/coderoot/iocom   -Wall -fPIC -g   -o iocom/CMakeFiles/iocomd.dir/code/ioc_ioboard.c.o   -c /coderoot/iocom/code/ioc_ioboard.c",
+  "file": "/coderoot/iocom/code/ioc_ioboard.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include -I/coderoot/iocom   -Wall -fPIC -g   -o iocom/CMakeFiles/iocomd.dir/code/ioc_memory.c.o   -c /coderoot/iocom/code/ioc_memory.c",
+  "file": "/coderoot/iocom/code/ioc_memory.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include -I/coderoot/iocom   -Wall -fPIC -g   -o iocom/CMakeFiles/iocomd.dir/code/ioc_memory_block.c.o   -c /coderoot/iocom/code/ioc_memory_block.c",
+  "file": "/coderoot/iocom/code/ioc_memory_block.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include -I/coderoot/iocom   -Wall -fPIC -g   -o iocom/CMakeFiles/iocomd.dir/code/ioc_memory_block_info.c.o   -c /coderoot/iocom/code/ioc_memory_block_info.c",
+  "file": "/coderoot/iocom/code/ioc_memory_block_info.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include -I/coderoot/iocom   -Wall -fPIC -g   -o iocom/CMakeFiles/iocomd.dir/code/ioc_root.c.o   -c /coderoot/iocom/code/ioc_root.c",
+  "file": "/coderoot/iocom/code/ioc_root.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include -I/coderoot/iocom   -Wall -fPIC -g   -o iocom/CMakeFiles/iocomd.dir/code/ioc_signal.c.o   -c /coderoot/iocom/code/ioc_signal.c",
+  "file": "/coderoot/iocom/code/ioc_signal.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include -I/coderoot/iocom   -Wall -fPIC -g   -o iocom/CMakeFiles/iocomd.dir/code/ioc_source_buffer.c.o   -c /coderoot/iocom/code/ioc_source_buffer.c",
+  "file": "/coderoot/iocom/code/ioc_source_buffer.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include -I/coderoot/iocom   -Wall -fPIC -g   -o iocom/CMakeFiles/iocomd.dir/code/ioc_streamer.c.o   -c /coderoot/iocom/code/ioc_streamer.c",
+  "file": "/coderoot/iocom/code/ioc_streamer.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include -I/coderoot/iocom   -Wall -fPIC -g   -o iocom/CMakeFiles/iocomd.dir/code/ioc_target_buffer.c.o   -c /coderoot/iocom/code/ioc_target_buffer.c",
+  "file": "/coderoot/iocom/code/ioc_target_buffer.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include -I/coderoot/iocom   -Wall -fPIC -g   -o iocom/CMakeFiles/iocomd.dir/extensions/dynamicio/ioc_dyn_mblk_list.c.o   -c /coderoot/iocom/extensions/dynamicio/ioc_dyn_mblk_list.c",
+  "file": "/coderoot/iocom/extensions/dynamicio/ioc_dyn_mblk_list.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include -I/coderoot/iocom   -Wall -fPIC -g   -o iocom/CMakeFiles/iocomd.dir/extensions/dynamicio/ioc_dyn_network.c.o   -c /coderoot/iocom/extensions/dynamicio/ioc_dyn_network.c",
+  "file": "/coderoot/iocom/extensions/dynamicio/ioc_dyn_network.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include -I/coderoot/iocom   -Wall -fPIC -g   -o iocom/CMakeFiles/iocomd.dir/extensions/dynamicio/ioc_dyn_queue.c.o   -c /coderoot/iocom/extensions/dynamicio/ioc_dyn_queue.c",
+  "file": "/coderoot/iocom/extensions/dynamicio/ioc_dyn_queue.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include -I/coderoot/iocom   -Wall -fPIC -g   -o iocom/CMakeFiles/iocomd.dir/extensions/dynamicio/ioc_dyn_root.c.o   -c /coderoot/iocom/extensions/dynamicio/ioc_dyn_root.c",
+  "file": "/coderoot/iocom/extensions/dynamicio/ioc_dyn_root.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include -I/coderoot/iocom   -Wall -fPIC -g   -o iocom/CMakeFiles/iocomd.dir/extensions/dynamicio/ioc_dyn_signal.c.o   -c /coderoot/iocom/extensions/dynamicio/ioc_dyn_signal.c",
+  "file": "/coderoot/iocom/extensions/dynamicio/ioc_dyn_signal.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include -I/coderoot/iocom   -Wall -fPIC -g   -o iocom/CMakeFiles/iocomd.dir/extensions/dynamicio/ioc_dyn_stream.c.o   -c /coderoot/iocom/extensions/dynamicio/ioc_dyn_stream.c",
+  "file": "/coderoot/iocom/extensions/dynamicio/ioc_dyn_stream.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include -I/coderoot/iocom   -Wall -fPIC -g   -o iocom/CMakeFiles/iocomd.dir/extensions/dynamicio/ioc_identifiers.c.o   -c /coderoot/iocom/extensions/dynamicio/ioc_identifiers.c",
+  "file": "/coderoot/iocom/extensions/dynamicio/ioc_identifiers.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include -I/coderoot/iocom   -Wall -fPIC -g   -o iocom/CMakeFiles/iocomd.dir/extensions/dynamicio/ioc_remove_mblk_list.c.o   -c /coderoot/iocom/extensions/dynamicio/ioc_remove_mblk_list.c",
+  "file": "/coderoot/iocom/extensions/dynamicio/ioc_remove_mblk_list.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include -I/coderoot/nodeconf -I/coderoot/iocom -I/coderoot/iocom/extensions/nodeconf   -Wall -fPIC -g   -o iocom/extensions/nodeconf/CMakeFiles/nodeconfd.dir/code/nodeconf_connect.c.o   -c /coderoot/iocom/extensions/nodeconf/code/nodeconf_connect.c",
+  "file": "/coderoot/iocom/extensions/nodeconf/code/nodeconf_connect.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include -I/coderoot/nodeconf -I/coderoot/iocom -I/coderoot/iocom/extensions/nodeconf   -Wall -fPIC -g   -o iocom/extensions/nodeconf/CMakeFiles/nodeconfd.dir/code/nodeconf_data_struct.c.o   -c /coderoot/iocom/extensions/nodeconf/code/nodeconf_data_struct.c",
+  "file": "/coderoot/iocom/extensions/nodeconf/code/nodeconf_data_struct.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include -I/coderoot/nodeconf -I/coderoot/iocom -I/coderoot/iocom/extensions/nodeconf   -Wall -fPIC -g   -o iocom/extensions/nodeconf/CMakeFiles/nodeconfd.dir/code/nodeconf_lighthouse.c.o   -c /coderoot/iocom/extensions/nodeconf/code/nodeconf_lighthouse.c",
+  "file": "/coderoot/iocom/extensions/nodeconf/code/nodeconf_lighthouse.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include -I/coderoot/nodeconf -I/coderoot/iocom -I/coderoot/iocom/extensions/nodeconf   -Wall -fPIC -g   -o iocom/extensions/nodeconf/CMakeFiles/nodeconfd.dir/code/nodeconf_setup.c.o   -c /coderoot/iocom/extensions/nodeconf/code/nodeconf_setup.c",
+  "file": "/coderoot/iocom/extensions/nodeconf/code/nodeconf_setup.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include -I/coderoot/lighthouse -I/coderoot/iocom -I/coderoot/iocom/extensions/lighthouse   -Wall -fPIC -g   -o iocom/extensions/lighthouse/CMakeFiles/lighthoused.dir/code/lighthouse_client.c.o   -c /coderoot/iocom/extensions/lighthouse/code/lighthouse_client.c",
+  "file": "/coderoot/iocom/extensions/lighthouse/code/lighthouse_client.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include -I/coderoot/lighthouse -I/coderoot/iocom -I/coderoot/iocom/extensions/lighthouse   -Wall -fPIC -g   -o iocom/extensions/lighthouse/CMakeFiles/lighthoused.dir/code/lighthouse_server.c.o   -c /coderoot/iocom/extensions/lighthouse/code/lighthouse_server.c",
+  "file": "/coderoot/iocom/extensions/lighthouse/code/lighthouse_server.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include -I/coderoot/selectwifi -I/coderoot/iocom -I/coderoot/iocom/extensions/selectwifi   -Wall -fPIC -g   -o iocom/extensions/selectwifi/CMakeFiles/selectwifid.dir/code/selectwifi.c.o   -c /coderoot/iocom/extensions/selectwifi/code/selectwifi.c",
+  "file": "/coderoot/iocom/extensions/selectwifi/code/selectwifi.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include -I/coderoot/selectwifi -I/coderoot/iocom -I/coderoot/iocom/extensions/selectwifi   -Wall -fPIC -g   -o iocom/extensions/selectwifi/CMakeFiles/selectwifid.dir/code/selectwifi_config.c.o   -c /coderoot/iocom/extensions/selectwifi/code/selectwifi_config.c",
+  "file": "/coderoot/iocom/extensions/selectwifi/code/selectwifi_config.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include -I/coderoot/gazerbeam -I/coderoot/iocom -I/coderoot/iocom/extensions/gazerbeam -I/coderoot/pins   -Wall -fPIC -g   -o iocom/extensions/gazerbeam/CMakeFiles/gazerbeamd.dir/code/gazerbeam_minmax.c.o   -c /coderoot/iocom/extensions/gazerbeam/code/gazerbeam_minmax.c",
+  "file": "/coderoot/iocom/extensions/gazerbeam/code/gazerbeam_minmax.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include -I/coderoot/gazerbeam -I/coderoot/iocom -I/coderoot/iocom/extensions/gazerbeam -I/coderoot/pins   -Wall -fPIC -g   -o iocom/extensions/gazerbeam/CMakeFiles/gazerbeamd.dir/code/gazerbeam_receive.c.o   -c /coderoot/iocom/extensions/gazerbeam/code/gazerbeam_receive.c",
+  "file": "/coderoot/iocom/extensions/gazerbeam/code/gazerbeam_receive.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include -I/coderoot/gazerbeam -I/coderoot/iocom -I/coderoot/iocom/extensions/gazerbeam -I/coderoot/pins   -Wall -fPIC -g   -o iocom/extensions/gazerbeam/CMakeFiles/gazerbeamd.dir/code/gazerbeam_save_config.c.o   -c /coderoot/iocom/extensions/gazerbeam/code/gazerbeam_save_config.c",
+  "file": "/coderoot/iocom/extensions/gazerbeam/code/gazerbeam_save_config.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include -I/coderoot/pins -I/coderoot/iocom   -Wall -fPIC -g   -o pins/CMakeFiles/pinsd.dir/code/common/pins_parameters.c.o   -c /coderoot/pins/code/common/pins_parameters.c",
+  "file": "/coderoot/pins/code/common/pins_parameters.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include -I/coderoot/pins -I/coderoot/iocom   -Wall -fPIC -g   -o pins/CMakeFiles/pinsd.dir/code/common/pins_state.c.o   -c /coderoot/pins/code/common/pins_state.c",
+  "file": "/coderoot/pins/code/common/pins_state.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include -I/coderoot/pins -I/coderoot/iocom   -Wall -fPIC -g   -o pins/CMakeFiles/pinsd.dir/code/simulation/pins_basics.c.o   -c /coderoot/pins/code/simulation/pins_basics.c",
+  "file": "/coderoot/pins/code/simulation/pins_basics.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include -I/coderoot/pins -I/coderoot/iocom   -Wall -fPIC -g   -o pins/CMakeFiles/pinsd.dir/code/simulation/pins_interrupt.c.o   -c /coderoot/pins/code/simulation/pins_interrupt.c",
+  "file": "/coderoot/pins/code/simulation/pins_interrupt.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include -I/coderoot/pins -I/coderoot/iocom   -Wall -fPIC -g   -o pins/CMakeFiles/pinsd.dir/code/simulation/pins_timer.c.o   -c /coderoot/pins/code/simulation/pins_timer.c",
+  "file": "/coderoot/pins/code/simulation/pins_timer.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include -I/coderoot/pins -I/coderoot/iocom   -Wall -fPIC -g   -o pins/CMakeFiles/pinsd.dir/extensions/camera/common/pins_camera.c.o   -c /coderoot/pins/extensions/camera/common/pins_camera.c",
+  "file": "/coderoot/pins/extensions/camera/common/pins_camera.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include -I/coderoot/pins -I/coderoot/iocom   -Wall -fPIC -g   -o pins/CMakeFiles/pinsd.dir/extensions/camera/common/pins_esp32_camera.c.o   -c /coderoot/pins/extensions/camera/common/pins_esp32_camera.c",
+  "file": "/coderoot/pins/extensions/camera/common/pins_esp32_camera.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include -I/coderoot/pins -I/coderoot/iocom   -Wall -fPIC -g   -o pins/CMakeFiles/pinsd.dir/extensions/display/common/pins_display.c.o   -c /coderoot/pins/extensions/display/common/pins_display.c",
+  "file": "/coderoot/pins/extensions/display/common/pins_display.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include -I/coderoot/pins -I/coderoot/iocom   -Wall -fPIC -g   -o pins/CMakeFiles/pinsd.dir/extensions/iocom/common/pins_default_iocom_callback.c.o   -c /coderoot/pins/extensions/iocom/common/pins_default_iocom_callback.c",
+  "file": "/coderoot/pins/extensions/iocom/common/pins_default_iocom_callback.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include -I/coderoot/pins -I/coderoot/iocom   -Wall -fPIC -g   -o pins/CMakeFiles/pinsd.dir/extensions/iocom/common/pins_to_iocom.c.o   -c /coderoot/pins/extensions/iocom/common/pins_to_iocom.c",
+  "file": "/coderoot/pins/extensions/iocom/common/pins_to_iocom.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include -I/coderoot/pins -I/coderoot/iocom   -Wall -fPIC -g   -o pins/CMakeFiles/pinsd.dir/extensions/morse/common/pins_morse_code.c.o   -c /coderoot/pins/extensions/morse/common/pins_morse_code.c",
+  "file": "/coderoot/pins/extensions/morse/common/pins_morse_code.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include -I/coderoot/pins -I/coderoot/iocom   -Wall -fPIC -g   -o pins/CMakeFiles/pinsd.dir/extensions/morse/common/pins_morse_texts.c.o   -c /coderoot/pins/extensions/morse/common/pins_morse_texts.c",
+  "file": "/coderoot/pins/extensions/morse/common/pins_morse_texts.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include -I/coderoot/pins -I/coderoot/iocom   -Wall -fPIC -g   -o pins/CMakeFiles/pinsd.dir/extensions/camera/simulation/pins_sim_line_camera.c.o   -c /coderoot/pins/extensions/camera/simulation/pins_sim_line_camera.c",
+  "file": "/coderoot/pins/extensions/camera/simulation/pins_sim_line_camera.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include -I/coderoot/devicedir -I/coderoot/iocom -I/coderoot/iocom/extensions/devicedir   -Wall -fPIC -g   -o iocom/extensions/devicedir/CMakeFiles/devicedird.dir/code/devicedir_configure.c.o   -c /coderoot/iocom/extensions/devicedir/code/devicedir_configure.c",
+  "file": "/coderoot/iocom/extensions/devicedir/code/devicedir_configure.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include -I/coderoot/devicedir -I/coderoot/iocom -I/coderoot/iocom/extensions/devicedir   -Wall -fPIC -g   -o iocom/extensions/devicedir/CMakeFiles/devicedird.dir/code/devicedir_connections.c.o   -c /coderoot/iocom/extensions/devicedir/code/devicedir_connections.c",
+  "file": "/coderoot/iocom/extensions/devicedir/code/devicedir_connections.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include -I/coderoot/devicedir -I/coderoot/iocom -I/coderoot/iocom/extensions/devicedir   -Wall -fPIC -g   -o iocom/extensions/devicedir/CMakeFiles/devicedird.dir/code/devicedir_console.c.o   -c /coderoot/iocom/extensions/devicedir/code/devicedir_console.c",
+  "file": "/coderoot/iocom/extensions/devicedir/code/devicedir_console.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include -I/coderoot/devicedir -I/coderoot/iocom -I/coderoot/iocom/extensions/devicedir   -Wall -fPIC -g   -o iocom/extensions/devicedir/CMakeFiles/devicedird.dir/code/devicedir_dynamic.c.o   -c /coderoot/iocom/extensions/devicedir/code/devicedir_dynamic.c",
+  "file": "/coderoot/iocom/extensions/devicedir/code/devicedir_dynamic.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include -I/coderoot/devicedir -I/coderoot/iocom -I/coderoot/iocom/extensions/devicedir   -Wall -fPIC -g   -o iocom/extensions/devicedir/CMakeFiles/devicedird.dir/code/devicedir_end_points.c.o   -c /coderoot/iocom/extensions/devicedir/code/devicedir_end_points.c",
+  "file": "/coderoot/iocom/extensions/devicedir/code/devicedir_end_points.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include -I/coderoot/devicedir -I/coderoot/iocom -I/coderoot/iocom/extensions/devicedir   -Wall -fPIC -g   -o iocom/extensions/devicedir/CMakeFiles/devicedird.dir/code/devicedir_get_json.c.o   -c /coderoot/iocom/extensions/devicedir/code/devicedir_get_json.c",
+  "file": "/coderoot/iocom/extensions/devicedir/code/devicedir_get_json.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include -I/coderoot/devicedir -I/coderoot/iocom -I/coderoot/iocom/extensions/devicedir   -Wall -fPIC -g   -o iocom/extensions/devicedir/CMakeFiles/devicedird.dir/code/devicedir_helper.c.o   -c /coderoot/iocom/extensions/devicedir/code/devicedir_helper.c",
+  "file": "/coderoot/iocom/extensions/devicedir/code/devicedir_helper.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include -I/coderoot/devicedir -I/coderoot/iocom -I/coderoot/iocom/extensions/devicedir   -Wall -fPIC -g   -o iocom/extensions/devicedir/CMakeFiles/devicedird.dir/code/devicedir_info.c.o   -c /coderoot/iocom/extensions/devicedir/code/devicedir_info.c",
+  "file": "/coderoot/iocom/extensions/devicedir/code/devicedir_info.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include -I/coderoot/devicedir -I/coderoot/iocom -I/coderoot/iocom/extensions/devicedir   -Wall -fPIC -g   -o iocom/extensions/devicedir/CMakeFiles/devicedird.dir/code/devicedir_memory_blocks.c.o   -c /coderoot/iocom/extensions/devicedir/code/devicedir_memory_blocks.c",
+  "file": "/coderoot/iocom/extensions/devicedir/code/devicedir_memory_blocks.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include -I/coderoot/devicedir -I/coderoot/iocom -I/coderoot/iocom/extensions/devicedir   -Wall -fPIC -g   -o iocom/extensions/devicedir/CMakeFiles/devicedird.dir/code/devicedir_overdrives.c.o   -c /coderoot/iocom/extensions/devicedir/code/devicedir_overdrives.c",
+  "file": "/coderoot/iocom/extensions/devicedir/code/devicedir_overdrives.c"
+}
+]
