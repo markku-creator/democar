@@ -13,7 +13,7 @@ static os_ushort pins_outputs_FORWARD_prm[]= {PIN_RV, PIN_RV};
 static os_ushort pins_outputs_BACKWARD_prm[]= {PIN_RV, PIN_RV};
 
 /* DEMOCAR IO configuration structure */
-const pins_t pins =
+OS_FLASH_MEM pins_t pins =
 {
   {{1, &pins.inputs.gazerbeam}, /* inputs */
     {PIN_INPUT, 0, 39, pins_inputs_gazerbeam_prm, sizeof(pins_inputs_gazerbeam_prm)/sizeof(os_ushort), OS_NULL, OS_NULL PINS_INTCONF_PTR(pin_gazerbeam_intconf)} /* gazerbeam */
@@ -29,11 +29,11 @@ const pins_t pins =
 };
 
 /* List of pin type groups */
-static const PinGroupHdr *pins_group_list[] =
+static OS_FLASH_MEM PinGroupHdr * OS_FLASH_MEM pins_group_list[] =
 {
   &pins.inputs.hdr,
   &pins.outputs.hdr
 };
 
 /* DEMOCAR IO configuration top header structure */
-const IoPinsHdr pins_hdr = {pins_group_list, sizeof(pins_group_list)/sizeof(PinGroupHdr*)};
+OS_FLASH_MEM IoPinsHdr pins_hdr = {pins_group_list, sizeof(pins_group_list)/sizeof(PinGroupHdr*)};

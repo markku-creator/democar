@@ -54,8 +54,8 @@ democar_t;
 #define DEMOCAR_CONF_EXP_MBLK_SZ 272
 #define DEMOCAR_CONF_IMP_MBLK_SZ 276
 
-extern const democar_t democar;
-extern const iocDeviceHdr democar_hdr;
+extern OS_FLASH_MEM_H democar_t democar;
+extern OS_FLASH_MEM_H iocDeviceHdr democar_hdr;
 
 
 /* Array length defines. */

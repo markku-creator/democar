@@ -1,5 +1,5 @@
 /* This file is gerated by signals-to-c.py script, do not modify. */
-const struct democar_t democar = 
+OS_FLASH_MEM struct democar_t democar = 
 {
   {
     {"exp", &ioboard_exp, 4, DEMOCAR_EXP_MBLK_SZ, (iocSignal*)&democar.exp.LEFT},
@@ -38,7 +38,7 @@ const struct democar_t democar =
   }
 };
 
-static const iocMblkSignalHdr *democar_mblk_list[] =
+static OS_FLASH_MEM iocMblkSignalHdr * OS_FLASH_MEM democar_mblk_list[] =
 {
   &democar.exp.hdr,
   &democar.imp.hdr,
@@ -46,4 +46,4 @@ static const iocMblkSignalHdr *democar_mblk_list[] =
   &democar.conf_imp.hdr
 };
 
-const iocDeviceHdr democar_hdr = {(iocMblkSignalHdr**)democar_mblk_list, sizeof(democar_mblk_list)/sizeof(iocMblkSignalHdr*)};
+OS_FLASH_MEM iocDeviceHdr democar_hdr = {(iocMblkSignalHdr**)democar_mblk_list, sizeof(democar_mblk_list)/sizeof(iocMblkSignalHdr*)};

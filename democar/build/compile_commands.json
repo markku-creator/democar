@@ -19,12 +19,6 @@
 
 {
   "directory": "/coderoot/democar/democar/build",
-  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include   -Wall -fPIC -g   -o eosal/CMakeFiles/eosald.dir/code/defs/common/osal_global.c.o   -c /coderoot/eosal/code/defs/common/osal_global.c",
-  "file": "/coderoot/eosal/code/defs/common/osal_global.c"
-},
-
-{
-  "directory": "/coderoot/democar/democar/build",
   "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include   -Wall -fPIC -g   -o eosal/CMakeFiles/eosald.dir/code/error/common/osal_error.c.o   -c /coderoot/eosal/code/error/common/osal_error.c",
   "file": "/coderoot/eosal/code/error/common/osal_error.c"
 },
@@ -189,6 +183,12 @@
   "directory": "/coderoot/democar/democar/build",
   "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include   -Wall -fPIC -g   -o eosal/CMakeFiles/eosald.dir/code/console/linux/osal_sysconsole.c.o   -c /coderoot/eosal/code/console/linux/osal_sysconsole.c",
   "file": "/coderoot/eosal/code/console/linux/osal_sysconsole.c"
+},
+
+{
+  "directory": "/coderoot/democar/democar/build",
+  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include   -Wall -fPIC -g   -o eosal/CMakeFiles/eosald.dir/code/defs/linux/osal_linux_quiet.c.o   -c /coderoot/eosal/code/defs/linux/osal_linux_quiet.c",
+  "file": "/coderoot/eosal/code/defs/linux/osal_linux_quiet.c"
 },
 
 {
@@ -801,12 +801,6 @@
   "directory": "/coderoot/democar/democar/build",
   "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include -I/coderoot/pins -I/coderoot/iocom   -Wall -fPIC -g   -o pins/CMakeFiles/pinsd.dir/extensions/camera/common/pins_camera.c.o   -c /coderoot/pins/extensions/camera/common/pins_camera.c",
   "file": "/coderoot/pins/extensions/camera/common/pins_camera.c"
-},
-
-{
-  "directory": "/coderoot/democar/democar/build",
-  "command": "/bin/gcc-6 -DE_OSVER_linux -DE_OS_linux -I/coderoot/eosal -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include -I/coderoot/pins -I/coderoot/iocom   -Wall -fPIC -g   -o pins/CMakeFiles/pinsd.dir/extensions/camera/common/pins_esp32_camera.c.o   -c /coderoot/pins/extensions/camera/common/pins_esp32_camera.c",
-  "file": "/coderoot/pins/extensions/camera/common/pins_esp32_camera.c"
 },
 
 {
