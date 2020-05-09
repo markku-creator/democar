@@ -35,13 +35,6 @@
  */
 #include "devicedir.h"
 
-/* Enable wifi configuration using blue tooth (0 or 1) ?.
- */
-#define DEMOCAR_USE_SELECTWIFI 0
-#if DEMOCAR_USE_SELECTWIFI
-#include "selectwifi.h"
-#endif
-
 /* Use Gazerbeamm library to enable wifi configuration by Android phone's flash light and phototransistor
    connected to microcontroller (0 or 1) ?.
  */
@@ -192,10 +185,8 @@ osalStatus osal_main(
     prm.max_connections = IOBOARD_MAX_CONNECTIONS;
     prm.send_block_sz = DEMOCAR_EXP_MBLK_SZ;
     prm.receive_block_sz = DEMOCAR_IMP_MBLK_SZ;
-    prm.auto_synchronization = OS_FALSE;
     prm.pool = ioboard_pool;
     prm.pool_sz = sizeof(ioboard_pool);
-    prm.device_signal_hdr = &democar_hdr;
     prm.device_info = ioapp_signal_config;
     prm.device_info_sz = sizeof(ioapp_signal_config);
     prm.conf_send_block_sz = DEMOCAR_CONF_EXP_MBLK_SZ;
@@ -220,12 +211,6 @@ osalStatus osal_main(
     /* Make sure that control stream state is clear even after soft reboot.
      */
     ioc_init_control_stream(&ioc_ctrl_state, &ioc_ctrl_stream_params);
-
-    /* Enable wifi selection by blue tooth.
-     */
-#if DEMOCAR_USE_SELECTWIFI
-    ioc_initialize_selectwifi(OS_NULL);
-#endif
 
     /* Listen for UDP broadcasts with server address. Select IPv6 is our socket connection
        string starts with '[' (indicates IPv6 address).
@@ -432,10 +417,6 @@ void osal_main_cleanup(
     ioc_release_lighthouse_client(&lighthouse);
 #endif
 
-#if DEMOCAR_USE_SELECTWIFI
-    ioc_release_selectwifi();
-#endif
-
     ioboard_end_communication();
 #if IOBOARD_CTRL_CON & IOBOARD_CTRL_IS_TLS
     osal_tls_shutdown();
@@ -518,7 +499,7 @@ void ioboard_root_callback(
     {
         /* Call pins library extension to forward communication signal changes to IO pins.
          */
-        forward_signal_change_to_io_pins(handle, start_addr, end_addr, flags);
+        forward_signal_change_to_io_pins(handle, start_addr, end_addr, &democar_hdr, flags);
     }
 #endif
 }
