@@ -1,4 +1,6 @@
-/* This file is gerated by pins-to-c.py script, do not modify. */
+/* This file is gerated by pins_to_c.py script, do not modify. */
+#ifndef IOC_PINS_IO_INCLUDED
+#define IOC_PINS_IO_INCLUDED
 OSAL_C_HEADER_BEGINS
 
 /* DEMOCAR IO configuration structure */
@@ -39,3 +41,4 @@ extern OS_FLASH_MEM_H pins_t pins;
 #define PINS_OUTPUTS_BACKWARD "BACKWARD"
 
 OSAL_C_HEADER_ENDS
+#endif

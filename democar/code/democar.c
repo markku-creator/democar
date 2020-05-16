@@ -187,8 +187,8 @@ osalStatus osal_main(
     prm.receive_block_sz = DEMOCAR_IMP_MBLK_SZ;
     prm.pool = ioboard_pool;
     prm.pool_sz = sizeof(ioboard_pool);
-    prm.device_info = ioapp_signal_config;
-    prm.device_info_sz = sizeof(ioapp_signal_config);
+    prm.device_info = ioapp_signals_config;
+    prm.device_info_sz = sizeof(ioapp_signals_config);
     prm.conf_send_block_sz = DEMOCAR_CONF_EXP_MBLK_SZ;
     prm.conf_receive_block_sz = DEMOCAR_CONF_IMP_MBLK_SZ;
 #if DEMOCAR_USE_LIGHTHOUSE
@@ -230,7 +230,7 @@ osalStatus osal_main(
 #if PINS_DISPLAY
     initialize_display(&pins_display, &ioboard_root, OS_NULL);
 #else
-    initialize_morse_code(&morse, &pins.outputs.led_builtin,
+    initialize_morse_code(&morse, &pins.outputs.led_builtin, OS_NULL,
         MORSE_HANDLE_NET_STATE_NOTIFICATIONS);
 #endif
 

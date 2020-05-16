@@ -33,54 +33,6 @@
         ]
       }
     ]
-  },
-
-  {
-    "name": "conf_exp",
-    "title": "Exported configuration signals by 'democar' IO device",
-    "flags": "up,conf",
-    "groups": [
-      {
-        "name": "transfer to device",
-        "signals": [
-          {"name": "tod_state", "type": "char"},
-          {"name": "tod_tail", "type": "int"}
-        ]
-      },
-      {
-        "name": "transfer from device",
-        "signals": [
-          {"name": "frd_state", "type": "char"},
-          {"name": "frd_buf", "type": "uchar", "array": 257},
-          {"name": "frd_head", "type": "int"}
-        ]
-      }
-    ]
-  },
-
-  {
-    "name": "conf_imp",
-    "title": "Imported configuration signals by 'democar' IO device",
-    "flags": "down,conf",
-    "groups": [
-      {
-        "name": "transfer to device",
-        "signals": [
-          {"name": "tod_cmd", "type": "char"},
-          {"name": "tod_select", "type": "char"},
-          {"name": "tod_buf", "type": "uchar", "array": 257},
-          {"name": "tod_head", "type": "int"}
-        ]
-      },
-      {
-        "name": "transfer from device",
-        "signals": [
-          {"name": "frd_cmd", "type": "char"},
-          {"name": "frd_select", "type": "uchar"},
-          {"name": "frd_tail", "type": "int"}
-        ]
-      }
-    ]
   }
   ]
 }

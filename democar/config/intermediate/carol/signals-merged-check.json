@@ -1,9 +1,7 @@
 {
-"name": "democar",
 "mblk": [
 	{
 		"name": "exp",
-		"flags": "up",
 		"groups": [
 			{
 				"name": "device state",
@@ -26,11 +24,11 @@
 					}
 				]
 			}
-		]
+		],
+		"flags": "up"
 	},
 	{
 		"name": "imp",
-		"flags": "down",
 		"groups": [
 			{
 				"name": "controls",
@@ -53,11 +51,11 @@
 					}
 				]
 			}
-		]
+		],
+		"flags": "down"
 	},
 	{
 		"name": "conf_exp",
-		"flags": "up,conf",
 		"groups": [
 			{
 				"name": "transfer to device",
@@ -80,21 +78,21 @@
 						"type": "char"
 					},
 					{
+						"name": "frd_head",
+						"type": "int"
+					},
+					{
 						"name": "frd_buf",
 						"type": "uchar",
 						"array": 257
-					},
-					{
-						"name": "frd_head",
-						"type": "int"
 					}
 				]
 			}
-		]
+		],
+		"flags": "up,conf"
 	},
 	{
 		"name": "conf_imp",
-		"flags": "down,conf",
 		"groups": [
 			{
 				"name": "transfer to device",
@@ -108,13 +106,13 @@
 						"type": "char"
 					},
 					{
+						"name": "tod_head",
+						"type": "int"
+					},
+					{
 						"name": "tod_buf",
 						"type": "uchar",
 						"array": 257
-					},
-					{
-						"name": "tod_head",
-						"type": "int"
 					}
 				]
 			},
@@ -135,7 +133,9 @@
 					}
 				]
 			}
-		]
+		],
+		"flags": "down,conf"
 	}
-]
+],
+"name": "democar"
 }

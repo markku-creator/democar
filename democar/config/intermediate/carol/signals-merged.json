@@ -1,0 +1,145 @@
+{
+    "mblk": [
+        {
+            "title": "Exported by 'democar' IO device",
+            "name": "exp",
+            "groups": [
+                {
+                    "name": "device state",
+                    "signals": [
+                        {
+                            "name": "LEFT",
+                            "type": "boolean"
+                        },
+                        {
+                            "name": "RIGHT",
+                            "type": "boolean"
+                        },
+                        {
+                            "name": "FORWARD",
+                            "type": "boolean"
+                        },
+                        {
+                            "name": "BACKWARD",
+                            "type": "boolean"
+                        }
+                    ]
+                }
+            ],
+            "flags": "up"
+        },
+        {
+            "title": "Imported by 'democar' IO device",
+            "name": "imp",
+            "groups": [
+                {
+                    "name": "controls",
+                    "signals": [
+                        {
+                            "name": "LeftTurn",
+                            "type": "boolean"
+                        },
+                        {
+                            "name": "RightTurn",
+                            "type": "boolean"
+                        },
+                        {
+                            "name": "StraightForward",
+                            "type": "boolean"
+                        },
+                        {
+                            "name": "ForwardBackward",
+                            "type": "boolean"
+                        }
+                    ]
+                }
+            ],
+            "flags": "down"
+        },
+        {
+            "title": "IO device's configuration signal exports",
+            "name": "conf_exp",
+            "groups": [
+                {
+                    "name": "transfer to device",
+                    "signals": [
+                        {
+                            "name": "tod_state",
+                            "type": "char"
+                        },
+                        {
+                            "name": "tod_tail",
+                            "type": "int"
+                        }
+                    ]
+                },
+                {
+                    "name": "transfer from device",
+                    "signals": [
+                        {
+                            "name": "frd_state",
+                            "type": "char"
+                        },
+                        {
+                            "name": "frd_head",
+                            "type": "int"
+                        },
+                        {
+                            "name": "frd_buf",
+                            "type": "uchar",
+                            "array": 257
+                        }
+                    ]
+                }
+            ],
+            "flags": "up,conf"
+        },
+        {
+            "title": "IO device's configuration signal imports",
+            "name": "conf_imp",
+            "groups": [
+                {
+                    "name": "transfer to device",
+                    "signals": [
+                        {
+                            "name": "tod_cmd",
+                            "type": "char"
+                        },
+                        {
+                            "name": "tod_select",
+                            "type": "char"
+                        },
+                        {
+                            "name": "tod_head",
+                            "type": "int"
+                        },
+                        {
+                            "name": "tod_buf",
+                            "type": "uchar",
+                            "array": 257
+                        }
+                    ]
+                },
+                {
+                    "name": "transfer from device",
+                    "signals": [
+                        {
+                            "name": "frd_cmd",
+                            "type": "char"
+                        },
+                        {
+                            "name": "frd_select",
+                            "type": "uchar"
+                        },
+                        {
+                            "name": "frd_tail",
+                            "type": "int"
+                        }
+                    ]
+                }
+            ],
+            "flags": "down,conf"
+        }
+    ],
+    "name": "democar"
+}

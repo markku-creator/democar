@@ -27,7 +27,11 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY $ENV{E_BIN})
 # Set path to source files.
 set(E_SOURCE_PATH "$ENV{E_ROOT}/democar/${E_PROJECT}/code")
 
-# Include IO pin and communication signal configuration for this hardware.
+# Build C code from JSON configuration
+execute_process(COMMAND "$ENV{E_ROOT}/democar/${E_PROJECT}/scripts/config_to_c_code.py")
+
+# Include path for the project and for IO pin and communication signal configuration (for this hardware).
+include_directories("$ENV{E_ROOT}/democar/${E_PROJECT}")
 include_directories("$ENV{E_ROOT}/democar/${E_PROJECT}/config/include/${E_HW}")
 
 # Add iocom and pins to include path.

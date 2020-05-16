@@ -60,14 +60,14 @@ build CMakeFiles/democard.dir/code/config.c.o: C_COMPILER__democard ../code/conf
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = CMakeFiles/democard.dir/code/config.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include -I../config/include/carol -I/coderoot/iocom -I/coderoot/iocom/extensions/nodeconf -I/coderoot/iocom/extensions/lighthouse -I/coderoot/iocom/extensions/selectwifi -I/coderoot/iocom/extensions/gazerbeam -I/coderoot/pins -I/coderoot/iocom/extensions/devicedir
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include -I../ -I../config/include/carol -I/coderoot/iocom -I/coderoot/iocom/extensions/nodeconf -I/coderoot/iocom/extensions/lighthouse -I/coderoot/iocom/extensions/selectwifi -I/coderoot/iocom/extensions/gazerbeam -I/coderoot/pins -I/coderoot/iocom/extensions/devicedir
   OBJECT_DIR = CMakeFiles/democard.dir
   OBJECT_FILE_DIR = CMakeFiles/democard.dir/code
 build CMakeFiles/democard.dir/code/democar.c.o: C_COMPILER__democard ../code/democar.c || cmake_object_order_depends_target_democard
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = CMakeFiles/democard.dir/code/democar.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include -I../config/include/carol -I/coderoot/iocom -I/coderoot/iocom/extensions/nodeconf -I/coderoot/iocom/extensions/lighthouse -I/coderoot/iocom/extensions/selectwifi -I/coderoot/iocom/extensions/gazerbeam -I/coderoot/pins -I/coderoot/iocom/extensions/devicedir
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include -I../ -I../config/include/carol -I/coderoot/iocom -I/coderoot/iocom/extensions/nodeconf -I/coderoot/iocom/extensions/lighthouse -I/coderoot/iocom/extensions/selectwifi -I/coderoot/iocom/extensions/gazerbeam -I/coderoot/pins -I/coderoot/iocom/extensions/devicedir
   OBJECT_DIR = CMakeFiles/democard.dir
   OBJECT_FILE_DIR = CMakeFiles/democard.dir/code
 
@@ -123,630 +123,630 @@ build eosal/CMakeFiles/eosald.dir/code/debugcode/common/osal_debug.c.o: C_COMPIL
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = eosal/CMakeFiles/eosald.dir/code/debugcode/common/osal_debug.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include
   OBJECT_DIR = eosal/CMakeFiles/eosald.dir
   OBJECT_FILE_DIR = eosal/CMakeFiles/eosald.dir/code/debugcode/common
 build eosal/CMakeFiles/eosald.dir/code/defs/common/osal_global.c.o: C_COMPILER__eosald /coderoot/eosal/code/defs/common/osal_global.c || cmake_object_order_depends_target_eosald
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = eosal/CMakeFiles/eosald.dir/code/defs/common/osal_global.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include
   OBJECT_DIR = eosal/CMakeFiles/eosald.dir
   OBJECT_FILE_DIR = eosal/CMakeFiles/eosald.dir/code/defs/common
 build eosal/CMakeFiles/eosald.dir/code/error/common/osal_error.c.o: C_COMPILER__eosald /coderoot/eosal/code/error/common/osal_error.c || cmake_object_order_depends_target_eosald
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = eosal/CMakeFiles/eosald.dir/code/error/common/osal_error.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include
   OBJECT_DIR = eosal/CMakeFiles/eosald.dir
   OBJECT_FILE_DIR = eosal/CMakeFiles/eosald.dir/code/error/common
 build eosal/CMakeFiles/eosald.dir/code/initialize/common/osal_initialize.c.o: C_COMPILER__eosald /coderoot/eosal/code/initialize/common/osal_initialize.c || cmake_object_order_depends_target_eosald
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = eosal/CMakeFiles/eosald.dir/code/initialize/common/osal_initialize.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include
   OBJECT_DIR = eosal/CMakeFiles/eosald.dir
   OBJECT_FILE_DIR = eosal/CMakeFiles/eosald.dir/code/initialize/common
 build eosal/CMakeFiles/eosald.dir/code/int64/common/osal_int64.c.o: C_COMPILER__eosald /coderoot/eosal/code/int64/common/osal_int64.c || cmake_object_order_depends_target_eosald
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = eosal/CMakeFiles/eosald.dir/code/int64/common/osal_int64.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include
   OBJECT_DIR = eosal/CMakeFiles/eosald.dir
   OBJECT_FILE_DIR = eosal/CMakeFiles/eosald.dir/code/int64/common
 build eosal/CMakeFiles/eosald.dir/code/memory/common/osal_memclear.c.o: C_COMPILER__eosald /coderoot/eosal/code/memory/common/osal_memclear.c || cmake_object_order_depends_target_eosald
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = eosal/CMakeFiles/eosald.dir/code/memory/common/osal_memclear.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include
   OBJECT_DIR = eosal/CMakeFiles/eosald.dir
   OBJECT_FILE_DIR = eosal/CMakeFiles/eosald.dir/code/memory/common
 build eosal/CMakeFiles/eosald.dir/code/memory/common/osal_memcmp.c.o: C_COMPILER__eosald /coderoot/eosal/code/memory/common/osal_memcmp.c || cmake_object_order_depends_target_eosald
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = eosal/CMakeFiles/eosald.dir/code/memory/common/osal_memcmp.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include
   OBJECT_DIR = eosal/CMakeFiles/eosald.dir
   OBJECT_FILE_DIR = eosal/CMakeFiles/eosald.dir/code/memory/common
 build eosal/CMakeFiles/eosald.dir/code/memory/common/osal_memcpy.c.o: C_COMPILER__eosald /coderoot/eosal/code/memory/common/osal_memcpy.c || cmake_object_order_depends_target_eosald
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = eosal/CMakeFiles/eosald.dir/code/memory/common/osal_memcpy.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include
   OBJECT_DIR = eosal/CMakeFiles/eosald.dir
   OBJECT_FILE_DIR = eosal/CMakeFiles/eosald.dir/code/memory/common
 build eosal/CMakeFiles/eosald.dir/code/memory/common/osal_memmove.c.o: C_COMPILER__eosald /coderoot/eosal/code/memory/common/osal_memmove.c || cmake_object_order_depends_target_eosald
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = eosal/CMakeFiles/eosald.dir/code/memory/common/osal_memmove.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include
   OBJECT_DIR = eosal/CMakeFiles/eosald.dir
   OBJECT_FILE_DIR = eosal/CMakeFiles/eosald.dir/code/memory/common
 build eosal/CMakeFiles/eosald.dir/code/memory/common/osal_memory.c.o: C_COMPILER__eosald /coderoot/eosal/code/memory/common/osal_memory.c || cmake_object_order_depends_target_eosald
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = eosal/CMakeFiles/eosald.dir/code/memory/common/osal_memory.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include
   OBJECT_DIR = eosal/CMakeFiles/eosald.dir
   OBJECT_FILE_DIR = eosal/CMakeFiles/eosald.dir/code/memory/common
 build eosal/CMakeFiles/eosald.dir/code/mutex/common/osal_interrupt_list.c.o: C_COMPILER__eosald /coderoot/eosal/code/mutex/common/osal_interrupt_list.c || cmake_object_order_depends_target_eosald
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = eosal/CMakeFiles/eosald.dir/code/mutex/common/osal_interrupt_list.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include
   OBJECT_DIR = eosal/CMakeFiles/eosald.dir
   OBJECT_FILE_DIR = eosal/CMakeFiles/eosald.dir/code/mutex/common
 build eosal/CMakeFiles/eosald.dir/code/resmon/common/osal_resource_monitor.c.o: C_COMPILER__eosald /coderoot/eosal/code/resmon/common/osal_resource_monitor.c || cmake_object_order_depends_target_eosald
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = eosal/CMakeFiles/eosald.dir/code/resmon/common/osal_resource_monitor.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include
   OBJECT_DIR = eosal/CMakeFiles/eosald.dir
   OBJECT_FILE_DIR = eosal/CMakeFiles/eosald.dir/code/resmon/common
 build eosal/CMakeFiles/eosald.dir/code/string/common/osal_int_to_str.c.o: C_COMPILER__eosald /coderoot/eosal/code/string/common/osal_int_to_str.c || cmake_object_order_depends_target_eosald
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = eosal/CMakeFiles/eosald.dir/code/string/common/osal_int_to_str.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include
   OBJECT_DIR = eosal/CMakeFiles/eosald.dir
   OBJECT_FILE_DIR = eosal/CMakeFiles/eosald.dir/code/string/common
 build eosal/CMakeFiles/eosald.dir/code/string/common/osal_strchr.c.o: C_COMPILER__eosald /coderoot/eosal/code/string/common/osal_strchr.c || cmake_object_order_depends_target_eosald
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = eosal/CMakeFiles/eosald.dir/code/string/common/osal_strchr.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include
   OBJECT_DIR = eosal/CMakeFiles/eosald.dir
   OBJECT_FILE_DIR = eosal/CMakeFiles/eosald.dir/code/string/common
 build eosal/CMakeFiles/eosald.dir/code/string/common/osal_strcmp.c.o: C_COMPILER__eosald /coderoot/eosal/code/string/common/osal_strcmp.c || cmake_object_order_depends_target_eosald
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = eosal/CMakeFiles/eosald.dir/code/string/common/osal_strcmp.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include
   OBJECT_DIR = eosal/CMakeFiles/eosald.dir
   OBJECT_FILE_DIR = eosal/CMakeFiles/eosald.dir/code/string/common
 build eosal/CMakeFiles/eosald.dir/code/string/common/osal_strechr.c.o: C_COMPILER__eosald /coderoot/eosal/code/string/common/osal_strechr.c || cmake_object_order_depends_target_eosald
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = eosal/CMakeFiles/eosald.dir/code/string/common/osal_strechr.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include
   OBJECT_DIR = eosal/CMakeFiles/eosald.dir
   OBJECT_FILE_DIR = eosal/CMakeFiles/eosald.dir/code/string/common
 build eosal/CMakeFiles/eosald.dir/code/string/common/osal_strlen.c.o: C_COMPILER__eosald /coderoot/eosal/code/string/common/osal_strlen.c || cmake_object_order_depends_target_eosald
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = eosal/CMakeFiles/eosald.dir/code/string/common/osal_strlen.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include
   OBJECT_DIR = eosal/CMakeFiles/eosald.dir
   OBJECT_FILE_DIR = eosal/CMakeFiles/eosald.dir/code/string/common
 build eosal/CMakeFiles/eosald.dir/code/string/common/osal_strncat.c.o: C_COMPILER__eosald /coderoot/eosal/code/string/common/osal_strncat.c || cmake_object_order_depends_target_eosald
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = eosal/CMakeFiles/eosald.dir/code/string/common/osal_strncat.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include
   OBJECT_DIR = eosal/CMakeFiles/eosald.dir
   OBJECT_FILE_DIR = eosal/CMakeFiles/eosald.dir/code/string/common
 build eosal/CMakeFiles/eosald.dir/code/string/common/osal_strncpy.c.o: C_COMPILER__eosald /coderoot/eosal/code/string/common/osal_strncpy.c || cmake_object_order_depends_target_eosald
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = eosal/CMakeFiles/eosald.dir/code/string/common/osal_strncpy.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include
   OBJECT_DIR = eosal/CMakeFiles/eosald.dir
   OBJECT_FILE_DIR = eosal/CMakeFiles/eosald.dir/code/string/common
 build eosal/CMakeFiles/eosald.dir/code/string/common/osal_strnicmp.c.o: C_COMPILER__eosald /coderoot/eosal/code/string/common/osal_strnicmp.c || cmake_object_order_depends_target_eosald
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = eosal/CMakeFiles/eosald.dir/code/string/common/osal_strnicmp.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include
   OBJECT_DIR = eosal/CMakeFiles/eosald.dir
   OBJECT_FILE_DIR = eosal/CMakeFiles/eosald.dir/code/string/common
 build eosal/CMakeFiles/eosald.dir/code/string/common/osal_strstr.c.o: C_COMPILER__eosald /coderoot/eosal/code/string/common/osal_strstr.c || cmake_object_order_depends_target_eosald
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = eosal/CMakeFiles/eosald.dir/code/string/common/osal_strstr.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include
   OBJECT_DIR = eosal/CMakeFiles/eosald.dir
   OBJECT_FILE_DIR = eosal/CMakeFiles/eosald.dir/code/string/common
 build eosal/CMakeFiles/eosald.dir/code/utf16/common/osal_char_utf16_to_utf32.c.o: C_COMPILER__eosald /coderoot/eosal/code/utf16/common/osal_char_utf16_to_utf32.c || cmake_object_order_depends_target_eosald
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = eosal/CMakeFiles/eosald.dir/code/utf16/common/osal_char_utf16_to_utf32.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include
   OBJECT_DIR = eosal/CMakeFiles/eosald.dir
   OBJECT_FILE_DIR = eosal/CMakeFiles/eosald.dir/code/utf16/common
 build eosal/CMakeFiles/eosald.dir/code/utf16/common/osal_char_utf32_to_utf16.c.o: C_COMPILER__eosald /coderoot/eosal/code/utf16/common/osal_char_utf32_to_utf16.c || cmake_object_order_depends_target_eosald
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = eosal/CMakeFiles/eosald.dir/code/utf16/common/osal_char_utf32_to_utf16.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include
   OBJECT_DIR = eosal/CMakeFiles/eosald.dir
   OBJECT_FILE_DIR = eosal/CMakeFiles/eosald.dir/code/utf16/common
 build eosal/CMakeFiles/eosald.dir/code/utf16/common/osal_str_utf16_to_utf8.c.o: C_COMPILER__eosald /coderoot/eosal/code/utf16/common/osal_str_utf16_to_utf8.c || cmake_object_order_depends_target_eosald
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = eosal/CMakeFiles/eosald.dir/code/utf16/common/osal_str_utf16_to_utf8.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include
   OBJECT_DIR = eosal/CMakeFiles/eosald.dir
   OBJECT_FILE_DIR = eosal/CMakeFiles/eosald.dir/code/utf16/common
 build eosal/CMakeFiles/eosald.dir/code/utf16/common/osal_str_utf16_to_utf8_malloc.c.o: C_COMPILER__eosald /coderoot/eosal/code/utf16/common/osal_str_utf16_to_utf8_malloc.c || cmake_object_order_depends_target_eosald
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = eosal/CMakeFiles/eosald.dir/code/utf16/common/osal_str_utf16_to_utf8_malloc.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include
   OBJECT_DIR = eosal/CMakeFiles/eosald.dir
   OBJECT_FILE_DIR = eosal/CMakeFiles/eosald.dir/code/utf16/common
 build eosal/CMakeFiles/eosald.dir/code/utf16/common/osal_str_utf8_to_utf16.c.o: C_COMPILER__eosald /coderoot/eosal/code/utf16/common/osal_str_utf8_to_utf16.c || cmake_object_order_depends_target_eosald
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = eosal/CMakeFiles/eosald.dir/code/utf16/common/osal_str_utf8_to_utf16.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include
   OBJECT_DIR = eosal/CMakeFiles/eosald.dir
   OBJECT_FILE_DIR = eosal/CMakeFiles/eosald.dir/code/utf16/common
 build eosal/CMakeFiles/eosald.dir/code/utf16/common/osal_str_utf8_to_utf16_malloc.c.o: C_COMPILER__eosald /coderoot/eosal/code/utf16/common/osal_str_utf8_to_utf16_malloc.c || cmake_object_order_depends_target_eosald
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = eosal/CMakeFiles/eosald.dir/code/utf16/common/osal_str_utf8_to_utf16_malloc.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include
   OBJECT_DIR = eosal/CMakeFiles/eosald.dir
   OBJECT_FILE_DIR = eosal/CMakeFiles/eosald.dir/code/utf16/common
 build eosal/CMakeFiles/eosald.dir/code/utf32/common/osal_char_utf32_to_utf8.c.o: C_COMPILER__eosald /coderoot/eosal/code/utf32/common/osal_char_utf32_to_utf8.c || cmake_object_order_depends_target_eosald
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = eosal/CMakeFiles/eosald.dir/code/utf32/common/osal_char_utf32_to_utf8.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include
   OBJECT_DIR = eosal/CMakeFiles/eosald.dir
   OBJECT_FILE_DIR = eosal/CMakeFiles/eosald.dir/code/utf32/common
 build eosal/CMakeFiles/eosald.dir/code/utf32/common/osal_char_utf8_to_utf32.c.o: C_COMPILER__eosald /coderoot/eosal/code/utf32/common/osal_char_utf8_to_utf32.c || cmake_object_order_depends_target_eosald
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = eosal/CMakeFiles/eosald.dir/code/utf32/common/osal_char_utf8_to_utf32.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include
   OBJECT_DIR = eosal/CMakeFiles/eosald.dir
   OBJECT_FILE_DIR = eosal/CMakeFiles/eosald.dir/code/utf32/common
 build eosal/CMakeFiles/eosald.dir/code/console/linux/osal_sysconsole.c.o: C_COMPILER__eosald /coderoot/eosal/code/console/linux/osal_sysconsole.c || cmake_object_order_depends_target_eosald
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = eosal/CMakeFiles/eosald.dir/code/console/linux/osal_sysconsole.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include
   OBJECT_DIR = eosal/CMakeFiles/eosald.dir
   OBJECT_FILE_DIR = eosal/CMakeFiles/eosald.dir/code/console/linux
 build eosal/CMakeFiles/eosald.dir/code/defs/linux/osal_linux_quiet.c.o: C_COMPILER__eosald /coderoot/eosal/code/defs/linux/osal_linux_quiet.c || cmake_object_order_depends_target_eosald
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = eosal/CMakeFiles/eosald.dir/code/defs/linux/osal_linux_quiet.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include
   OBJECT_DIR = eosal/CMakeFiles/eosald.dir
   OBJECT_FILE_DIR = eosal/CMakeFiles/eosald.dir/code/defs/linux
 build eosal/CMakeFiles/eosald.dir/code/event/linux/osal_event.c.o: C_COMPILER__eosald /coderoot/eosal/code/event/linux/osal_event.c || cmake_object_order_depends_target_eosald
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = eosal/CMakeFiles/eosald.dir/code/event/linux/osal_event.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include
   OBJECT_DIR = eosal/CMakeFiles/eosald.dir
   OBJECT_FILE_DIR = eosal/CMakeFiles/eosald.dir/code/event/linux
 build eosal/CMakeFiles/eosald.dir/code/initialize/linux/osal_os_initialize.c.o: C_COMPILER__eosald /coderoot/eosal/code/initialize/linux/osal_os_initialize.c || cmake_object_order_depends_target_eosald
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = eosal/CMakeFiles/eosald.dir/code/initialize/linux/osal_os_initialize.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include
   OBJECT_DIR = eosal/CMakeFiles/eosald.dir
   OBJECT_FILE_DIR = eosal/CMakeFiles/eosald.dir/code/initialize/linux
 build eosal/CMakeFiles/eosald.dir/code/memory/linux/osal_sysmem.c.o: C_COMPILER__eosald /coderoot/eosal/code/memory/linux/osal_sysmem.c || cmake_object_order_depends_target_eosald
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = eosal/CMakeFiles/eosald.dir/code/memory/linux/osal_sysmem.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include
   OBJECT_DIR = eosal/CMakeFiles/eosald.dir
   OBJECT_FILE_DIR = eosal/CMakeFiles/eosald.dir/code/memory/linux
 build eosal/CMakeFiles/eosald.dir/code/mutex/linux/osal_mutex.c.o: C_COMPILER__eosald /coderoot/eosal/code/mutex/linux/osal_mutex.c || cmake_object_order_depends_target_eosald
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = eosal/CMakeFiles/eosald.dir/code/mutex/linux/osal_mutex.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include
   OBJECT_DIR = eosal/CMakeFiles/eosald.dir
   OBJECT_FILE_DIR = eosal/CMakeFiles/eosald.dir/code/mutex/linux
 build eosal/CMakeFiles/eosald.dir/code/thread/linux/osal_thread.c.o: C_COMPILER__eosald /coderoot/eosal/code/thread/linux/osal_thread.c || cmake_object_order_depends_target_eosald
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = eosal/CMakeFiles/eosald.dir/code/thread/linux/osal_thread.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include
   OBJECT_DIR = eosal/CMakeFiles/eosald.dir
   OBJECT_FILE_DIR = eosal/CMakeFiles/eosald.dir/code/thread/linux
 build eosal/CMakeFiles/eosald.dir/code/thread/linux/osal_thread_priority.c.o: C_COMPILER__eosald /coderoot/eosal/code/thread/linux/osal_thread_priority.c || cmake_object_order_depends_target_eosald
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = eosal/CMakeFiles/eosald.dir/code/thread/linux/osal_thread_priority.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include
   OBJECT_DIR = eosal/CMakeFiles/eosald.dir
   OBJECT_FILE_DIR = eosal/CMakeFiles/eosald.dir/code/thread/linux
 build eosal/CMakeFiles/eosald.dir/code/timer/linux/osal_timer.c.o: C_COMPILER__eosald /coderoot/eosal/code/timer/linux/osal_timer.c || cmake_object_order_depends_target_eosald
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = eosal/CMakeFiles/eosald.dir/code/timer/linux/osal_timer.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include
   OBJECT_DIR = eosal/CMakeFiles/eosald.dir
   OBJECT_FILE_DIR = eosal/CMakeFiles/eosald.dir/code/timer/linux
 build eosal/CMakeFiles/eosald.dir/extensions/checksum/common/osal_checksum.c.o: C_COMPILER__eosald /coderoot/eosal/extensions/checksum/common/osal_checksum.c || cmake_object_order_depends_target_eosald
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = eosal/CMakeFiles/eosald.dir/extensions/checksum/common/osal_checksum.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include
   OBJECT_DIR = eosal/CMakeFiles/eosald.dir
   OBJECT_FILE_DIR = eosal/CMakeFiles/eosald.dir/extensions/checksum/common
 build eosal/CMakeFiles/eosald.dir/extensions/filesys/common/osal_fileutil.c.o: C_COMPILER__eosald /coderoot/eosal/extensions/filesys/common/osal_fileutil.c || cmake_object_order_depends_target_eosald
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = eosal/CMakeFiles/eosald.dir/extensions/filesys/common/osal_fileutil.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include
   OBJECT_DIR = eosal/CMakeFiles/eosald.dir
   OBJECT_FILE_DIR = eosal/CMakeFiles/eosald.dir/extensions/filesys/common
 build eosal/CMakeFiles/eosald.dir/extensions/int64x/common/osal_int64_divide.c.o: C_COMPILER__eosald /coderoot/eosal/extensions/int64x/common/osal_int64_divide.c || cmake_object_order_depends_target_eosald
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = eosal/CMakeFiles/eosald.dir/extensions/int64x/common/osal_int64_divide.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include
   OBJECT_DIR = eosal/CMakeFiles/eosald.dir
   OBJECT_FILE_DIR = eosal/CMakeFiles/eosald.dir/extensions/int64x/common
 build eosal/CMakeFiles/eosald.dir/extensions/int64x/common/osal_int64_double.c.o: C_COMPILER__eosald /coderoot/eosal/extensions/int64x/common/osal_int64_double.c || cmake_object_order_depends_target_eosald
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = eosal/CMakeFiles/eosald.dir/extensions/int64x/common/osal_int64_double.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include
   OBJECT_DIR = eosal/CMakeFiles/eosald.dir
   OBJECT_FILE_DIR = eosal/CMakeFiles/eosald.dir/extensions/int64x/common
 build eosal/CMakeFiles/eosald.dir/extensions/int64x/common/osal_int64_multiply.c.o: C_COMPILER__eosald /coderoot/eosal/extensions/int64x/common/osal_int64_multiply.c || cmake_object_order_depends_target_eosald
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = eosal/CMakeFiles/eosald.dir/extensions/int64x/common/osal_int64_multiply.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include
   OBJECT_DIR = eosal/CMakeFiles/eosald.dir
   OBJECT_FILE_DIR = eosal/CMakeFiles/eosald.dir/extensions/int64x/common
 build eosal/CMakeFiles/eosald.dir/extensions/main/common/osal_simloop.c.o: C_COMPILER__eosald /coderoot/eosal/extensions/main/common/osal_simloop.c || cmake_object_order_depends_target_eosald
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = eosal/CMakeFiles/eosald.dir/extensions/main/common/osal_simloop.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include
   OBJECT_DIR = eosal/CMakeFiles/eosald.dir
   OBJECT_FILE_DIR = eosal/CMakeFiles/eosald.dir/extensions/main/common
 build eosal/CMakeFiles/eosald.dir/extensions/net/common/osal_lwip_bsd_dns.c.o: C_COMPILER__eosald /coderoot/eosal/extensions/net/common/osal_lwip_bsd_dns.c || cmake_object_order_depends_target_eosald
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = eosal/CMakeFiles/eosald.dir/extensions/net/common/osal_lwip_bsd_dns.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include
   OBJECT_DIR = eosal/CMakeFiles/eosald.dir
   OBJECT_FILE_DIR = eosal/CMakeFiles/eosald.dir/extensions/net/common
 build eosal/CMakeFiles/eosald.dir/extensions/net/common/osal_net_state.c.o: C_COMPILER__eosald /coderoot/eosal/extensions/net/common/osal_net_state.c || cmake_object_order_depends_target_eosald
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = eosal/CMakeFiles/eosald.dir/extensions/net/common/osal_net_state.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include
   OBJECT_DIR = eosal/CMakeFiles/eosald.dir
   OBJECT_FILE_DIR = eosal/CMakeFiles/eosald.dir/extensions/net/common
 build eosal/CMakeFiles/eosald.dir/extensions/persistent/common/osal_load_persistent.c.o: C_COMPILER__eosald /coderoot/eosal/extensions/persistent/common/osal_load_persistent.c || cmake_object_order_depends_target_eosald
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = eosal/CMakeFiles/eosald.dir/extensions/persistent/common/osal_load_persistent.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include
   OBJECT_DIR = eosal/CMakeFiles/eosald.dir
   OBJECT_FILE_DIR = eosal/CMakeFiles/eosald.dir/extensions/persistent/common
 build eosal/CMakeFiles/eosald.dir/extensions/persistent/common/osal_save_persistent.c.o: C_COMPILER__eosald /coderoot/eosal/extensions/persistent/common/osal_save_persistent.c || cmake_object_order_depends_target_eosald
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = eosal/CMakeFiles/eosald.dir/extensions/persistent/common/osal_save_persistent.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include
   OBJECT_DIR = eosal/CMakeFiles/eosald.dir
   OBJECT_FILE_DIR = eosal/CMakeFiles/eosald.dir/extensions/persistent/common
 build eosal/CMakeFiles/eosald.dir/extensions/rand/common/osal_rand.c.o: C_COMPILER__eosald /coderoot/eosal/extensions/rand/common/osal_rand.c || cmake_object_order_depends_target_eosald
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = eosal/CMakeFiles/eosald.dir/extensions/rand/common/osal_rand.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include
   OBJECT_DIR = eosal/CMakeFiles/eosald.dir
   OBJECT_FILE_DIR = eosal/CMakeFiles/eosald.dir/extensions/rand/common
 build eosal/CMakeFiles/eosald.dir/extensions/secret/common/osal_secret.c.o: C_COMPILER__eosald /coderoot/eosal/extensions/secret/common/osal_secret.c || cmake_object_order_depends_target_eosald
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = eosal/CMakeFiles/eosald.dir/extensions/secret/common/osal_secret.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include
   OBJECT_DIR = eosal/CMakeFiles/eosald.dir
   OBJECT_FILE_DIR = eosal/CMakeFiles/eosald.dir/extensions/secret/common
 build eosal/CMakeFiles/eosald.dir/extensions/serialize/common/osal_compress_json.c.o: C_COMPILER__eosald /coderoot/eosal/extensions/serialize/common/osal_compress_json.c || cmake_object_order_depends_target_eosald
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = eosal/CMakeFiles/eosald.dir/extensions/serialize/common/osal_compress_json.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include
   OBJECT_DIR = eosal/CMakeFiles/eosald.dir
   OBJECT_FILE_DIR = eosal/CMakeFiles/eosald.dir/extensions/serialize/common
 build eosal/CMakeFiles/eosald.dir/extensions/serialize/common/osal_intser.c.o: C_COMPILER__eosald /coderoot/eosal/extensions/serialize/common/osal_intser.c || cmake_object_order_depends_target_eosald
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = eosal/CMakeFiles/eosald.dir/extensions/serialize/common/osal_intser.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include
   OBJECT_DIR = eosal/CMakeFiles/eosald.dir
   OBJECT_FILE_DIR = eosal/CMakeFiles/eosald.dir/extensions/serialize/common
 build eosal/CMakeFiles/eosald.dir/extensions/serialize/common/osal_json_indexer.c.o: C_COMPILER__eosald /coderoot/eosal/extensions/serialize/common/osal_json_indexer.c || cmake_object_order_depends_target_eosald
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = eosal/CMakeFiles/eosald.dir/extensions/serialize/common/osal_json_indexer.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include
   OBJECT_DIR = eosal/CMakeFiles/eosald.dir
   OBJECT_FILE_DIR = eosal/CMakeFiles/eosald.dir/extensions/serialize/common
 build eosal/CMakeFiles/eosald.dir/extensions/serialize/common/osal_json_shared.c.o: C_COMPILER__eosald /coderoot/eosal/extensions/serialize/common/osal_json_shared.c || cmake_object_order_depends_target_eosald
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = eosal/CMakeFiles/eosald.dir/extensions/serialize/common/osal_json_shared.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include
   OBJECT_DIR = eosal/CMakeFiles/eosald.dir
   OBJECT_FILE_DIR = eosal/CMakeFiles/eosald.dir/extensions/serialize/common
 build eosal/CMakeFiles/eosald.dir/extensions/serialize/common/osal_uncompress_json.c.o: C_COMPILER__eosald /coderoot/eosal/extensions/serialize/common/osal_uncompress_json.c || cmake_object_order_depends_target_eosald
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = eosal/CMakeFiles/eosald.dir/extensions/serialize/common/osal_uncompress_json.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include
   OBJECT_DIR = eosal/CMakeFiles/eosald.dir
   OBJECT_FILE_DIR = eosal/CMakeFiles/eosald.dir/extensions/serialize/common
 build eosal/CMakeFiles/eosald.dir/extensions/socket/common/osal_socket_util.c.o: C_COMPILER__eosald /coderoot/eosal/extensions/socket/common/osal_socket_util.c || cmake_object_order_depends_target_eosald
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = eosal/CMakeFiles/eosald.dir/extensions/socket/common/osal_socket_util.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include
   OBJECT_DIR = eosal/CMakeFiles/eosald.dir
   OBJECT_FILE_DIR = eosal/CMakeFiles/eosald.dir/extensions/socket/common
 build eosal/CMakeFiles/eosald.dir/extensions/stream/common/osal_stream.c.o: C_COMPILER__eosald /coderoot/eosal/extensions/stream/common/osal_stream.c || cmake_object_order_depends_target_eosald
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = eosal/CMakeFiles/eosald.dir/extensions/stream/common/osal_stream.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include
   OBJECT_DIR = eosal/CMakeFiles/eosald.dir
   OBJECT_FILE_DIR = eosal/CMakeFiles/eosald.dir/extensions/stream/common
 build eosal/CMakeFiles/eosald.dir/extensions/stream/common/osal_stream_buffer.c.o: C_COMPILER__eosald /coderoot/eosal/extensions/stream/common/osal_stream_buffer.c || cmake_object_order_depends_target_eosald
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = eosal/CMakeFiles/eosald.dir/extensions/stream/common/osal_stream_buffer.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include
   OBJECT_DIR = eosal/CMakeFiles/eosald.dir
   OBJECT_FILE_DIR = eosal/CMakeFiles/eosald.dir/extensions/stream/common
 build eosal/CMakeFiles/eosald.dir/extensions/stream/common/osal_stream_defaults.c.o: C_COMPILER__eosald /coderoot/eosal/extensions/stream/common/osal_stream_defaults.c || cmake_object_order_depends_target_eosald
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = eosal/CMakeFiles/eosald.dir/extensions/stream/common/osal_stream_defaults.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include
   OBJECT_DIR = eosal/CMakeFiles/eosald.dir
   OBJECT_FILE_DIR = eosal/CMakeFiles/eosald.dir/extensions/stream/common
 build eosal/CMakeFiles/eosald.dir/extensions/stream/common/osal_stream_supplement.c.o: C_COMPILER__eosald /coderoot/eosal/extensions/stream/common/osal_stream_supplement.c || cmake_object_order_depends_target_eosald
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = eosal/CMakeFiles/eosald.dir/extensions/stream/common/osal_stream_supplement.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include
   OBJECT_DIR = eosal/CMakeFiles/eosald.dir
   OBJECT_FILE_DIR = eosal/CMakeFiles/eosald.dir/extensions/stream/common
 build eosal/CMakeFiles/eosald.dir/extensions/stringx/common/osal_hex_str_to_int.c.o: C_COMPILER__eosald /coderoot/eosal/extensions/stringx/common/osal_hex_str_to_int.c || cmake_object_order_depends_target_eosald
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = eosal/CMakeFiles/eosald.dir/extensions/stringx/common/osal_hex_str_to_int.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include
   OBJECT_DIR = eosal/CMakeFiles/eosald.dir
   OBJECT_FILE_DIR = eosal/CMakeFiles/eosald.dir/extensions/stringx/common
 build eosal/CMakeFiles/eosald.dir/extensions/stringx/common/osal_ip_from_str.c.o: C_COMPILER__eosald /coderoot/eosal/extensions/stringx/common/osal_ip_from_str.c || cmake_object_order_depends_target_eosald
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = eosal/CMakeFiles/eosald.dir/extensions/stringx/common/osal_ip_from_str.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include
   OBJECT_DIR = eosal/CMakeFiles/eosald.dir
   OBJECT_FILE_DIR = eosal/CMakeFiles/eosald.dir/extensions/stringx/common
 build eosal/CMakeFiles/eosald.dir/extensions/stringx/common/osal_ip_to_str.c.o: C_COMPILER__eosald /coderoot/eosal/extensions/stringx/common/osal_ip_to_str.c || cmake_object_order_depends_target_eosald
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = eosal/CMakeFiles/eosald.dir/extensions/stringx/common/osal_ip_to_str.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include
   OBJECT_DIR = eosal/CMakeFiles/eosald.dir
   OBJECT_FILE_DIR = eosal/CMakeFiles/eosald.dir/extensions/stringx/common
 build eosal/CMakeFiles/eosald.dir/extensions/stringx/common/osal_mac_from_str.c.o: C_COMPILER__eosald /coderoot/eosal/extensions/stringx/common/osal_mac_from_str.c || cmake_object_order_depends_target_eosald
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = eosal/CMakeFiles/eosald.dir/extensions/stringx/common/osal_mac_from_str.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include
   OBJECT_DIR = eosal/CMakeFiles/eosald.dir
   OBJECT_FILE_DIR = eosal/CMakeFiles/eosald.dir/extensions/stringx/common
 build eosal/CMakeFiles/eosald.dir/extensions/stringx/common/osal_pattern_match.c.o: C_COMPILER__eosald /coderoot/eosal/extensions/stringx/common/osal_pattern_match.c || cmake_object_order_depends_target_eosald
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = eosal/CMakeFiles/eosald.dir/extensions/stringx/common/osal_pattern_match.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include
   OBJECT_DIR = eosal/CMakeFiles/eosald.dir
   OBJECT_FILE_DIR = eosal/CMakeFiles/eosald.dir/extensions/stringx/common
 build eosal/CMakeFiles/eosald.dir/extensions/stringx/common/osal_str_get_item_int.c.o: C_COMPILER__eosald /coderoot/eosal/extensions/stringx/common/osal_str_get_item_int.c || cmake_object_order_depends_target_eosald
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = eosal/CMakeFiles/eosald.dir/extensions/stringx/common/osal_str_get_item_int.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include
   OBJECT_DIR = eosal/CMakeFiles/eosald.dir
   OBJECT_FILE_DIR = eosal/CMakeFiles/eosald.dir/extensions/stringx/common
 build eosal/CMakeFiles/eosald.dir/extensions/stringx/common/osal_str_get_item_value.c.o: C_COMPILER__eosald /coderoot/eosal/extensions/stringx/common/osal_str_get_item_value.c || cmake_object_order_depends_target_eosald
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = eosal/CMakeFiles/eosald.dir/extensions/stringx/common/osal_str_get_item_value.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include
   OBJECT_DIR = eosal/CMakeFiles/eosald.dir
   OBJECT_FILE_DIR = eosal/CMakeFiles/eosald.dir/extensions/stringx/common
 build eosal/CMakeFiles/eosald.dir/extensions/stringx/common/osal_str_get_next.c.o: C_COMPILER__eosald /coderoot/eosal/extensions/stringx/common/osal_str_get_next.c || cmake_object_order_depends_target_eosald
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = eosal/CMakeFiles/eosald.dir/extensions/stringx/common/osal_str_get_next.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include
   OBJECT_DIR = eosal/CMakeFiles/eosald.dir
   OBJECT_FILE_DIR = eosal/CMakeFiles/eosald.dir/extensions/stringx/common
 build eosal/CMakeFiles/eosald.dir/extensions/stringx/common/osal_str_to_bin.c.o: C_COMPILER__eosald /coderoot/eosal/extensions/stringx/common/osal_str_to_bin.c || cmake_object_order_depends_target_eosald
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = eosal/CMakeFiles/eosald.dir/extensions/stringx/common/osal_str_to_bin.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include
   OBJECT_DIR = eosal/CMakeFiles/eosald.dir
   OBJECT_FILE_DIR = eosal/CMakeFiles/eosald.dir/extensions/stringx/common
 build eosal/CMakeFiles/eosald.dir/extensions/stringx/common/osal_str_to_int.c.o: C_COMPILER__eosald /coderoot/eosal/extensions/stringx/common/osal_str_to_int.c || cmake_object_order_depends_target_eosald
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = eosal/CMakeFiles/eosald.dir/extensions/stringx/common/osal_str_to_int.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include
   OBJECT_DIR = eosal/CMakeFiles/eosald.dir
   OBJECT_FILE_DIR = eosal/CMakeFiles/eosald.dir/extensions/stringx/common
 build eosal/CMakeFiles/eosald.dir/extensions/stringx/common/osal_strcnv_float_to_str.c.o: C_COMPILER__eosald /coderoot/eosal/extensions/stringx/common/osal_strcnv_float_to_str.c || cmake_object_order_depends_target_eosald
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = eosal/CMakeFiles/eosald.dir/extensions/stringx/common/osal_strcnv_float_to_str.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include
   OBJECT_DIR = eosal/CMakeFiles/eosald.dir
   OBJECT_FILE_DIR = eosal/CMakeFiles/eosald.dir/extensions/stringx/common
 build eosal/CMakeFiles/eosald.dir/extensions/stringx/common/osal_strcnv_int64_to_str.c.o: C_COMPILER__eosald /coderoot/eosal/extensions/stringx/common/osal_strcnv_int64_to_str.c || cmake_object_order_depends_target_eosald
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = eosal/CMakeFiles/eosald.dir/extensions/stringx/common/osal_strcnv_int64_to_str.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include
   OBJECT_DIR = eosal/CMakeFiles/eosald.dir
   OBJECT_FILE_DIR = eosal/CMakeFiles/eosald.dir/extensions/stringx/common
 build eosal/CMakeFiles/eosald.dir/extensions/stringx/common/osal_strcnv_str_to_float.c.o: C_COMPILER__eosald /coderoot/eosal/extensions/stringx/common/osal_strcnv_str_to_float.c || cmake_object_order_depends_target_eosald
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = eosal/CMakeFiles/eosald.dir/extensions/stringx/common/osal_strcnv_str_to_float.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include
   OBJECT_DIR = eosal/CMakeFiles/eosald.dir
   OBJECT_FILE_DIR = eosal/CMakeFiles/eosald.dir/extensions/stringx/common
 build eosal/CMakeFiles/eosald.dir/extensions/stringx/common/osal_strcnv_str_to_int64.c.o: C_COMPILER__eosald /coderoot/eosal/extensions/stringx/common/osal_strcnv_str_to_int64.c || cmake_object_order_depends_target_eosald
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = eosal/CMakeFiles/eosald.dir/extensions/stringx/common/osal_strcnv_str_to_int64.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include
   OBJECT_DIR = eosal/CMakeFiles/eosald.dir
   OBJECT_FILE_DIR = eosal/CMakeFiles/eosald.dir/extensions/stringx/common
 build eosal/CMakeFiles/eosald.dir/extensions/typeid/common/osal_typeid.c.o: C_COMPILER__eosald /coderoot/eosal/extensions/typeid/common/osal_typeid.c || cmake_object_order_depends_target_eosald
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = eosal/CMakeFiles/eosald.dir/extensions/typeid/common/osal_typeid.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include
   OBJECT_DIR = eosal/CMakeFiles/eosald.dir
   OBJECT_FILE_DIR = eosal/CMakeFiles/eosald.dir/extensions/typeid/common
 build eosal/CMakeFiles/eosald.dir/extensions/filesys/linux/osal_dir.c.o: C_COMPILER__eosald /coderoot/eosal/extensions/filesys/linux/osal_dir.c || cmake_object_order_depends_target_eosald
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = eosal/CMakeFiles/eosald.dir/extensions/filesys/linux/osal_dir.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include
   OBJECT_DIR = eosal/CMakeFiles/eosald.dir
   OBJECT_FILE_DIR = eosal/CMakeFiles/eosald.dir/extensions/filesys/linux
 build eosal/CMakeFiles/eosald.dir/extensions/filesys/linux/osal_file.c.o: C_COMPILER__eosald /coderoot/eosal/extensions/filesys/linux/osal_file.c || cmake_object_order_depends_target_eosald
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = eosal/CMakeFiles/eosald.dir/extensions/filesys/linux/osal_file.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include
   OBJECT_DIR = eosal/CMakeFiles/eosald.dir
   OBJECT_FILE_DIR = eosal/CMakeFiles/eosald.dir/extensions/filesys/linux
 build eosal/CMakeFiles/eosald.dir/extensions/filesys/linux/osal_filectrl.c.o: C_COMPILER__eosald /coderoot/eosal/extensions/filesys/linux/osal_filectrl.c || cmake_object_order_depends_target_eosald
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = eosal/CMakeFiles/eosald.dir/extensions/filesys/linux/osal_filectrl.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include
   OBJECT_DIR = eosal/CMakeFiles/eosald.dir
   OBJECT_FILE_DIR = eosal/CMakeFiles/eosald.dir/extensions/filesys/linux
 build eosal/CMakeFiles/eosald.dir/extensions/filesys/linux/osal_filestat.c.o: C_COMPILER__eosald /coderoot/eosal/extensions/filesys/linux/osal_filestat.c || cmake_object_order_depends_target_eosald
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = eosal/CMakeFiles/eosald.dir/extensions/filesys/linux/osal_filestat.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include
   OBJECT_DIR = eosal/CMakeFiles/eosald.dir
   OBJECT_FILE_DIR = eosal/CMakeFiles/eosald.dir/extensions/filesys/linux
 build eosal/CMakeFiles/eosald.dir/extensions/main/linux/osal_main.c.o: C_COMPILER__eosald /coderoot/eosal/extensions/main/linux/osal_main.c || cmake_object_order_depends_target_eosald
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = eosal/CMakeFiles/eosald.dir/extensions/main/linux/osal_main.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include
   OBJECT_DIR = eosal/CMakeFiles/eosald.dir
   OBJECT_FILE_DIR = eosal/CMakeFiles/eosald.dir/extensions/main/linux
 build eosal/CMakeFiles/eosald.dir/extensions/net/linux/osal_dns.c.o: C_COMPILER__eosald /coderoot/eosal/extensions/net/linux/osal_dns.c || cmake_object_order_depends_target_eosald
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = eosal/CMakeFiles/eosald.dir/extensions/net/linux/osal_dns.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include
   OBJECT_DIR = eosal/CMakeFiles/eosald.dir
   OBJECT_FILE_DIR = eosal/CMakeFiles/eosald.dir/extensions/net/linux
 build eosal/CMakeFiles/eosald.dir/extensions/net/linux/osal_linux_ethernet_init.c.o: C_COMPILER__eosald /coderoot/eosal/extensions/net/linux/osal_linux_ethernet_init.c || cmake_object_order_depends_target_eosald
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = eosal/CMakeFiles/eosald.dir/extensions/net/linux/osal_linux_ethernet_init.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include
   OBJECT_DIR = eosal/CMakeFiles/eosald.dir
   OBJECT_FILE_DIR = eosal/CMakeFiles/eosald.dir/extensions/net/linux
 build eosal/CMakeFiles/eosald.dir/extensions/persistent/linux/osal_select_persistent.c.o: C_COMPILER__eosald /coderoot/eosal/extensions/persistent/linux/osal_select_persistent.c || cmake_object_order_depends_target_eosald
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = eosal/CMakeFiles/eosald.dir/extensions/persistent/linux/osal_select_persistent.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include
   OBJECT_DIR = eosal/CMakeFiles/eosald.dir
   OBJECT_FILE_DIR = eosal/CMakeFiles/eosald.dir/extensions/persistent/linux
 build eosal/CMakeFiles/eosald.dir/extensions/rand/linux/osal_rand_linux.c.o: C_COMPILER__eosald /coderoot/eosal/extensions/rand/linux/osal_rand_linux.c || cmake_object_order_depends_target_eosald
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = eosal/CMakeFiles/eosald.dir/extensions/rand/linux/osal_rand_linux.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include
   OBJECT_DIR = eosal/CMakeFiles/eosald.dir
   OBJECT_FILE_DIR = eosal/CMakeFiles/eosald.dir/extensions/rand/linux
 build eosal/CMakeFiles/eosald.dir/extensions/serial/linux/osal_serial.c.o: C_COMPILER__eosald /coderoot/eosal/extensions/serial/linux/osal_serial.c || cmake_object_order_depends_target_eosald
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = eosal/CMakeFiles/eosald.dir/extensions/serial/linux/osal_serial.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include
   OBJECT_DIR = eosal/CMakeFiles/eosald.dir
   OBJECT_FILE_DIR = eosal/CMakeFiles/eosald.dir/extensions/serial/linux
 build eosal/CMakeFiles/eosald.dir/extensions/serialize/linux/osal_float.c.o: C_COMPILER__eosald /coderoot/eosal/extensions/serialize/linux/osal_float.c || cmake_object_order_depends_target_eosald
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = eosal/CMakeFiles/eosald.dir/extensions/serialize/linux/osal_float.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include
   OBJECT_DIR = eosal/CMakeFiles/eosald.dir
   OBJECT_FILE_DIR = eosal/CMakeFiles/eosald.dir/extensions/serialize/linux
 build eosal/CMakeFiles/eosald.dir/extensions/socket/linux/osal_socket.c.o: C_COMPILER__eosald /coderoot/eosal/extensions/socket/linux/osal_socket.c || cmake_object_order_depends_target_eosald
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = eosal/CMakeFiles/eosald.dir/extensions/socket/linux/osal_socket.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include
   OBJECT_DIR = eosal/CMakeFiles/eosald.dir
   OBJECT_FILE_DIR = eosal/CMakeFiles/eosald.dir/extensions/socket/linux
 build eosal/CMakeFiles/eosald.dir/extensions/time/linux/osal_time.c.o: C_COMPILER__eosald /coderoot/eosal/extensions/time/linux/osal_time.c || cmake_object_order_depends_target_eosald
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = eosal/CMakeFiles/eosald.dir/extensions/time/linux/osal_time.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include
   OBJECT_DIR = eosal/CMakeFiles/eosald.dir
   OBJECT_FILE_DIR = eosal/CMakeFiles/eosald.dir/extensions/time/linux
 build eosal/CMakeFiles/eosald.dir/extensions/tls/mbedtls/osal_crypto_hash.c.o: C_COMPILER__eosald /coderoot/eosal/extensions/tls/mbedtls/osal_crypto_hash.c || cmake_object_order_depends_target_eosald
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = eosal/CMakeFiles/eosald.dir/extensions/tls/mbedtls/osal_crypto_hash.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include
   OBJECT_DIR = eosal/CMakeFiles/eosald.dir
   OBJECT_FILE_DIR = eosal/CMakeFiles/eosald.dir/extensions/tls/mbedtls
 build eosal/CMakeFiles/eosald.dir/extensions/tls/mbedtls/osal_mbedtls.c.o: C_COMPILER__eosald /coderoot/eosal/extensions/tls/mbedtls/osal_mbedtls.c || cmake_object_order_depends_target_eosald
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = eosal/CMakeFiles/eosald.dir/extensions/tls/mbedtls/osal_mbedtls.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include
   OBJECT_DIR = eosal/CMakeFiles/eosald.dir
   OBJECT_FILE_DIR = eosal/CMakeFiles/eosald.dir/extensions/tls/mbedtls
 
@@ -800,182 +800,182 @@ build iocom/CMakeFiles/iocomd.dir/code/ioc_authentication.c.o: C_COMPILER__iocom
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = iocom/CMakeFiles/iocomd.dir/code/ioc_authentication.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include -I/coderoot/iocom
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include -I/coderoot/iocom
   OBJECT_DIR = iocom/CMakeFiles/iocomd.dir
   OBJECT_FILE_DIR = iocom/CMakeFiles/iocomd.dir/code
 build iocom/CMakeFiles/iocomd.dir/code/ioc_brick.c.o: C_COMPILER__iocomd /coderoot/iocom/code/ioc_brick.c || cmake_object_order_depends_target_iocomd
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = iocom/CMakeFiles/iocomd.dir/code/ioc_brick.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include -I/coderoot/iocom
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include -I/coderoot/iocom
   OBJECT_DIR = iocom/CMakeFiles/iocomd.dir
   OBJECT_FILE_DIR = iocom/CMakeFiles/iocomd.dir/code
 build iocom/CMakeFiles/iocomd.dir/code/ioc_compress.c.o: C_COMPILER__iocomd /coderoot/iocom/code/ioc_compress.c || cmake_object_order_depends_target_iocomd
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = iocom/CMakeFiles/iocomd.dir/code/ioc_compress.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include -I/coderoot/iocom
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include -I/coderoot/iocom
   OBJECT_DIR = iocom/CMakeFiles/iocomd.dir
   OBJECT_FILE_DIR = iocom/CMakeFiles/iocomd.dir/code
 build iocom/CMakeFiles/iocomd.dir/code/ioc_connection.c.o: C_COMPILER__iocomd /coderoot/iocom/code/ioc_connection.c || cmake_object_order_depends_target_iocomd
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = iocom/CMakeFiles/iocomd.dir/code/ioc_connection.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include -I/coderoot/iocom
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include -I/coderoot/iocom
   OBJECT_DIR = iocom/CMakeFiles/iocomd.dir
   OBJECT_FILE_DIR = iocom/CMakeFiles/iocomd.dir/code
 build iocom/CMakeFiles/iocomd.dir/code/ioc_connection_receive.c.o: C_COMPILER__iocomd /coderoot/iocom/code/ioc_connection_receive.c || cmake_object_order_depends_target_iocomd
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = iocom/CMakeFiles/iocomd.dir/code/ioc_connection_receive.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include -I/coderoot/iocom
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include -I/coderoot/iocom
   OBJECT_DIR = iocom/CMakeFiles/iocomd.dir
   OBJECT_FILE_DIR = iocom/CMakeFiles/iocomd.dir/code
 build iocom/CMakeFiles/iocomd.dir/code/ioc_connection_send.c.o: C_COMPILER__iocomd /coderoot/iocom/code/ioc_connection_send.c || cmake_object_order_depends_target_iocomd
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = iocom/CMakeFiles/iocomd.dir/code/ioc_connection_send.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include -I/coderoot/iocom
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include -I/coderoot/iocom
   OBJECT_DIR = iocom/CMakeFiles/iocomd.dir
   OBJECT_FILE_DIR = iocom/CMakeFiles/iocomd.dir/code
 build iocom/CMakeFiles/iocomd.dir/code/ioc_end_point.c.o: C_COMPILER__iocomd /coderoot/iocom/code/ioc_end_point.c || cmake_object_order_depends_target_iocomd
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = iocom/CMakeFiles/iocomd.dir/code/ioc_end_point.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include -I/coderoot/iocom
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include -I/coderoot/iocom
   OBJECT_DIR = iocom/CMakeFiles/iocomd.dir
   OBJECT_FILE_DIR = iocom/CMakeFiles/iocomd.dir/code
 build iocom/CMakeFiles/iocomd.dir/code/ioc_establish_serial_connection.c.o: C_COMPILER__iocomd /coderoot/iocom/code/ioc_establish_serial_connection.c || cmake_object_order_depends_target_iocomd
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = iocom/CMakeFiles/iocomd.dir/code/ioc_establish_serial_connection.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include -I/coderoot/iocom
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include -I/coderoot/iocom
   OBJECT_DIR = iocom/CMakeFiles/iocomd.dir
   OBJECT_FILE_DIR = iocom/CMakeFiles/iocomd.dir/code
 build iocom/CMakeFiles/iocomd.dir/code/ioc_handle.c.o: C_COMPILER__iocomd /coderoot/iocom/code/ioc_handle.c || cmake_object_order_depends_target_iocomd
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = iocom/CMakeFiles/iocomd.dir/code/ioc_handle.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include -I/coderoot/iocom
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include -I/coderoot/iocom
   OBJECT_DIR = iocom/CMakeFiles/iocomd.dir
   OBJECT_FILE_DIR = iocom/CMakeFiles/iocomd.dir/code
 build iocom/CMakeFiles/iocomd.dir/code/ioc_ioboard.c.o: C_COMPILER__iocomd /coderoot/iocom/code/ioc_ioboard.c || cmake_object_order_depends_target_iocomd
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = iocom/CMakeFiles/iocomd.dir/code/ioc_ioboard.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include -I/coderoot/iocom
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include -I/coderoot/iocom
   OBJECT_DIR = iocom/CMakeFiles/iocomd.dir
   OBJECT_FILE_DIR = iocom/CMakeFiles/iocomd.dir/code
 build iocom/CMakeFiles/iocomd.dir/code/ioc_memory.c.o: C_COMPILER__iocomd /coderoot/iocom/code/ioc_memory.c || cmake_object_order_depends_target_iocomd
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = iocom/CMakeFiles/iocomd.dir/code/ioc_memory.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include -I/coderoot/iocom
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include -I/coderoot/iocom
   OBJECT_DIR = iocom/CMakeFiles/iocomd.dir
   OBJECT_FILE_DIR = iocom/CMakeFiles/iocomd.dir/code
 build iocom/CMakeFiles/iocomd.dir/code/ioc_memory_block.c.o: C_COMPILER__iocomd /coderoot/iocom/code/ioc_memory_block.c || cmake_object_order_depends_target_iocomd
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = iocom/CMakeFiles/iocomd.dir/code/ioc_memory_block.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include -I/coderoot/iocom
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include -I/coderoot/iocom
   OBJECT_DIR = iocom/CMakeFiles/iocomd.dir
   OBJECT_FILE_DIR = iocom/CMakeFiles/iocomd.dir/code
 build iocom/CMakeFiles/iocomd.dir/code/ioc_memory_block_info.c.o: C_COMPILER__iocomd /coderoot/iocom/code/ioc_memory_block_info.c || cmake_object_order_depends_target_iocomd
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = iocom/CMakeFiles/iocomd.dir/code/ioc_memory_block_info.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include -I/coderoot/iocom
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include -I/coderoot/iocom
   OBJECT_DIR = iocom/CMakeFiles/iocomd.dir
   OBJECT_FILE_DIR = iocom/CMakeFiles/iocomd.dir/code
 build iocom/CMakeFiles/iocomd.dir/code/ioc_root.c.o: C_COMPILER__iocomd /coderoot/iocom/code/ioc_root.c || cmake_object_order_depends_target_iocomd
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = iocom/CMakeFiles/iocomd.dir/code/ioc_root.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include -I/coderoot/iocom
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include -I/coderoot/iocom
   OBJECT_DIR = iocom/CMakeFiles/iocomd.dir
   OBJECT_FILE_DIR = iocom/CMakeFiles/iocomd.dir/code
 build iocom/CMakeFiles/iocomd.dir/code/ioc_signal.c.o: C_COMPILER__iocomd /coderoot/iocom/code/ioc_signal.c || cmake_object_order_depends_target_iocomd
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = iocom/CMakeFiles/iocomd.dir/code/ioc_signal.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include -I/coderoot/iocom
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include -I/coderoot/iocom
   OBJECT_DIR = iocom/CMakeFiles/iocomd.dir
   OBJECT_FILE_DIR = iocom/CMakeFiles/iocomd.dir/code
 build iocom/CMakeFiles/iocomd.dir/code/ioc_source_buffer.c.o: C_COMPILER__iocomd /coderoot/iocom/code/ioc_source_buffer.c || cmake_object_order_depends_target_iocomd
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = iocom/CMakeFiles/iocomd.dir/code/ioc_source_buffer.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include -I/coderoot/iocom
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include -I/coderoot/iocom
   OBJECT_DIR = iocom/CMakeFiles/iocomd.dir
   OBJECT_FILE_DIR = iocom/CMakeFiles/iocomd.dir/code
 build iocom/CMakeFiles/iocomd.dir/code/ioc_streamer.c.o: C_COMPILER__iocomd /coderoot/iocom/code/ioc_streamer.c || cmake_object_order_depends_target_iocomd
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = iocom/CMakeFiles/iocomd.dir/code/ioc_streamer.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include -I/coderoot/iocom
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include -I/coderoot/iocom
   OBJECT_DIR = iocom/CMakeFiles/iocomd.dir
   OBJECT_FILE_DIR = iocom/CMakeFiles/iocomd.dir/code
 build iocom/CMakeFiles/iocomd.dir/code/ioc_target_buffer.c.o: C_COMPILER__iocomd /coderoot/iocom/code/ioc_target_buffer.c || cmake_object_order_depends_target_iocomd
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = iocom/CMakeFiles/iocomd.dir/code/ioc_target_buffer.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include -I/coderoot/iocom
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include -I/coderoot/iocom
   OBJECT_DIR = iocom/CMakeFiles/iocomd.dir
   OBJECT_FILE_DIR = iocom/CMakeFiles/iocomd.dir/code
 build iocom/CMakeFiles/iocomd.dir/extensions/dynamicio/ioc_dyn_mblk_list.c.o: C_COMPILER__iocomd /coderoot/iocom/extensions/dynamicio/ioc_dyn_mblk_list.c || cmake_object_order_depends_target_iocomd
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = iocom/CMakeFiles/iocomd.dir/extensions/dynamicio/ioc_dyn_mblk_list.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include -I/coderoot/iocom
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include -I/coderoot/iocom
   OBJECT_DIR = iocom/CMakeFiles/iocomd.dir
   OBJECT_FILE_DIR = iocom/CMakeFiles/iocomd.dir/extensions/dynamicio
 build iocom/CMakeFiles/iocomd.dir/extensions/dynamicio/ioc_dyn_network.c.o: C_COMPILER__iocomd /coderoot/iocom/extensions/dynamicio/ioc_dyn_network.c || cmake_object_order_depends_target_iocomd
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = iocom/CMakeFiles/iocomd.dir/extensions/dynamicio/ioc_dyn_network.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include -I/coderoot/iocom
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include -I/coderoot/iocom
   OBJECT_DIR = iocom/CMakeFiles/iocomd.dir
   OBJECT_FILE_DIR = iocom/CMakeFiles/iocomd.dir/extensions/dynamicio
 build iocom/CMakeFiles/iocomd.dir/extensions/dynamicio/ioc_dyn_queue.c.o: C_COMPILER__iocomd /coderoot/iocom/extensions/dynamicio/ioc_dyn_queue.c || cmake_object_order_depends_target_iocomd
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = iocom/CMakeFiles/iocomd.dir/extensions/dynamicio/ioc_dyn_queue.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include -I/coderoot/iocom
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include -I/coderoot/iocom
   OBJECT_DIR = iocom/CMakeFiles/iocomd.dir
   OBJECT_FILE_DIR = iocom/CMakeFiles/iocomd.dir/extensions/dynamicio
 build iocom/CMakeFiles/iocomd.dir/extensions/dynamicio/ioc_dyn_root.c.o: C_COMPILER__iocomd /coderoot/iocom/extensions/dynamicio/ioc_dyn_root.c || cmake_object_order_depends_target_iocomd
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = iocom/CMakeFiles/iocomd.dir/extensions/dynamicio/ioc_dyn_root.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include -I/coderoot/iocom
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include -I/coderoot/iocom
   OBJECT_DIR = iocom/CMakeFiles/iocomd.dir
   OBJECT_FILE_DIR = iocom/CMakeFiles/iocomd.dir/extensions/dynamicio
 build iocom/CMakeFiles/iocomd.dir/extensions/dynamicio/ioc_dyn_signal.c.o: C_COMPILER__iocomd /coderoot/iocom/extensions/dynamicio/ioc_dyn_signal.c || cmake_object_order_depends_target_iocomd
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = iocom/CMakeFiles/iocomd.dir/extensions/dynamicio/ioc_dyn_signal.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include -I/coderoot/iocom
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include -I/coderoot/iocom
   OBJECT_DIR = iocom/CMakeFiles/iocomd.dir
   OBJECT_FILE_DIR = iocom/CMakeFiles/iocomd.dir/extensions/dynamicio
 build iocom/CMakeFiles/iocomd.dir/extensions/dynamicio/ioc_dyn_stream.c.o: C_COMPILER__iocomd /coderoot/iocom/extensions/dynamicio/ioc_dyn_stream.c || cmake_object_order_depends_target_iocomd
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = iocom/CMakeFiles/iocomd.dir/extensions/dynamicio/ioc_dyn_stream.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include -I/coderoot/iocom
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include -I/coderoot/iocom
   OBJECT_DIR = iocom/CMakeFiles/iocomd.dir
   OBJECT_FILE_DIR = iocom/CMakeFiles/iocomd.dir/extensions/dynamicio
 build iocom/CMakeFiles/iocomd.dir/extensions/dynamicio/ioc_identifiers.c.o: C_COMPILER__iocomd /coderoot/iocom/extensions/dynamicio/ioc_identifiers.c || cmake_object_order_depends_target_iocomd
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = iocom/CMakeFiles/iocomd.dir/extensions/dynamicio/ioc_identifiers.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include -I/coderoot/iocom
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include -I/coderoot/iocom
   OBJECT_DIR = iocom/CMakeFiles/iocomd.dir
   OBJECT_FILE_DIR = iocom/CMakeFiles/iocomd.dir/extensions/dynamicio
 build iocom/CMakeFiles/iocomd.dir/extensions/dynamicio/ioc_remove_mblk_list.c.o: C_COMPILER__iocomd /coderoot/iocom/extensions/dynamicio/ioc_remove_mblk_list.c || cmake_object_order_depends_target_iocomd
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = iocom/CMakeFiles/iocomd.dir/extensions/dynamicio/ioc_remove_mblk_list.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include -I/coderoot/iocom
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include -I/coderoot/iocom
   OBJECT_DIR = iocom/CMakeFiles/iocomd.dir
   OBJECT_FILE_DIR = iocom/CMakeFiles/iocomd.dir/extensions/dynamicio
 
@@ -1029,28 +1029,28 @@ build iocom/extensions/nodeconf/CMakeFiles/nodeconfd.dir/code/nodeconf_connect.c
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = iocom/extensions/nodeconf/CMakeFiles/nodeconfd.dir/code/nodeconf_connect.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include -I/coderoot/nodeconf -I/coderoot/iocom -I/coderoot/iocom/extensions/nodeconf
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include -I/coderoot/iocom -I/coderoot/iocom/extensions/nodeconf
   OBJECT_DIR = iocom/extensions/nodeconf/CMakeFiles/nodeconfd.dir
   OBJECT_FILE_DIR = iocom/extensions/nodeconf/CMakeFiles/nodeconfd.dir/code
 build iocom/extensions/nodeconf/CMakeFiles/nodeconfd.dir/code/nodeconf_data_struct.c.o: C_COMPILER__nodeconfd /coderoot/iocom/extensions/nodeconf/code/nodeconf_data_struct.c || cmake_object_order_depends_target_nodeconfd
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = iocom/extensions/nodeconf/CMakeFiles/nodeconfd.dir/code/nodeconf_data_struct.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include -I/coderoot/nodeconf -I/coderoot/iocom -I/coderoot/iocom/extensions/nodeconf
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include -I/coderoot/iocom -I/coderoot/iocom/extensions/nodeconf
   OBJECT_DIR = iocom/extensions/nodeconf/CMakeFiles/nodeconfd.dir
   OBJECT_FILE_DIR = iocom/extensions/nodeconf/CMakeFiles/nodeconfd.dir/code
 build iocom/extensions/nodeconf/CMakeFiles/nodeconfd.dir/code/nodeconf_lighthouse.c.o: C_COMPILER__nodeconfd /coderoot/iocom/extensions/nodeconf/code/nodeconf_lighthouse.c || cmake_object_order_depends_target_nodeconfd
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = iocom/extensions/nodeconf/CMakeFiles/nodeconfd.dir/code/nodeconf_lighthouse.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include -I/coderoot/nodeconf -I/coderoot/iocom -I/coderoot/iocom/extensions/nodeconf
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include -I/coderoot/iocom -I/coderoot/iocom/extensions/nodeconf
   OBJECT_DIR = iocom/extensions/nodeconf/CMakeFiles/nodeconfd.dir
   OBJECT_FILE_DIR = iocom/extensions/nodeconf/CMakeFiles/nodeconfd.dir/code
 build iocom/extensions/nodeconf/CMakeFiles/nodeconfd.dir/code/nodeconf_setup.c.o: C_COMPILER__nodeconfd /coderoot/iocom/extensions/nodeconf/code/nodeconf_setup.c || cmake_object_order_depends_target_nodeconfd
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = iocom/extensions/nodeconf/CMakeFiles/nodeconfd.dir/code/nodeconf_setup.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include -I/coderoot/nodeconf -I/coderoot/iocom -I/coderoot/iocom/extensions/nodeconf
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include -I/coderoot/iocom -I/coderoot/iocom/extensions/nodeconf
   OBJECT_DIR = iocom/extensions/nodeconf/CMakeFiles/nodeconfd.dir
   OBJECT_FILE_DIR = iocom/extensions/nodeconf/CMakeFiles/nodeconfd.dir/code
 
@@ -1104,14 +1104,14 @@ build iocom/extensions/lighthouse/CMakeFiles/lighthoused.dir/code/lighthouse_cli
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = iocom/extensions/lighthouse/CMakeFiles/lighthoused.dir/code/lighthouse_client.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include -I/coderoot/lighthouse -I/coderoot/iocom -I/coderoot/iocom/extensions/lighthouse
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include -I/coderoot/iocom -I/coderoot/iocom/extensions/lighthouse
   OBJECT_DIR = iocom/extensions/lighthouse/CMakeFiles/lighthoused.dir
   OBJECT_FILE_DIR = iocom/extensions/lighthouse/CMakeFiles/lighthoused.dir/code
 build iocom/extensions/lighthouse/CMakeFiles/lighthoused.dir/code/lighthouse_server.c.o: C_COMPILER__lighthoused /coderoot/iocom/extensions/lighthouse/code/lighthouse_server.c || cmake_object_order_depends_target_lighthoused
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = iocom/extensions/lighthouse/CMakeFiles/lighthoused.dir/code/lighthouse_server.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include -I/coderoot/lighthouse -I/coderoot/iocom -I/coderoot/iocom/extensions/lighthouse
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include -I/coderoot/iocom -I/coderoot/iocom/extensions/lighthouse
   OBJECT_DIR = iocom/extensions/lighthouse/CMakeFiles/lighthoused.dir
   OBJECT_FILE_DIR = iocom/extensions/lighthouse/CMakeFiles/lighthoused.dir/code
 
@@ -1165,14 +1165,14 @@ build iocom/extensions/selectwifi/CMakeFiles/selectwifid.dir/code/selectwifi.c.o
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = iocom/extensions/selectwifi/CMakeFiles/selectwifid.dir/code/selectwifi.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include -I/coderoot/selectwifi -I/coderoot/iocom -I/coderoot/iocom/extensions/selectwifi
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include -I/coderoot/iocom -I/coderoot/iocom/extensions/selectwifi -I/coderoot/iocom/extensions/selectwifi/config/include/generic
   OBJECT_DIR = iocom/extensions/selectwifi/CMakeFiles/selectwifid.dir
   OBJECT_FILE_DIR = iocom/extensions/selectwifi/CMakeFiles/selectwifid.dir/code
 build iocom/extensions/selectwifi/CMakeFiles/selectwifid.dir/code/selectwifi_config.c.o: C_COMPILER__selectwifid /coderoot/iocom/extensions/selectwifi/code/selectwifi_config.c || cmake_object_order_depends_target_selectwifid
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = iocom/extensions/selectwifi/CMakeFiles/selectwifid.dir/code/selectwifi_config.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include -I/coderoot/selectwifi -I/coderoot/iocom -I/coderoot/iocom/extensions/selectwifi
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include -I/coderoot/iocom -I/coderoot/iocom/extensions/selectwifi -I/coderoot/iocom/extensions/selectwifi/config/include/generic
   OBJECT_DIR = iocom/extensions/selectwifi/CMakeFiles/selectwifid.dir
   OBJECT_FILE_DIR = iocom/extensions/selectwifi/CMakeFiles/selectwifid.dir/code
 
@@ -1226,21 +1226,21 @@ build iocom/extensions/gazerbeam/CMakeFiles/gazerbeamd.dir/code/gazerbeam_minmax
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = iocom/extensions/gazerbeam/CMakeFiles/gazerbeamd.dir/code/gazerbeam_minmax.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include -I/coderoot/gazerbeam -I/coderoot/iocom -I/coderoot/iocom/extensions/gazerbeam -I/coderoot/pins
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include -I/coderoot/iocom -I/coderoot/iocom/extensions/gazerbeam -I/coderoot/pins
   OBJECT_DIR = iocom/extensions/gazerbeam/CMakeFiles/gazerbeamd.dir
   OBJECT_FILE_DIR = iocom/extensions/gazerbeam/CMakeFiles/gazerbeamd.dir/code
 build iocom/extensions/gazerbeam/CMakeFiles/gazerbeamd.dir/code/gazerbeam_receive.c.o: C_COMPILER__gazerbeamd /coderoot/iocom/extensions/gazerbeam/code/gazerbeam_receive.c || cmake_object_order_depends_target_gazerbeamd
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = iocom/extensions/gazerbeam/CMakeFiles/gazerbeamd.dir/code/gazerbeam_receive.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include -I/coderoot/gazerbeam -I/coderoot/iocom -I/coderoot/iocom/extensions/gazerbeam -I/coderoot/pins
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include -I/coderoot/iocom -I/coderoot/iocom/extensions/gazerbeam -I/coderoot/pins
   OBJECT_DIR = iocom/extensions/gazerbeam/CMakeFiles/gazerbeamd.dir
   OBJECT_FILE_DIR = iocom/extensions/gazerbeam/CMakeFiles/gazerbeamd.dir/code
 build iocom/extensions/gazerbeam/CMakeFiles/gazerbeamd.dir/code/gazerbeam_save_config.c.o: C_COMPILER__gazerbeamd /coderoot/iocom/extensions/gazerbeam/code/gazerbeam_save_config.c || cmake_object_order_depends_target_gazerbeamd
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = iocom/extensions/gazerbeam/CMakeFiles/gazerbeamd.dir/code/gazerbeam_save_config.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include -I/coderoot/gazerbeam -I/coderoot/iocom -I/coderoot/iocom/extensions/gazerbeam -I/coderoot/pins
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include -I/coderoot/iocom -I/coderoot/iocom/extensions/gazerbeam -I/coderoot/pins
   OBJECT_DIR = iocom/extensions/gazerbeam/CMakeFiles/gazerbeamd.dir
   OBJECT_FILE_DIR = iocom/extensions/gazerbeam/CMakeFiles/gazerbeamd.dir/code
 
@@ -1294,84 +1294,84 @@ build pins/CMakeFiles/pinsd.dir/code/common/pins_parameters.c.o: C_COMPILER__pin
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = pins/CMakeFiles/pinsd.dir/code/common/pins_parameters.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include -I/coderoot/pins -I/coderoot/iocom
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include -I/coderoot/iocom -I/coderoot/pins
   OBJECT_DIR = pins/CMakeFiles/pinsd.dir
   OBJECT_FILE_DIR = pins/CMakeFiles/pinsd.dir/code/common
 build pins/CMakeFiles/pinsd.dir/code/common/pins_state.c.o: C_COMPILER__pinsd /coderoot/pins/code/common/pins_state.c || cmake_object_order_depends_target_pinsd
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = pins/CMakeFiles/pinsd.dir/code/common/pins_state.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include -I/coderoot/pins -I/coderoot/iocom
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include -I/coderoot/iocom -I/coderoot/pins
   OBJECT_DIR = pins/CMakeFiles/pinsd.dir
   OBJECT_FILE_DIR = pins/CMakeFiles/pinsd.dir/code/common
 build pins/CMakeFiles/pinsd.dir/code/simulation/pins_basics.c.o: C_COMPILER__pinsd /coderoot/pins/code/simulation/pins_basics.c || cmake_object_order_depends_target_pinsd
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = pins/CMakeFiles/pinsd.dir/code/simulation/pins_basics.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include -I/coderoot/pins -I/coderoot/iocom
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include -I/coderoot/iocom -I/coderoot/pins
   OBJECT_DIR = pins/CMakeFiles/pinsd.dir
   OBJECT_FILE_DIR = pins/CMakeFiles/pinsd.dir/code/simulation
 build pins/CMakeFiles/pinsd.dir/code/simulation/pins_interrupt.c.o: C_COMPILER__pinsd /coderoot/pins/code/simulation/pins_interrupt.c || cmake_object_order_depends_target_pinsd
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = pins/CMakeFiles/pinsd.dir/code/simulation/pins_interrupt.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include -I/coderoot/pins -I/coderoot/iocom
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include -I/coderoot/iocom -I/coderoot/pins
   OBJECT_DIR = pins/CMakeFiles/pinsd.dir
   OBJECT_FILE_DIR = pins/CMakeFiles/pinsd.dir/code/simulation
 build pins/CMakeFiles/pinsd.dir/code/simulation/pins_timer.c.o: C_COMPILER__pinsd /coderoot/pins/code/simulation/pins_timer.c || cmake_object_order_depends_target_pinsd
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = pins/CMakeFiles/pinsd.dir/code/simulation/pins_timer.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include -I/coderoot/pins -I/coderoot/iocom
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include -I/coderoot/iocom -I/coderoot/pins
   OBJECT_DIR = pins/CMakeFiles/pinsd.dir
   OBJECT_FILE_DIR = pins/CMakeFiles/pinsd.dir/code/simulation
 build pins/CMakeFiles/pinsd.dir/extensions/camera/common/pins_camera.c.o: C_COMPILER__pinsd /coderoot/pins/extensions/camera/common/pins_camera.c || cmake_object_order_depends_target_pinsd
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = pins/CMakeFiles/pinsd.dir/extensions/camera/common/pins_camera.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include -I/coderoot/pins -I/coderoot/iocom
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include -I/coderoot/iocom -I/coderoot/pins
   OBJECT_DIR = pins/CMakeFiles/pinsd.dir
   OBJECT_FILE_DIR = pins/CMakeFiles/pinsd.dir/extensions/camera/common
 build pins/CMakeFiles/pinsd.dir/extensions/display/common/pins_display.c.o: C_COMPILER__pinsd /coderoot/pins/extensions/display/common/pins_display.c || cmake_object_order_depends_target_pinsd
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = pins/CMakeFiles/pinsd.dir/extensions/display/common/pins_display.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include -I/coderoot/pins -I/coderoot/iocom
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include -I/coderoot/iocom -I/coderoot/pins
   OBJECT_DIR = pins/CMakeFiles/pinsd.dir
   OBJECT_FILE_DIR = pins/CMakeFiles/pinsd.dir/extensions/display/common
 build pins/CMakeFiles/pinsd.dir/extensions/iocom/common/pins_default_iocom_callback.c.o: C_COMPILER__pinsd /coderoot/pins/extensions/iocom/common/pins_default_iocom_callback.c || cmake_object_order_depends_target_pinsd
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = pins/CMakeFiles/pinsd.dir/extensions/iocom/common/pins_default_iocom_callback.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include -I/coderoot/pins -I/coderoot/iocom
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include -I/coderoot/iocom -I/coderoot/pins
   OBJECT_DIR = pins/CMakeFiles/pinsd.dir
   OBJECT_FILE_DIR = pins/CMakeFiles/pinsd.dir/extensions/iocom/common
 build pins/CMakeFiles/pinsd.dir/extensions/iocom/common/pins_to_iocom.c.o: C_COMPILER__pinsd /coderoot/pins/extensions/iocom/common/pins_to_iocom.c || cmake_object_order_depends_target_pinsd
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = pins/CMakeFiles/pinsd.dir/extensions/iocom/common/pins_to_iocom.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include -I/coderoot/pins -I/coderoot/iocom
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include -I/coderoot/iocom -I/coderoot/pins
   OBJECT_DIR = pins/CMakeFiles/pinsd.dir
   OBJECT_FILE_DIR = pins/CMakeFiles/pinsd.dir/extensions/iocom/common
 build pins/CMakeFiles/pinsd.dir/extensions/morse/common/pins_morse_code.c.o: C_COMPILER__pinsd /coderoot/pins/extensions/morse/common/pins_morse_code.c || cmake_object_order_depends_target_pinsd
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = pins/CMakeFiles/pinsd.dir/extensions/morse/common/pins_morse_code.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include -I/coderoot/pins -I/coderoot/iocom
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include -I/coderoot/iocom -I/coderoot/pins
   OBJECT_DIR = pins/CMakeFiles/pinsd.dir
   OBJECT_FILE_DIR = pins/CMakeFiles/pinsd.dir/extensions/morse/common
 build pins/CMakeFiles/pinsd.dir/extensions/morse/common/pins_morse_texts.c.o: C_COMPILER__pinsd /coderoot/pins/extensions/morse/common/pins_morse_texts.c || cmake_object_order_depends_target_pinsd
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = pins/CMakeFiles/pinsd.dir/extensions/morse/common/pins_morse_texts.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include -I/coderoot/pins -I/coderoot/iocom
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include -I/coderoot/iocom -I/coderoot/pins
   OBJECT_DIR = pins/CMakeFiles/pinsd.dir
   OBJECT_FILE_DIR = pins/CMakeFiles/pinsd.dir/extensions/morse/common
 build pins/CMakeFiles/pinsd.dir/extensions/camera/simulation/pins_sim_line_camera.c.o: C_COMPILER__pinsd /coderoot/pins/extensions/camera/simulation/pins_sim_line_camera.c || cmake_object_order_depends_target_pinsd
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = pins/CMakeFiles/pinsd.dir/extensions/camera/simulation/pins_sim_line_camera.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include -I/coderoot/pins -I/coderoot/iocom
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include -I/coderoot/iocom -I/coderoot/pins
   OBJECT_DIR = pins/CMakeFiles/pinsd.dir
   OBJECT_FILE_DIR = pins/CMakeFiles/pinsd.dir/extensions/camera/simulation
 
@@ -1425,70 +1425,70 @@ build iocom/extensions/devicedir/CMakeFiles/devicedird.dir/code/devicedir_config
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = iocom/extensions/devicedir/CMakeFiles/devicedird.dir/code/devicedir_configure.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include -I/coderoot/devicedir -I/coderoot/iocom -I/coderoot/iocom/extensions/devicedir
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include -I/coderoot/iocom -I/coderoot/iocom/extensions/devicedir
   OBJECT_DIR = iocom/extensions/devicedir/CMakeFiles/devicedird.dir
   OBJECT_FILE_DIR = iocom/extensions/devicedir/CMakeFiles/devicedird.dir/code
 build iocom/extensions/devicedir/CMakeFiles/devicedird.dir/code/devicedir_connections.c.o: C_COMPILER__devicedird /coderoot/iocom/extensions/devicedir/code/devicedir_connections.c || cmake_object_order_depends_target_devicedird
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = iocom/extensions/devicedir/CMakeFiles/devicedird.dir/code/devicedir_connections.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include -I/coderoot/devicedir -I/coderoot/iocom -I/coderoot/iocom/extensions/devicedir
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include -I/coderoot/iocom -I/coderoot/iocom/extensions/devicedir
   OBJECT_DIR = iocom/extensions/devicedir/CMakeFiles/devicedird.dir
   OBJECT_FILE_DIR = iocom/extensions/devicedir/CMakeFiles/devicedird.dir/code
 build iocom/extensions/devicedir/CMakeFiles/devicedird.dir/code/devicedir_console.c.o: C_COMPILER__devicedird /coderoot/iocom/extensions/devicedir/code/devicedir_console.c || cmake_object_order_depends_target_devicedird
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = iocom/extensions/devicedir/CMakeFiles/devicedird.dir/code/devicedir_console.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include -I/coderoot/devicedir -I/coderoot/iocom -I/coderoot/iocom/extensions/devicedir
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include -I/coderoot/iocom -I/coderoot/iocom/extensions/devicedir
   OBJECT_DIR = iocom/extensions/devicedir/CMakeFiles/devicedird.dir
   OBJECT_FILE_DIR = iocom/extensions/devicedir/CMakeFiles/devicedird.dir/code
 build iocom/extensions/devicedir/CMakeFiles/devicedird.dir/code/devicedir_dynamic.c.o: C_COMPILER__devicedird /coderoot/iocom/extensions/devicedir/code/devicedir_dynamic.c || cmake_object_order_depends_target_devicedird
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = iocom/extensions/devicedir/CMakeFiles/devicedird.dir/code/devicedir_dynamic.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include -I/coderoot/devicedir -I/coderoot/iocom -I/coderoot/iocom/extensions/devicedir
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include -I/coderoot/iocom -I/coderoot/iocom/extensions/devicedir
   OBJECT_DIR = iocom/extensions/devicedir/CMakeFiles/devicedird.dir
   OBJECT_FILE_DIR = iocom/extensions/devicedir/CMakeFiles/devicedird.dir/code
 build iocom/extensions/devicedir/CMakeFiles/devicedird.dir/code/devicedir_end_points.c.o: C_COMPILER__devicedird /coderoot/iocom/extensions/devicedir/code/devicedir_end_points.c || cmake_object_order_depends_target_devicedird
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = iocom/extensions/devicedir/CMakeFiles/devicedird.dir/code/devicedir_end_points.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include -I/coderoot/devicedir -I/coderoot/iocom -I/coderoot/iocom/extensions/devicedir
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include -I/coderoot/iocom -I/coderoot/iocom/extensions/devicedir
   OBJECT_DIR = iocom/extensions/devicedir/CMakeFiles/devicedird.dir
   OBJECT_FILE_DIR = iocom/extensions/devicedir/CMakeFiles/devicedird.dir/code
 build iocom/extensions/devicedir/CMakeFiles/devicedird.dir/code/devicedir_get_json.c.o: C_COMPILER__devicedird /coderoot/iocom/extensions/devicedir/code/devicedir_get_json.c || cmake_object_order_depends_target_devicedird
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = iocom/extensions/devicedir/CMakeFiles/devicedird.dir/code/devicedir_get_json.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include -I/coderoot/devicedir -I/coderoot/iocom -I/coderoot/iocom/extensions/devicedir
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include -I/coderoot/iocom -I/coderoot/iocom/extensions/devicedir
   OBJECT_DIR = iocom/extensions/devicedir/CMakeFiles/devicedird.dir
   OBJECT_FILE_DIR = iocom/extensions/devicedir/CMakeFiles/devicedird.dir/code
 build iocom/extensions/devicedir/CMakeFiles/devicedird.dir/code/devicedir_helper.c.o: C_COMPILER__devicedird /coderoot/iocom/extensions/devicedir/code/devicedir_helper.c || cmake_object_order_depends_target_devicedird
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = iocom/extensions/devicedir/CMakeFiles/devicedird.dir/code/devicedir_helper.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include -I/coderoot/devicedir -I/coderoot/iocom -I/coderoot/iocom/extensions/devicedir
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include -I/coderoot/iocom -I/coderoot/iocom/extensions/devicedir
   OBJECT_DIR = iocom/extensions/devicedir/CMakeFiles/devicedird.dir
   OBJECT_FILE_DIR = iocom/extensions/devicedir/CMakeFiles/devicedird.dir/code
 build iocom/extensions/devicedir/CMakeFiles/devicedird.dir/code/devicedir_info.c.o: C_COMPILER__devicedird /coderoot/iocom/extensions/devicedir/code/devicedir_info.c || cmake_object_order_depends_target_devicedird
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = iocom/extensions/devicedir/CMakeFiles/devicedird.dir/code/devicedir_info.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include -I/coderoot/devicedir -I/coderoot/iocom -I/coderoot/iocom/extensions/devicedir
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include -I/coderoot/iocom -I/coderoot/iocom/extensions/devicedir
   OBJECT_DIR = iocom/extensions/devicedir/CMakeFiles/devicedird.dir
   OBJECT_FILE_DIR = iocom/extensions/devicedir/CMakeFiles/devicedird.dir/code
 build iocom/extensions/devicedir/CMakeFiles/devicedird.dir/code/devicedir_memory_blocks.c.o: C_COMPILER__devicedird /coderoot/iocom/extensions/devicedir/code/devicedir_memory_blocks.c || cmake_object_order_depends_target_devicedird
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = iocom/extensions/devicedir/CMakeFiles/devicedird.dir/code/devicedir_memory_blocks.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include -I/coderoot/devicedir -I/coderoot/iocom -I/coderoot/iocom/extensions/devicedir
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include -I/coderoot/iocom -I/coderoot/iocom/extensions/devicedir
   OBJECT_DIR = iocom/extensions/devicedir/CMakeFiles/devicedird.dir
   OBJECT_FILE_DIR = iocom/extensions/devicedir/CMakeFiles/devicedird.dir/code
 build iocom/extensions/devicedir/CMakeFiles/devicedird.dir/code/devicedir_overdrives.c.o: C_COMPILER__devicedird /coderoot/iocom/extensions/devicedir/code/devicedir_overdrives.c || cmake_object_order_depends_target_devicedird
   DEFINES = -DE_OSVER_linux -DE_OS_linux
   DEP_FILE = iocom/extensions/devicedir/CMakeFiles/devicedird.dir/code/devicedir_overdrives.c.o.d
   FLAGS = -Wall -fPIC -g
-  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/democar -I/coderoot/eosal/dependencies/linux/include -I/coderoot/devicedir -I/coderoot/iocom -I/coderoot/iocom/extensions/devicedir
+  INCLUDES = -I/coderoot/eosal -I/coderoot/eosal/dependencies/eosal_jpeg -I/coderoot/eosal/dependencies/linux/include -I/coderoot/iocom -I/coderoot/iocom/extensions/devicedir
   OBJECT_DIR = iocom/extensions/devicedir/CMakeFiles/devicedird.dir
   OBJECT_FILE_DIR = iocom/extensions/devicedir/CMakeFiles/devicedird.dir/code
 
