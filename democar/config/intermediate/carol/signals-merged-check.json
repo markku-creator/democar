@@ -1,7 +1,9 @@
 {
+"name": "democar",
 "mblk": [
 	{
 		"name": "exp",
+		"flags": "up",
 		"groups": [
 			{
 				"name": "device state",
@@ -24,11 +26,11 @@
 					}
 				]
 			}
-		],
-		"flags": "up"
+		]
 	},
 	{
 		"name": "imp",
+		"flags": "down",
 		"groups": [
 			{
 				"name": "controls",
@@ -51,11 +53,11 @@
 					}
 				]
 			}
-		],
-		"flags": "down"
+		]
 	},
 	{
 		"name": "conf_exp",
+		"flags": "up,conf",
 		"groups": [
 			{
 				"name": "transfer to device",
@@ -88,11 +90,11 @@
 					}
 				]
 			}
-		],
-		"flags": "up,conf"
+		]
 	},
 	{
 		"name": "conf_imp",
+		"flags": "down,conf",
 		"groups": [
 			{
 				"name": "transfer to device",
@@ -133,9 +135,7 @@
 					}
 				]
 			}
-		],
-		"flags": "down,conf"
+		]
 	}
-],
-"name": "democar"
+]
 }

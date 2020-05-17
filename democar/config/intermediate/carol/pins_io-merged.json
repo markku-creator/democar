@@ -1,18 +1,21 @@
 {
     "io": [
         {
+            "name": "democar",
+            "title": "IO pin setup for the 'democar' application on 'carol' hardware",
             "groups": [
                 {
+                    "name": "inputs",
                     "pins": [
                         {
-                            "interrupt": 1,
                             "name": "gazerbeam",
-                            "addr": 39
+                            "addr": 39,
+                            "interrupt": 1
                         }
-                    ],
-                    "name": "inputs"
+                    ]
                 },
                 {
+                    "name": "outputs",
                     "pins": [
                         {
                             "name": "led_builtin",
@@ -34,10 +37,10 @@
                             "name": "BACKWARD",
                             "addr": 26
                         }
-                    ],
-                    "name": "outputs"
+                    ]
                 },
                 {
+                    "name": "debugger",
                     "pins": [
                         {
                             "name": "AD1_TDI",
@@ -63,10 +66,10 @@
                             "name": "U0_RXD",
                             "addr": 3
                         }
-                    ],
-                    "name": "debugger"
+                    ]
                 },
                 {
+                    "name": "devboard",
                     "pins": [
                         {
                             "name": "DEV_SCK",
@@ -92,12 +95,9 @@
                             "name": "DEV_CSC",
                             "addr": 11
                         }
-                    ],
-                    "name": "devboard"
+                    ]
                 }
-            ],
-            "title": "IO pin setup for the 'democar' application on 'carol' hardware",
-            "name": "democar"
+            ]
         }
     ]
 }

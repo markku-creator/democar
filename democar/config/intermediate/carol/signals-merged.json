@@ -1,8 +1,10 @@
 {
+    "name": "democar",
     "mblk": [
         {
-            "title": "Exported by 'democar' IO device",
             "name": "exp",
+            "title": "Exported by 'democar' IO device",
+            "flags": "up",
             "groups": [
                 {
                     "name": "device state",
@@ -25,12 +27,12 @@
                         }
                     ]
                 }
-            ],
-            "flags": "up"
+            ]
         },
         {
-            "title": "Imported by 'democar' IO device",
             "name": "imp",
+            "title": "Imported by 'democar' IO device",
+            "flags": "down",
             "groups": [
                 {
                     "name": "controls",
@@ -53,12 +55,12 @@
                         }
                     ]
                 }
-            ],
-            "flags": "down"
+            ]
         },
         {
-            "title": "IO device's configuration signal exports",
             "name": "conf_exp",
+            "title": "IO device's configuration signal exports",
+            "flags": "up,conf",
             "groups": [
                 {
                     "name": "transfer to device",
@@ -91,12 +93,12 @@
                         }
                     ]
                 }
-            ],
-            "flags": "up,conf"
+            ]
         },
         {
-            "title": "IO device's configuration signal imports",
             "name": "conf_imp",
+            "title": "IO device's configuration signal imports",
+            "flags": "down,conf",
             "groups": [
                 {
                     "name": "transfer to device",
@@ -137,9 +139,7 @@
                         }
                     ]
                 }
-            ],
-            "flags": "down,conf"
+            ]
         }
-    ],
-    "name": "democar"
+    ]
 }
