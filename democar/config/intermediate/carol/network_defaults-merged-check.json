@@ -1,25 +1,5 @@
 {
 "network" : {
-	"device_nr": "*",
-	"network_name": "*",
-	"connect": [
-		{
-			"transport": "tls",
-			"parameters": "*",
-			"flags": "connect,up"
-		}
-	],
-	"nic": [
-		{
-			"dhcp": 1,
-			"ip": "0.0.0.0",
-			"subnet": "255.255.255.0",
-			"gateway": "0.0.0.0",
-			"dns": "8.8.4.4",
-			"dns2": "8.8.8.8",
-			"mac": "36:12:64:A4:B4:C4"
-		}
-	],
 	"wifi": [
 		{
 			"network": "*",
@@ -28,6 +8,26 @@
 		{
 			"network": "*",
 			"password": "*"
+		}
+	],
+	"network_name": "*",
+	"nic": [
+		{
+			"dhcp": 1,
+			"mac": "36:12:64:A4:B4:C4",
+			"dns2": "8.8.8.8",
+			"ip": "0.0.0.0",
+			"gateway": "0.0.0.0",
+			"subnet": "255.255.255.0",
+			"dns": "8.8.4.4"
+		}
+	],
+	"device_nr": "*",
+	"connect": [
+		{
+			"flags": "connect,up",
+			"transport": "tls",
+			"parameters": "*"
 		}
 	]
 }

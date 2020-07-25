@@ -1,145 +1,350 @@
 {
-    "name": "democar",
     "mblk": [
         {
-            "name": "exp",
-            "title": "Exported by 'democar' IO device",
+            "title": "Network node configuration",
             "flags": "up",
             "groups": [
                 {
-                    "name": "device state",
                     "signals": [
                         {
-                            "name": "LEFT",
-                            "type": "boolean"
+                            "type": "str",
+                            "array": 8,
+                            "name": "nc_nr"
                         },
                         {
-                            "name": "RIGHT",
-                            "type": "boolean"
+                            "type": "str",
+                            "array": 25,
+                            "name": "nc_net"
                         },
                         {
-                            "name": "FORWARD",
-                            "type": "boolean"
+                            "type": "str",
+                            "array": 65,
+                            "name": "nc_connect"
                         },
                         {
-                            "name": "BACKWARD",
-                            "type": "boolean"
+                            "type": "str",
+                            "array": 17,
+                            "name": "nc_wifi"
+                        },
+                        {
+                            "type": "str",
+                            "array": 17,
+                            "name": "nc_pass"
+                        },
+                        {
+                            "type": "str",
+                            "array": 48,
+                            "name": "nc_ip"
+                        },
+                        {
+                            "type": "char",
+                            "name": "nc_status"
                         }
-                    ]
+                    ],
+                    "name": "net conf"
+                },
+                {
+                    "signals": [
+                        {
+                            "type": "str",
+                            "array": 12,
+                            "name": "si_package"
+                        },
+                        {
+                            "type": "str",
+                            "array": 7,
+                            "name": "si_eosal"
+                        },
+                        {
+                            "type": "str",
+                            "array": 7,
+                            "name": "si_iocom"
+                        },
+                        {
+                            "type": "str",
+                            "array": 8,
+                            "name": "si_os"
+                        },
+                        {
+                            "type": "str",
+                            "array": 8,
+                            "name": "si_osver"
+                        },
+                        {
+                            "type": "str",
+                            "array": 8,
+                            "name": "si_arch"
+                        },
+                        {
+                            "type": "str",
+                            "array": 17,
+                            "name": "si_hw"
+                        }
+                    ],
+                    "name": "sys specs"
+                },
+                {
+                    "signals": [
+                        {
+                            "type": "uint",
+                            "name": "rm_malloc"
+                        },
+                        {
+                            "type": "uint",
+                            "name": "rm_muse"
+                        },
+                        {
+                            "type": "ushort",
+                            "name": "rm_threads"
+                        },
+                        {
+                            "type": "ushort",
+                            "name": "rm_events"
+                        },
+                        {
+                            "type": "ushort",
+                            "name": "rm_mutexes"
+                        },
+                        {
+                            "type": "ushort",
+                            "name": "rm_sockets"
+                        },
+                        {
+                            "type": "ushort",
+                            "name": "rm_connects"
+                        },
+                        {
+                            "type": "long",
+                            "name": "rm_tx_tcp"
+                        },
+                        {
+                            "type": "long",
+                            "name": "rm_rx_tcp"
+                        },
+                        {
+                            "type": "long",
+                            "name": "rm_tx_udp"
+                        },
+                        {
+                            "type": "long",
+                            "name": "rm_rx_udp"
+                        },
+                        {
+                            "type": "long",
+                            "name": "rm_tx_serial"
+                        },
+                        {
+                            "type": "long",
+                            "name": "rm_rx_serial"
+                        },
+                        {
+                            "type": "float",
+                            "name": "rm_aveloop"
+                        },
+                        {
+                            "type": "float",
+                            "name": "rm_maxloop"
+                        },
+                        {
+                            "type": "uint",
+                            "name": "rm_boottime"
+                        }
+                    ],
+                    "name": "resources"
+                },
+                {
+                    "signals": [
+                        {
+                            "type": "boolean",
+                            "name": "LEFT"
+                        },
+                        {
+                            "type": "boolean",
+                            "name": "RIGHT"
+                        },
+                        {
+                            "type": "boolean",
+                            "name": "FORWARD"
+                        },
+                        {
+                            "type": "boolean",
+                            "name": "BACKWARD"
+                        }
+                    ],
+                    "name": "device state"
                 }
-            ]
+            ],
+            "name": "exp"
         },
         {
-            "name": "imp",
-            "title": "Imported by 'democar' IO device",
+            "title": "Network node configuration",
             "flags": "down",
             "groups": [
                 {
-                    "name": "controls",
                     "signals": [
                         {
-                            "name": "LeftTurn",
-                            "type": "boolean"
+                            "type": "str",
+                            "array": 7,
+                            "name": "set_nc_nr"
                         },
                         {
-                            "name": "RightTurn",
-                            "type": "boolean"
+                            "type": "str",
+                            "array": 24,
+                            "name": "set_nc_net"
                         },
                         {
-                            "name": "StraightForward",
-                            "type": "boolean"
+                            "type": "str",
+                            "array": 64,
+                            "name": "set_nc_connect"
                         },
                         {
-                            "name": "ForwardBackward",
-                            "type": "boolean"
+                            "type": "str",
+                            "array": 16,
+                            "name": "set_nc_wifi"
+                        },
+                        {
+                            "type": "str",
+                            "array": 16,
+                            "name": "set_nc_pass"
+                        },
+                        {
+                            "type": "boolean",
+                            "name": "reboot"
+                        },
+                        {
+                            "type": "boolean",
+                            "name": "forget_it"
+                        },
+                        {
+                            "type": "boolean",
+                            "name": "factory_rst"
                         }
-                    ]
+                    ],
+                    "name": "net conf"
+                },
+                {
+                    "signals": [
+                        {
+                            "type": "char",
+                            "name": "set_rm_comloop"
+                        }
+                    ],
+                    "name": "node conf"
+                },
+                {
+                    "signals": [
+                        {
+                            "type": "boolean",
+                            "name": "LeftTurn"
+                        },
+                        {
+                            "type": "boolean",
+                            "name": "RightTurn"
+                        },
+                        {
+                            "type": "boolean",
+                            "name": "StraightForward"
+                        },
+                        {
+                            "type": "boolean",
+                            "name": "ForwardBackward"
+                        }
+                    ],
+                    "name": "controls"
                 }
-            ]
+            ],
+            "name": "imp"
         },
         {
-            "name": "conf_exp",
             "title": "IO device's configuration signal exports",
             "flags": "up,conf",
             "groups": [
                 {
-                    "name": "transfer to device",
                     "signals": [
                         {
-                            "name": "tod_state",
-                            "type": "char"
+                            "type": "char",
+                            "name": "tod_state"
                         },
                         {
-                            "name": "tod_tail",
-                            "type": "int"
-                        }
-                    ]
-                },
-                {
-                    "name": "transfer from device",
-                    "signals": [
-                        {
-                            "name": "frd_state",
-                            "type": "char"
-                        },
-                        {
-                            "name": "frd_head",
-                            "type": "int"
-                        },
-                        {
-                            "name": "frd_buf",
                             "type": "uchar",
-                            "array": 257
+                            "name": "tod_err"
+                        },
+                        {
+                            "type": "int",
+                            "name": "tod_tail"
+                        },
+                        {
+                            "type": "char",
+                            "name": "frd_state"
+                        },
+                        {
+                            "type": "uchar",
+                            "name": "frd_err"
+                        },
+                        {
+                            "type": "ushort",
+                            "name": "frd_cs"
+                        },
+                        {
+                            "type": "int",
+                            "name": "frd_head"
+                        },
+                        {
+                            "type": "uchar",
+                            "array": 257,
+                            "name": "frd_buf"
                         }
-                    ]
+                    ],
+                    "name": "configuration transfer"
                 }
-            ]
+            ],
+            "name": "conf_exp"
         },
         {
-            "name": "conf_imp",
             "title": "IO device's configuration signal imports",
             "flags": "down,conf",
             "groups": [
                 {
-                    "name": "transfer to device",
                     "signals": [
                         {
-                            "name": "tod_cmd",
-                            "type": "char"
+                            "type": "char",
+                            "name": "tod_cmd"
                         },
                         {
-                            "name": "tod_select",
-                            "type": "char"
+                            "type": "char",
+                            "name": "tod_select"
                         },
                         {
-                            "name": "tod_head",
-                            "type": "int"
+                            "type": "ushort",
+                            "name": "tod_cs"
                         },
                         {
-                            "name": "tod_buf",
+                            "type": "int",
+                            "name": "tod_head"
+                        },
+                        {
                             "type": "uchar",
-                            "array": 257
-                        }
-                    ]
-                },
-                {
-                    "name": "transfer from device",
-                    "signals": [
-                        {
-                            "name": "frd_cmd",
-                            "type": "char"
+                            "array": 1025,
+                            "name": "tod_buf"
                         },
                         {
-                            "name": "frd_select",
-                            "type": "uchar"
+                            "type": "char",
+                            "name": "frd_cmd"
                         },
                         {
-                            "name": "frd_tail",
-                            "type": "int"
+                            "type": "uchar",
+                            "name": "frd_select"
+                        },
+                        {
+                            "type": "int",
+                            "name": "frd_tail"
                         }
-                    ]
+                    ],
+                    "name": "configuration transfer"
                 }
-            ]
+            ],
+            "name": "conf_imp"
         }
-    ]
+    ],
+    "name": "democar"
 }

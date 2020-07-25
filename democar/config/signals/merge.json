@@ -1,1 +1,2 @@
-{"merge": ["signals.json",  "device_conf_signals.json"]}
+{"merge": ["signals", "node_conf_wifi.json", "system_specs.json", "resource_monitor.json", "signals.json", "device_conf_signals_1k.json"]}
+

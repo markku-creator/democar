@@ -68,6 +68,11 @@ iocNodeConf ioapp_device_conf;
     static MorseCode morse;
 #endif
 
+/* Device information.
+*/
+static dinfoNodeConfState dinfo_nc;
+static dinfoResMonState dinfo_rm;
+
 /* Maximum number of sockets, etc.
  */
 #define IOBOARD_MAX_CONNECTIONS 1
@@ -78,12 +83,18 @@ static os_timer send_timer;
 
 /* Use static memory pool
  */
-static os_char
-    ioboard_pool[IOBOARD_POOL_SIZE(IOBOARD_CTRL_CON, IOBOARD_MAX_CONNECTIONS,
-        DEMOCAR_EXP_MBLK_SZ, DEMOCAR_IMP_MBLK_SZ)
-        + IOBOARD_POOL_DEVICE_INFO(IOBOARD_MAX_CONNECTIONS)
-        + IOBOARD_POOL_IMP_EXP_CONF(IOBOARD_MAX_CONNECTIONS,
-            DEMOCAR_CONF_EXP_MBLK_SZ, DEMOCAR_CONF_IMP_MBLK_SZ)];
+#define MY_POOL_SZ \
+    (IOBOARD_POOL_SIZE(IOBOARD_CTRL_CON, IOBOARD_MAX_CONNECTIONS, \
+        DEMOCAR_EXP_MBLK_SZ, DEMOCAR_IMP_MBLK_SZ) \
+        + IOBOARD_POOL_DEVICE_INFO(IOBOARD_MAX_CONNECTIONS) \
+        + IOBOARD_POOL_IMP_EXP_CONF(IOBOARD_MAX_CONNECTIONS, \
+            DEMOCAR_CONF_EXP_MBLK_SZ, DEMOCAR_CONF_IMP_MBLK_SZ))
+
+#define ALLOCATE_STATIC_POOL (OSAL_DYNAMIC_MEMORY_ALLOCATION == 0)
+
+#if ALLOCATE_STATIC_POOL
+    static os_char ioboard_pool[MY_POOL_SZ];
+#endif
 
 /* Streamer for transferring IO device configuration and flash program. The streamer is used
    to transfer a stream using buffer within memory block. This static structure selects which
@@ -115,12 +126,17 @@ osalStatus osal_main(
     osalSecurityConfig *security;
 #endif
     iocNetworkInterfaces *nics;
-    osalWifiNetworks *wifis;
+    iocWifiNetworks *wifis;
     iocDeviceId *device_id;
     iocConnectionConfig *connconf;
     ioboardParams prm;
     const osalStreamInterface *iface;
     osPersistentParams persistentprm;
+    dinfoNodeConfSignals nc_sigs;
+    dinfoSystemSpeSignals si_sigs;
+    dinfoResMonSignals rm_sigs;
+    OSAL_UNUSED(argc);
+    OSAL_UNUSED(argv);
 
     /* Setup error handling. Here we select to keep track of network state. We could also
        set application specific error handler callback by calling osal_set_error_handler().
@@ -167,6 +183,13 @@ osalStatus osal_main(
 
     osal_serial_initialize();
 
+    /* Initialize up device information.
+     */
+    DINFO_SET_COMMON_NET_CONF_SIGNALS_FOR_WIFI(nc_sigs, democar);
+    DINFO_SET_COMMON_RESOURCE_MONITOR_SIGNALS(rm_sigs, democar);
+    dinfo_initialize_node_conf(&dinfo_nc, &nc_sigs);
+    dinfo_initialize_resource_monitor(&dinfo_rm, &rm_sigs);
+
     /* Get stream interface by IOBOARD_CTRL_CON define.
      */
     iface = IOBOARD_IFACE;
@@ -185,8 +208,10 @@ osalStatus osal_main(
     prm.max_connections = IOBOARD_MAX_CONNECTIONS;
     prm.send_block_sz = DEMOCAR_EXP_MBLK_SZ;
     prm.receive_block_sz = DEMOCAR_IMP_MBLK_SZ;
+#if ALLOCATE_STATIC_POOL
     prm.pool = ioboard_pool;
-    prm.pool_sz = sizeof(ioboard_pool);
+#endif
+    prm.pool_sz = MY_POOL_SZ;
     prm.device_info = ioapp_signals_config;
     prm.device_info_sz = sizeof(ioapp_signals_config);
     prm.conf_send_block_sz = DEMOCAR_CONF_EXP_MBLK_SZ;
@@ -195,14 +220,24 @@ osalStatus osal_main(
     prm.lighthouse = &lighthouse;
     prm.lighthouse_func = ioc_get_lighthouse_connectstr;
 #endif
+    prm.exp_signal_hdr = &democar.exp.hdr;
+    prm.imp_signal_hdr = &democar.imp.hdr;
+    prm.conf_exp_signal_hdr = &democar.conf_exp.hdr;
+    prm.conf_imp_signal_hdr = &democar.conf_imp.hdr;
 
-    /* Start communication.
+    /* Initialize IOCOM and set up memory blocks for the ioboard.
      */
-    ioboard_start_communication(&prm);
+    ioboard_setup_communication(&prm);
+
+    /* Set up device information.
+     */
+    dinfo_set_node_conf(&dinfo_nc, device_id, connconf, nics, wifis, security);
+    DINFO_SET_COMMON_SYSTEM_SPECS_SIGNALS(si_sigs, democar);
+    dinfo_set_system_specs(&si_sigs, DEMOCAR_HW);
 
     /* Set callback to detect received data and connection status changes.
      */
-    ioc_add_callback(&ioboard_imp, ioboard_root_callback, OS_NULL);
+    ioc_add_callback(&ioboard_imp, ioboard_communication_callback, OS_NULL);
 
     /* Connect PINS library to IOCOM library
      */
@@ -233,6 +268,10 @@ osalStatus osal_main(
     initialize_morse_code(&morse, &pins.outputs.led_builtin, OS_NULL,
         MORSE_HANDLE_NET_STATE_NOTIFICATIONS);
 #endif
+
+    /* Start communication.
+     */
+    ioboard_start_communication(&prm);
 
     mytimer = 0;
     os_get_timer(&send_timer);
@@ -291,7 +330,7 @@ osalStatus osal_loop(
 #endif
 
     /* Keep the communication alive. If data is received from communication, the
-       ioboard_root_callback() will be called. Move data data synchronously
+       ioboard_communication_callback() will be called. Move data data synchronously
        to incomong memory block.
      */
     ioc_run(&ioboard_root);
@@ -313,10 +352,10 @@ osalStatus osal_loop(
         test_toggle = !test_toggle;
     } */
 
-    int LeftTurn = ioc_gets0_int(&democar.imp.LeftTurn);
-    int RightTurn = ioc_gets0_int(&democar.imp.RightTurn);
-    int StraightForward = ioc_gets0_int(&democar.imp.StraightForward);
-    int ForwardBackward = ioc_gets0_int(&democar.imp.ForwardBackward);
+    int LeftTurn = ioc_get(&democar.imp.LeftTurn);
+    int RightTurn = ioc_get(&democar.imp.RightTurn);
+    int StraightForward = ioc_get(&democar.imp.StraightForward);
+    int ForwardBackward = ioc_get(&democar.imp.ForwardBackward);
 
     if (StraightForward && ForwardBackward && !LeftTurn && !RightTurn) {
         pin_set(&pins.outputs.LEFT,0);
@@ -390,6 +429,9 @@ osalStatus osal_loop(
         ioc_run(&ioboard_root);
     }
 
+    dinfo_run_node_conf(&dinfo_nc, &ti);
+    dinfo_run_resource_monitor(&dinfo_rm, &ti);
+
     return s;
 }
 
@@ -425,6 +467,8 @@ void osal_main_cleanup(
 #endif
     osal_serial_shutdown();
 
+    pins_shutdown(&pins_hdr);
+
     ioc_release_node_config(&ioapp_device_conf);
 }
 
@@ -434,7 +478,7 @@ void osal_main_cleanup(
 
   @brief Callback function when data has been received from communication.
 
-  The ioboard_root_callback function reacts to data from communication. Here we treat
+  The ioboard_communication_callback function reacts to data from communication. Here we treat
   memory block as set of communication signals, and mostly just forward these to IO.
 
   @param   handle Memory block handle.
@@ -442,64 +486,45 @@ void osal_main_cleanup(
   @param   end_addr Last changed memory block address.
   @param   flags IOC_MBLK_CALLBACK_WRITE indicates change by local write,
            IOC_MBLK_CALLBACK_RECEIVE change by data received.
-  @param   context Callback context, not used by "democar" example.
+  @param   context Callback context, not used by "gina" example.
   @return  None.
 
 ****************************************************************************************************
 */
-void ioboard_root_callback(
+void ioboard_communication_callback(
     struct iocHandle *handle,
     os_int start_addr,
     os_int end_addr,
     os_ushort flags,
     void *context)
 {
-#undef PINS_SEGMENT7_GROUP
+// #if IOC_DEVICE_PARAMETER_SUPPORT
+    const iocSignal *sig;
+    os_int n_signals;
+    OSAL_UNUSED(context);
 
-    /* '#ifdef' is used to compile code in only if 7-segment display is configured
-       for the hardware.
+    /* If this memory block is not written by communication, no need to do anything.
      */
-#ifdef PINS_SEGMENT7_GROUP
-    os_char buf[DEMOCAR_IMP_SEVEN_SEGMENT_ARRAY_SZ];
-    const Pin *pin;
-    os_short i;
-
-    if (flags & IOC_MBLK_CALLBACK_RECEIVE)
+    if ((handle->flags & IOC_MBLK_DOWN) == 0 ||
+        (flags & IOC_MBLK_CALLBACK_RECEIVE) == 0)
     {
-        /* Process 7 segment display. Since this is transferred as boolean array, the
-           forward_signal_change_to_io_pins() doesn't know to handle this. Thus, read
-           boolean array from communication signal, and write it to IO pins.
-         */
-        if (ioc_is_my_address(&democar.imp.seven_segment, start_addr, end_addr))
-        {
-            sb = ioc_gets_array(&democar.imp.seven_segment, buf, DEMOCAR_IMP_SEVEN_SEGMENT_ARRAY_SZ);
-            if (sb & OSAL_STATE_CONNECTED)
-            {
-                osal_console_write("7 segment data received\n");
-                for (i = DEMOCAR_IMP_SEVEN_SEGMENT_ARRAY_SZ - 1, pin = pins_segment7_group;
-                     i >= 0 && pin;
-                     i--, pin = pin->next) /* For now we need to loop backwards, fix this */
-                {
-                    pin_set(pin, buf[i]);
-                }
-            }
-            else
-            {
-                // WE DO NOT COME HERE. SHOULD WE INVALIDATE WHOLE MAP ON DISCONNECT?
-                osal_console_write("7 segment data DISCONNECTED\n");
-            }
+        return;
+    }
+
+    /* Get range of signals that may have changed. Signals are in order by address.
+     */
+    sig = ioc_get_signal_range(handle, start_addr, end_addr, &n_signals);
+
+    /* Check if this callback causes change in device info
+     */
+    dinfo_node_conf_callback(&dinfo_nc, sig, n_signals, flags);
+
+    while (n_signals-- > 0)
+    {
+        if (sig->flags & IOC_PIN_PTR) {
+            forward_signal_change_to_io_pin(sig, IOC_SIGNAL_DEFAULT);
         }
+        sig++;
+    }
 
-        /* Call pins library extension to forward communication signal changes to IO pins.
-         */
-        forward_signal_change_to_io_pins(handle, start_addr, end_addr, flags);
-    }
-#else
-    if (flags & IOC_MBLK_CALLBACK_RECEIVE)
-    {
-        /* Call pins library extension to forward communication signal changes to IO pins.
-         */
-        forward_signal_change_to_io_pins(handle, start_addr, end_addr, &democar_hdr, flags);
-    }
-#endif
 }
