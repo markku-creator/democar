@@ -40,5 +40,13 @@ extern OS_FLASH_MEM_H pins_t pins;
 #define PINS_OUTPUTS_FORWARD "FORWARD"
 #define PINS_OUTPUTS_BACKWARD "BACKWARD"
 
+/* SPI and I2C initialization */
+#if PINS_SPI || PINS_I2C
+
+/* SPI and I2C bus structures */
+
+/* SPI and I2C device structures */
+#endif
+
 OSAL_C_HEADER_ENDS
 #endif

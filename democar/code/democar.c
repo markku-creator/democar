@@ -107,6 +107,10 @@ static iocControlStreamState ioc_ctrl_state;
 
 static os_timer mytimer;
 
+/* If needed for the operating system, EOSAL_C_MAIN macro generates the actual C main() function.
+ */
+EOSAL_C_MAIN
+
 /**
 ****************************************************************************************************
 
@@ -146,7 +150,7 @@ osalStatus osal_main(
     /* Initialize persistent storage (typically flash is running in micro-controller)
      */
     os_memclear(&persistentprm, sizeof(persistentprm));
-    persistentprm.device_name = IOBOARD_DEVICE_NAME;
+    persistentprm.subdirectory = IOBOARD_DEVICE_NAME;
     os_persistent_initialze(&persistentprm);
 
     /* If we are using devicedir for development testing, initialize.
@@ -161,7 +165,7 @@ osalStatus osal_main(
        defaults compiled in this code (config/include/<hw>/<device_name>-network-defaults.c, etc).
      */
     ioc_load_node_config(&ioapp_device_conf, ioapp_network_defaults,
-        sizeof(ioapp_network_defaults), IOC_LOAD_PBNR_WIFI);
+        sizeof(ioapp_network_defaults), persistentprm.subdirectory, IOC_LOAD_PBNR_NODE_CONF);
     device_id = ioc_get_device_id(&ioapp_device_conf);
     connconf = ioc_get_connection_conf(&ioapp_device_conf);
 
@@ -206,16 +210,16 @@ osalStatus osal_main(
     prm.socket_con_str = connconf->connection[0].parameters;
     prm.serial_con_str = connconf->connection[0].parameters;
     prm.max_connections = IOBOARD_MAX_CONNECTIONS;
-    prm.send_block_sz = DEMOCAR_EXP_MBLK_SZ;
-    prm.receive_block_sz = DEMOCAR_IMP_MBLK_SZ;
+    prm.exp_mblk_sz = DEMOCAR_EXP_MBLK_SZ;
+    prm.imp_mblk_sz = DEMOCAR_IMP_MBLK_SZ;
 #if ALLOCATE_STATIC_POOL
     prm.pool = ioboard_pool;
 #endif
     prm.pool_sz = MY_POOL_SZ;
     prm.device_info = ioapp_signals_config;
     prm.device_info_sz = sizeof(ioapp_signals_config);
-    prm.conf_send_block_sz = DEMOCAR_CONF_EXP_MBLK_SZ;
-    prm.conf_receive_block_sz = DEMOCAR_CONF_IMP_MBLK_SZ;
+    prm.conf_exp_mblk_sz = DEMOCAR_CONF_EXP_MBLK_SZ;
+    prm.conf_imp_mblk_sz = DEMOCAR_CONF_IMP_MBLK_SZ;
 #if DEMOCAR_USE_LIGHTHOUSE
     prm.lighthouse = &lighthouse;
     prm.lighthouse_func = ioc_get_lighthouse_connectstr;
@@ -251,7 +255,7 @@ osalStatus osal_main(
        string starts with '[' (indicates IPv6 address).
      */
 #if DEMOCAR_USE_LIGHTHOUSE
-    ioc_initialize_lighthouse_client(&lighthouse, prm.socket_con_str[0] == '[', OS_NULL);
+    ioc_initialize_lighthouse_client(&lighthouse, prm.socket_con_str[0] == '[', OS_TRUE, OS_NULL);
 #endif
 
     /* Initialize library to receive wifi configuration by phototransostor.
@@ -302,6 +306,9 @@ osalStatus osal_main(
 osalStatus osal_loop(
     void *app_context)
 {
+
+    OSAL_UNUSED(app_context);
+
     os_timer ti;
     osalStatus s;
 
@@ -312,7 +319,7 @@ osalStatus osal_loop(
     /* Run light house.
      */
 #if DEMOCAR_USE_LIGHTHOUSE
-    ioc_run_lighthouse_client(&lighthouse);
+    ioc_run_lighthouse_client(&lighthouse, OS_NULL);
 #endif
 
     /* Get Wifi configuration messages from Android phone flash light -> phototransistor.
@@ -455,6 +462,9 @@ osalStatus osal_loop(
 void osal_main_cleanup(
     void *app_context)
 {
+
+    OSAL_UNUSED(app_context);
+
 #if DEMOCAR_USE_LIGHTHOUSE
     ioc_release_lighthouse_client(&lighthouse);
 #endif
